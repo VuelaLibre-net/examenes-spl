@@ -2,29 +2,29 @@
 
 En esta sección se recopilan todos los puntos críticos identificados en el temario que suelen ser objeto de preguntas confusas o arbitrarias en los exámenes oficiales.
 
-- <<trap-responsabilidad-civil-convenio-de-montrealvarsovia,Responsabilidad Civil (Convenio de Montreal/Varsovia)>>
-- <<trap-codigo-ssr-7500-secuestro,Código SSR 7500 (Secuestro)>>
-- <<trap-anexos-oaci-y-partes-del-aip,Anexos OACI y Partes del AIP>>
-- <<trap-recuperacion-auditiva,Recuperación auditiva>>
-- <<trap-nistagmo,Nistagmo>>
-- <<trap-consumo-de-aire-y-frecuencia-respiratoria,Consumo de aire y Frecuencia respiratoria>>
-- <<trap-saturacion-de-oxigeno-y-hipoxia,Saturación de Oxígeno y Hipoxia>>
+- <<trap-responsabilidad-civil-convenio-de-montrealvarsovia,Responsabilidad Civil (Convenio de Montreal/Varsovia) [red]#icon:stop-circle[]#>>
+- <<trap-codigo-ssr-7500-secuestro,Código SSR 7500 (Secuestro) [red]#icon:stop-circle[]#>>
+- <<trap-anexos-oaci-y-partes-del-aip,Anexos OACI y Partes del AIP [red]#icon:stop-circle[]#>>
+- <<trap-recuperacion-auditiva,Recuperación auditiva [red]#icon:stop-circle[]#>>
+- <<trap-nistagmo,Nistagmo [red]#icon:stop-circle[]#>>
+- <<trap-consumo-de-aire-y-frecuencia-respiratoria,Consumo de aire y Frecuencia respiratoria [red]#icon:stop-circle[]#>>
+- <<trap-saturacion-de-oxigeno-y-hipoxia,Saturación de Oxígeno y Hipoxia [red]#icon:stop-circle[]#>>
 - <<trap-leyes-de-los-gases,Leyes de los Gases>>
-- <<trap-validez-del-airmet,Validez del AIRMET>>
-- <<trap-intensidad-de-la-lluvia,Intensidad de la lluvia>>
-- <<trap-selcal-sistema-de-llamada-selectiva,SELCAL (Sistema de Llamada Selectiva)>>
-- <<trap-registros-de-comunicaciones-grabaciones,Registros de comunicaciones (Grabaciones)>>
-- <<trap-alcance-de-radio-y-senales-con-proyectiles,Alcance de radio y Señales con proyectiles>>
-- <<trap-terminologia-aesa-de-controladores-y-ejes,Terminología AESA de Controladores y Ejes>>
-- <<trap-posiciones-de-flaps,Posiciones de Flaps>>
-- <<trap-remolque-por-coche-y-apertura-de-paracaidas,Remolque por Coche y Apertura de Paracaídas>>
-- <<trap-monitorizacion-limpieza-y-despegue,Monitorización, Limpieza y Despegue>>
-- <<trap-post-accidente-y-frecuencias,Post-accidente y Frecuencias>>
-- <<trap-curvas-de-potencia-aviones-con-motor,Curvas de Potencia (Aviones con motor)>>
+- <<trap-validez-del-airmet,Validez del AIRMET [red]#icon:stop-circle[]#>>
+- <<trap-intensidad-de-la-lluvia,Intensidad de la lluvia [red]#icon:stop-circle[]#>>
+- <<trap-selcal-sistema-de-llamada-selectiva,SELCAL (Sistema de Llamada Selectiva) [red]#icon:stop-circle[]#>>
+- <<trap-registros-de-comunicaciones-grabaciones,Registros de comunicaciones (Grabaciones) [red]#icon:stop-circle[]#>>
+- <<trap-alcance-de-radio-y-senales-con-proyectiles,Alcance de radio y Señales con proyectiles [red]#icon:stop-circle[]#>>
+- <<trap-terminologia-aesa-de-controladores-y-ejes,Terminología AESA de Controladores y Ejes [red]#icon:stop-circle[]#>>
+- <<trap-posiciones-de-flaps,Posiciones de Flaps [red]#icon:stop-circle[]#>>
+- <<trap-remolque-por-coche-y-apertura-de-paracaidas,Remolque por Coche y Apertura de Paracaídas [red]#icon:stop-circle[]#>>
+- <<trap-monitorizacion-limpieza-y-despegue,Monitorización, Limpieza y Despegue [red]#icon:stop-circle[]#>>
+- <<trap-post-accidente-y-frecuencias,Post-accidente y Frecuencias [red]#icon:stop-circle[]#>>
+- <<trap-curvas-de-potencia-aviones-con-motor,Curvas de Potencia (Aviones con motor) [red]#icon:stop-circle[]#>>
 - <<trap-formula-de-desplazamiento-del-cg,Fórmula de Desplazamiento del CG>>
 - <<trap-gancho-de-cg-capsula-de-anemometro-y-mandos,Gancho de CG, Cápsula de Anemómetro y Mandos>>
 - <<trap-baterias-paracaidas-y-limpieza,Baterías, Paracaídas y Limpieza>>
-- <<trap-traducciones-macarronicas-aesa,Traducciones "Macarrónicas" AESA>>
-- <<trap-geodesia-cartas-y-plan-de-vuelo,Geodesia, Cartas y Plan de Vuelo>>
-- <<trap-errores-de-brujula-y-cartografia,Errores de Brújula y Cartografía>>
-- <<trap-trampas-matematicas-aesa,Trampas Matemáticas AESA>>
+- <<trap-traducciones-macarronicas-aesa,Traducciones "Macarrónicas" AESA [red]#icon:stop-circle[]#>>
+- <<trap-geodesia-cartas-y-plan-de-vuelo,Geodesia, Cartas y Plan de Vuelo [red]#icon:stop-circle[]#>>
+- <<trap-errores-de-brujula-y-cartografia,Errores de Brújula y Cartografía [red]#icon:stop-circle[]#>>
+- <<trap-trampas-matematicas-aesa,Trampas Matemáticas AESA [red]#icon:stop-circle[]#>>

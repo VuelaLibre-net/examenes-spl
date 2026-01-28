@@ -7,7 +7,7 @@ _Se identifican explícitamente secciones que se incluyen solo porque salen en e
 
 [#trap-curvas-de-potencia-aviones-con-motor]
 [.trampa]
-== Curvas de Potencia (Aviones con motor)
+== Curvas de Potencia (Aviones con motor) [red]#icon:stop-circle[]#
 
 * [red]#icon:stop-circle[]# El documento incluye un apartado sobre curvas de potencia porque *"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"*.
 

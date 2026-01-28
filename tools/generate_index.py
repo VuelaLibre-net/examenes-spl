@@ -42,8 +42,23 @@ def generate_trap_index():
             content = f.read()
             matches = trap_pattern.finditer(content)
             for match in matches:
+                existing_anchor_match = match.group(1)
                 title = match.group(3).strip()
-                anchor = f"trap-{slugify(title)}"
+
+                anchor = None
+                if existing_anchor_match:
+                    # Extract anchor name from [#anchor-name]
+                    m = re.search(r"\[#(.*)\]", existing_anchor_match)
+                    if m:
+                        anchor = m.group(1)
+
+                if not anchor:
+                    # Clean title for slugification
+                    clean_title = re.sub(
+                        r"\[red\]#icon:stop-circle\[\]#", "", title
+                    ).strip()
+                    anchor = f"trap-{slugify(clean_title)}"
+
                 traps.append({"title": title, "anchor": anchor})
 
     with open(output_file, "w", encoding="utf-8") as f:

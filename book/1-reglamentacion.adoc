@@ -7,7 +7,7 @@ Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, 
 
 [#trap-responsabilidad-civil-convenio-de-montrealvarsovia]
 [.trampa]
-== Responsabilidad Civil (Convenio de Montreal/Varsovia)
+== Responsabilidad Civil (Convenio de Montreal/Varsovia) [red]#icon:stop-circle[]#
 
 * El límite de responsabilidad de la compañía por daños personales es de *16.600 DEG* (Derechos Especiales de Giro)
 * Equipaje facturado: *17 DEG* por kilo
@@ -16,13 +16,13 @@ Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, 
 
 [#trap-codigo-ssr-7500-secuestro]
 [.trampa]
-== Código SSR 7500 (Secuestro)
+== Código SSR 7500 (Secuestro) [red]#icon:stop-circle[]#
 
 * *7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: [red]#icon:stop-circle[]# _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
 
 [#trap-anexos-oaci-y-partes-del-aip]
 [.trampa]
-== Anexos OACI y Partes del AIP
+== Anexos OACI y Partes del AIP [red]#icon:stop-circle[]#
 
 Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habilidad de vuelo.
 

@@ -7,7 +7,7 @@ Estas son las preguntas donde se hacía una pausa para advertir que "esto sale m
 
 [#trap-validez-del-airmet]
 [.trampa]
-== Validez del AIRMET
+== Validez del AIRMET [red]#icon:stop-circle[]#
 
 El periodo de validez no será superior a *4 horas*.
 
@@ -15,7 +15,7 @@ El periodo de validez no será superior a *4 horas*.
 
 [#trap-intensidad-de-la-lluvia]
 [.trampa]
-== Intensidad de la lluvia
+== Intensidad de la lluvia [red]#icon:stop-circle[]#
 
 [red]#icon:stop-circle[]# Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte". Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta).
 

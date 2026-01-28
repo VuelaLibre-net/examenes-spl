@@ -1,4 +1,4 @@
-== Resumen ejecutivo: Errores, Dudas y Trampas AESA
+== Resumen ejecutivo: Errores, Dudas y Trampas AESA [red]#icon:stop-circle[]#
 
 Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a vela identifican como conflictivos. Se incluyen preguntas consideradas "trampa", datos desactualizados, terminología confusa por malas traducciones, o procedimientos que divergen significativamente de la práctica real.
 

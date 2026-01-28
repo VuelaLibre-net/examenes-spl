@@ -7,14 +7,14 @@ El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y
 
 [#trap-remolque-por-coche-y-apertura-de-paracaidas]
 [.trampa]
-== Remolque por Coche y Apertura de Paracaídas
+== Remolque por Coche y Apertura de Paracaídas [red]#icon:stop-circle[]#
 
 * [red]#icon:stop-circle[]# *Remolque por Coche:* Aunque se indicaba que "En España no conozco ningún sitio donde se realice", AESA pregunta mucho sobre la velocidad de remolque.
 * [red]#icon:stop-circle[]# *Apertura del Paracaídas:* Para AESA el tiempo de apertura son *4 segundos*. _"Da igual lo que diga el fabricante"_.
 
 [#trap-monitorizacion-limpieza-y-despegue]
 [.trampa]
-== Monitorización, Limpieza y Despegue
+== Monitorización, Limpieza y Despegue [red]#icon:stop-circle[]#
 
 * [red]#icon:stop-circle[]# *Monitorización:* En el aterrizaje AESA dice que se monitoriza todo el rato *la velocidad*.
 * *Limpieza:* Frecuencia *cada vuelo* con cera neutra *sin silicona*.
@@ -22,7 +22,7 @@ El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y
 
 [#trap-post-accidente-y-frecuencias]
 [.trampa]
-== Post-accidente y Frecuencias
+== Post-accidente y Frecuencias [red]#icon:stop-circle[]#
 
 * [red]#icon:stop-circle[]# *Accidente:* ¿Qué hay que hacer? *Mentalizarse antes del vuelo*.
 * *Frecuencias:* Frecuencia VHF fuera de alcance en región NAT: *131.8 MHz*.
@@ -43,7 +43,7 @@ Normativa y velocidades operativas para remolque avión y torno.
 ** Factores determinantes: Masa, envergadura, velocidad y configuración.
 ** Posición para evitarla: Volar *sobre* y a *barlovento* del avión pesado.
 
-== Circuitos, Aproximación y Aterrizaje
+== Circuitos, Aproximación y Aterrizaje [red]#icon:stop-circle[]#
 
 Parámetros numéricos para el examen.
 

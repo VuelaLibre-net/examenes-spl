@@ -31,7 +31,11 @@ for filename in os.listdir(book_dir):
             # If we are here, it means we matched [.trampa]\n== Title without leading anchor
             title_line = match.group(1)
             title_text = re.sub(r"={2,5}\s+", "", title_line).strip()
-            anchor = f"trap-{slugify(title_text)}"
+            # Remove icons from title for slugification
+            clean_title = re.sub(
+                r"\[red\]#icon:stop-circle\[\]#", "", title_text
+            ).strip()
+            anchor = f"trap-{slugify(clean_title)}"
             return f"[#{anchor}]\n[.trampa]\n{title_line}"
 
         # Match either:

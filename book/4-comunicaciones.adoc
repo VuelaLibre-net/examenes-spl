@@ -7,7 +7,7 @@ Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas
 
 [#trap-selcal-sistema-de-llamada-selectiva]
 [.trampa]
-== SELCAL (Sistema de Llamada Selectiva)
+== SELCAL (Sistema de Llamada Selectiva) [red]#icon:stop-circle[]#
 
 * Es un sistema para comunicaciones de *larga distancia (HF)* usado en vuelos transoceánicos.
 * Consiste en una combinación de *4 tonos* de audio cuya transmisión requiere aprox. *2 segundos*.
@@ -16,7 +16,7 @@ Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas
 
 [#trap-registros-de-comunicaciones-grabaciones]
 [.trampa]
-== Registros de comunicaciones (Grabaciones)
+== Registros de comunicaciones (Grabaciones) [red]#icon:stop-circle[]#
 
 * Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es *45 días*.
 
@@ -24,7 +24,7 @@ Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas
 
 [#trap-alcance-de-radio-y-senales-con-proyectiles]
 [.trampa]
-== Alcance de radio y Señales con proyectiles
+== Alcance de radio y Señales con proyectiles [red]#icon:stop-circle[]#
 
 * *Fórmula de alcance de radio:* Rango (NM) = *1,25 x √ Altura (ft)*.
 * *Señales con proyectiles (Pirotecnia):* Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.
@@ -48,7 +48,7 @@ Reglas operativas estrictas que suelen ser objeto de preguntas tipo test.
 * *Distintivos de llamada:*
 ** Tras la primera comunicación (ej. EC-DPE), se puede abreviar usando el primer y los dos últimos caracteres (ej. *E-PE*)
 
-== Emergencia y Urgencia
+== Emergencia y Urgencia [red]#icon:stop-circle[]#
 
 Protocolos críticos de seguridad.
 

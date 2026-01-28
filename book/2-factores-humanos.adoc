@@ -7,7 +7,7 @@ _Se identifican explícitamente estos datos como materia de examen de AESA, a me
 
 [#trap-recuperacion-auditiva]
 [.trampa]
-== Recuperación auditiva
+== Recuperación auditiva [red]#icon:stop-circle[]#
 
 Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar sometido *2 horas* a *50 dB*.
 
@@ -15,7 +15,7 @@ Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar s
 
 [#trap-nistagmo]
 [.trampa]
-== Nistagmo
+== Nistagmo [red]#icon:stop-circle[]#
 
 El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos *hacia delante*.
 
@@ -23,7 +23,7 @@ El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se p
 
 [#trap-consumo-de-aire-y-frecuencia-respiratoria]
 [.trampa]
-== Consumo de aire y Frecuencia respiratoria
+== Consumo de aire y Frecuencia respiratoria [red]#icon:stop-circle[]#
 
 * En reposo consumimos entre *5 a 8 litros* de aire por minuto.
 * La frecuencia normal es de *12 a 18 respiraciones* por minuto.
@@ -32,7 +32,7 @@ El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se p
 
 [#trap-saturacion-de-oxigeno-y-hipoxia]
 [.trampa]
-== Saturación de Oxígeno y Hipoxia
+== Saturación de Oxígeno y Hipoxia [red]#icon:stop-circle[]#
 
 * Para AESA, una saturación del *95%* ya es un valor peligroso.
 * Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*.
@@ -88,7 +88,7 @@ Plazos administrativos para la licencia SPL (Planeador) y Clase
 ** *6/12 (0,5)* en cada ojo por separado.
 ** *6/9 (0,7)* con ambos ojos
 
-== Seguridad Real vs. Examen
+== Seguridad Real vs. Examen [red]#icon:stop-circle[]#
 
 El texto hace una distinción crucial que es importante para tu formación, aunque no salga en el test.
 
