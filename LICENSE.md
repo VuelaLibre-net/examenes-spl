@@ -16,3 +16,7 @@ Para ver una copia completa de esta licencia, visite [http://creativecommons.org
 ---
 
 Este documento ha sido recopilado y adaptado a partir de los manuales de teoría del aeroclub de Fuentemilanos creados por **Iñaki Ulibarri**.
+
+## Descargo de Responsabilidad
+
+Este material se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas, incluyendo pero no limitado a las garantías de exactitud, fiabilidad o idoneidad para un propósito particular. A pesar de haber sido elaborado con la mayor dedicación, puede contener erratas. En ningún caso el autor o los colaboradores serán responsables por cualquier reclamación, daño u otra responsabilidad derivada del uso de este documento.
