@@ -1,8 +1,8 @@
 # Guía de Estudio para el examen SPL (Piloto de Planeadores) en España
 
-![Release](https://img.shields.io/github/v/release/VuelaLibre-net/examenes-spl?label=version)
+![Version](https://img.shields.io/badge/version-v0.9.7-blue.svg)
 ![License](https://img.shields.io/badge/license-CC--BY--4.0-blue.svg)
-![GitHub Pages](https://img.shields.io/github/deployments/VuelaLibre-net/examenes-spl/github-pages?label=docs)
+![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-success.svg)
 
 Este repositorio contiene la **Guía de Estudio SPL**, con una recopilación estructurada de los puntos clave, preguntas frecuentes y "trampas" de examen para la obtención de la Licencia de Piloto de Planeador (SPL) en España.
 
