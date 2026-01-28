@@ -50,7 +50,8 @@ def generate_trap_index():
             f.write("_(No se han marcado trampas todavía en el temario)_\n")
         else:
             for trap in traps:
-                f.write(f"- <<{trap['title']}>>\n")
+                # Use double quotes around the title to handle commas in cross-references
+                f.write(f'- <<"{trap["title"]}">>\n')
 
 
 if __name__ == "__main__":
