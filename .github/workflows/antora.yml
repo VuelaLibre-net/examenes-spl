@@ -17,10 +17,10 @@ jobs:
           node-version: '18'
 
       - name: Install Antora
-        run: npm install -g @antora/cli @antora/site-generator-default
+        run: npm install @antora/cli @antora/site-generator
 
       - name: Generate Site
-        run: antora antora-playbook.yml
+        run: npx antora antora-playbook.yml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
