@@ -5,7 +5,10 @@
 ## Cómo colaborar
 
 ### 1. Corregir o añadir contenido
+
 Si encuentras un error o conoces una nueva "trampa" de AESA:
+
+**RECUERDA:** No buscamos la respuesta correcta. Buscamos la respuesta que AESA exige para aprobar según lo que nos han comentado otros alumnos que han suspendido por chorradas.
 
 - Puedes añadir un comentario en https://github.com/VuelaLibre-net/examenes-spl/issues/new y lo revisaremos.
 

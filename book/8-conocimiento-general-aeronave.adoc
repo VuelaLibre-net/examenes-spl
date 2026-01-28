@@ -5,6 +5,7 @@
 
 Estas son las preguntas específicas que Se advertía que salen con frecuencia y que suelen tener "truco" o una redacción particular en los exámenes oficiales.
 
+[#trap-gancho-de-cg-capsula-de-anemometro-y-mandos]
 [.trampa]
 == Gancho de CG, Cápsula de Anemómetro y Mandos
 
@@ -12,6 +13,7 @@ Estas son las preguntas específicas que Se advertía que salen con frecuencia y
 * *Cápsula del Anemómetro:* Tiene una cápsula *elástica* (no aneroide).
 * *Mandos Primarios:* Timón de profundidad, timón de dirección y alerones.
 
+[#trap-baterias-paracaidas-y-limpieza]
 [.trampa]
 == Baterías, Paracaídas y Limpieza
 
@@ -19,6 +21,7 @@ Estas son las preguntas específicas que Se advertía que salen con frecuencia y
 * *Paracaídas:* El automático funciona por *cinta estática* y abre en *4 segundos*.
 * *Limpieza:* Usar gamuza *húmeda* (no mojada).
 
+[#trap-traducciones-macarronicas-aesa]
 [.trampa]
 == Traducciones "Macarrónicas" AESA
 

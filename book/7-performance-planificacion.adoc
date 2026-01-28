@@ -5,6 +5,7 @@
 
 _Se identifican explícitamente secciones que se incluyen solo porque salen en el examen, aunque correspondan más a aviones con motor o sean teóricas._
 
+[#trap-curvas-de-potencia-aviones-con-motor]
 [.trampa]
 == Curvas de Potencia (Aviones con motor)
 
@@ -13,6 +14,7 @@ El documento incluye un apartado sobre curvas de potencia porque *"lo preguntan 
 * *Vy (Mejor régimen de ascenso):* Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima.
 * *Segundo Régimen:* Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta *más potencia* (inestabilidad).
 
+[#trap-formula-de-desplazamiento-del-cg]
 [.trampa]
 == Fórmula de Desplazamiento del CG
 

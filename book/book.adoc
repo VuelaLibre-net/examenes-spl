@@ -5,6 +5,7 @@ v0.9, 28 de Enero de 2026
 :pdf-theme: theme.yml
 :pdf-themesdir: {docdir}
 :lang: es
+:appendix-caption: Apéndice
 :toc: left
 :toc-title: Índice
 :sectnums:
@@ -46,4 +47,5 @@ include::9-navegacion.adoc[leveloffset=+1]
 
 include::anexo-syllabus.adoc[leveloffset=+1]
 
+:sectnums!:
 include::indice-trampas.adoc[leveloffset=+1]

@@ -5,12 +5,14 @@
 
 El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y comentarios irónicos de Iñaqui sobre discrepancias entre la realidad y el examen.
 
+[#trap-remolque-por-coche-y-apertura-de-paracaidas]
 [.trampa]
 == Remolque por Coche y Apertura de Paracaídas
 
 * *Remolque por Coche:* Aunque se indicaba que "En España no conozco ningún sitio donde se realice", AESA pregunta mucho sobre la velocidad de remolque.
 * *Apertura del Paracaídas:* Para AESA el tiempo de apertura son *4 segundos*. _"Da igual lo que diga el fabricante"_.
 
+[#trap-monitorizacion-limpieza-y-despegue]
 [.trampa]
 == Monitorización, Limpieza y Despegue
 
@@ -18,6 +20,7 @@ El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y
 * *Limpieza:* Frecuencia *cada vuelo* con cera neutra *sin silicona*.
 * *Despegue:* Técnica de mantener las ruedas en el suelo el *máximo de tiempo posible*. _"¡Juradme que jamás haréis esto!"_.
 
+[#trap-post-accidente-y-frecuencias]
 [.trampa]
 == Post-accidente y Frecuencias
 

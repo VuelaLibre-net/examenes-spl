@@ -1,15 +1,25 @@
 import os
 import re
+import unicodedata
+
+
+def slugify(value):
+    value = (
+        unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    )
+    value = re.sub(r"[^\w\s-]", "", value).strip().lower()
+    return re.sub(r"[-\s]+", "-", value)
 
 
 def generate_trap_index():
     book_dir = "book"
     output_file = os.path.join(book_dir, "indice-trampas.adoc")
-    trap_pattern = re.compile(r"\[\.trampa\]\s*\n(={2,5})\s+(.*)")
+    # This pattern matches the anchor, the trap mark, and the title
+    # It handles cases with and without anchor
+    trap_pattern = re.compile(r"(\[#trap-.*\]\s*\n)?\[\.trampa\]\s*\n(={2,5})\s+(.*)")
 
     traps = []
 
-    # Files to scan in order
     files = [
         "resumen-ejecutivo.adoc",
         "1-reglamentacion.adoc",
@@ -32,13 +42,9 @@ def generate_trap_index():
             content = f.read()
             matches = trap_pattern.finditer(content)
             for match in matches:
-                level = len(match.group(1))
-                title = match.group(2).strip()
-                # Create a safe anchor name if not present, or use title
-                anchor = (
-                    title.lower().replace(" ", "-").replace("¿", "").replace("?", "")
-                )
-                traps.append({"title": title, "file": filename, "anchor": anchor})
+                title = match.group(3).strip()
+                anchor = f"trap-{slugify(title)}"
+                traps.append({"title": title, "anchor": anchor})
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("= Índice de Trampas AESA\n\n")
@@ -50,8 +56,8 @@ def generate_trap_index():
             f.write("_(No se han marcado trampas todavía en el temario)_\n")
         else:
             for trap in traps:
-                # Use double quotes around the title to handle commas in cross-references
-                f.write(f'- <<"{trap["title"]}">>\n')
+                # Use <<anchor,title>> syntax for reliable linking
+                f.write(f"- <<{trap['anchor']},{trap['title']}>>\n")
 
 
 if __name__ == "__main__":

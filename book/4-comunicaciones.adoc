@@ -5,6 +5,7 @@
 
 Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas que aparecen frecuentemente en los exámenes a pesar de su nula aplicación práctica en un velero.
 
+[#trap-selcal-sistema-de-llamada-selectiva]
 [.trampa]
 == SELCAL (Sistema de Llamada Selectiva)
 
@@ -13,6 +14,7 @@ Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas
 
 _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
 
+[#trap-registros-de-comunicaciones-grabaciones]
 [.trampa]
 == Registros de comunicaciones (Grabaciones)
 
@@ -20,6 +22,7 @@ _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy
 
 _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
 
+[#trap-alcance-de-radio-y-senales-con-proyectiles]
 [.trampa]
 == Alcance de radio y Señales con proyectiles
 

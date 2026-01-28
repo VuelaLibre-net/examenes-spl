@@ -6,6 +6,9 @@ title_page:
   revision:
     margin_top: 5
     font_size: 12
+heading:
+  appendix:
+    caption: Apéndice
 role:
   red:
     font_color: #FF0000

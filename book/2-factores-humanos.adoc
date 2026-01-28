@@ -5,6 +5,7 @@
 
 _Se identifican explícitamente estos datos como materia de examen de AESA, a menudo criticando su utilidad práctica frente a la seguridad real._
 
+[#trap-recuperacion-auditiva]
 [.trampa]
 == Recuperación auditiva
 
@@ -12,6 +13,7 @@ Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar s
 
 _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
 
+[#trap-nistagmo]
 [.trampa]
 == Nistagmo
 
@@ -19,6 +21,7 @@ El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se p
 
 _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
 
+[#trap-consumo-de-aire-y-frecuencia-respiratoria]
 [.trampa]
 == Consumo de aire y Frecuencia respiratoria
 
@@ -27,6 +30,7 @@ _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
 
 _Iñaqui lo marca como "típica pregunta tonta AESA"._
 
+[#trap-saturacion-de-oxigeno-y-hipoxia]
 [.trampa]
 == Saturación de Oxígeno y Hipoxia
 
@@ -39,6 +43,7 @@ _Se aclaraba que en medicina real los valores son distintos, pero "tienes que po
 
 Datos numéricos y leyes físicas aplicadas al cuerpo humano que aparecen en el temario y la "Chuleta" final.
 
+[#trap-leyes-de-los-gases]
 [.trampa]
 == Leyes de los Gases
 

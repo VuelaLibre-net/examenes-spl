@@ -5,6 +5,7 @@
 
 _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferente al habitual o plantea preguntas dudosas._
 
+[#trap-terminologia-aesa-de-controladores-y-ejes]
 [.trampa]
 == Terminología AESA de Controladores y Ejes
 
@@ -12,6 +13,7 @@ _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferen
 * *Trim Tab (Compensador):* AESA suele utilizar el término en inglés *"Trim Tab"* para referirse al compensador.
 * *Eje Lateral:* Los manuales americanos (y a veces los exámenes traducidos) llaman *"Eje Lateral"* al eje transversal (cabeceo), lo cual puede confundir.
 
+[#trap-posiciones-de-flaps]
 [.trampa]
 == Posiciones de Flaps
 

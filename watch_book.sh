@@ -36,7 +36,8 @@ while true; do
     # Small debounce to let file writes finish
     sleep 0.5
     
-    # Generate Trap Index
+    # Ensure all traps have anchors and regenerate index
+    python3 tools/add_anchors.py
     python3 tools/generate_index.py
     
     # Run asciidoctor-pdf and asciidoctor-epub3

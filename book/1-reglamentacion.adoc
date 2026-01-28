@@ -5,6 +5,7 @@
 
 Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, _"esto lo preguntan mucho"_ o _"sale mucho"_.
 
+[#trap-responsabilidad-civil-convenio-de-montrealvarsovia]
 [.trampa]
 == Responsabilidad Civil (Convenio de Montreal/Varsovia)
 
@@ -13,11 +14,13 @@ Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, 
 * Equipaje de mano: *332 DEG*
 * _Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero._
 
+[#trap-codigo-ssr-7500-secuestro]
 [.trampa]
 == Código SSR 7500 (Secuestro)
 
 * *7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
 
+[#trap-anexos-oaci-y-partes-del-aip]
 [.trampa]
 == Anexos OACI y Partes del AIP
 

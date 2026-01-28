@@ -5,6 +5,7 @@
 
 Estas son las preguntas donde se hacía una pausa para advertir que "esto sale mucho" o hace comentarios irónicos sobre la pregunta.
 
+[#trap-validez-del-airmet]
 [.trampa]
 == Validez del AIRMET
 
@@ -12,6 +13,7 @@ El periodo de validez no será superior a *4 horas*.
 
 _Comentario: "(esta tontería sale mucho en los exámenes AESOS)"_
 
+[#trap-intensidad-de-la-lluvia]
 [.trampa]
 == Intensidad de la lluvia
 
