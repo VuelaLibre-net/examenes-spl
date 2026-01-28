@@ -1,6 +1,6 @@
 = Guía de Estudio SPL: Preguntas, trampas y claves para aprobar los exámenes
 Basado en los apuntes de Iñaqui
-v0.9.6, 28 de Enero de 2026
+v0.9.7, 28 de Enero de 2026
 :repository-url: https://github.com/VuelaLibre-net/examenes-spl
 :doctype: book
 :pdf-theme: theme.yml
