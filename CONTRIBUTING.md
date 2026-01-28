@@ -6,6 +6,11 @@
 
 ### 1. Corregir o añadir contenido
 Si encuentras un error o conoces una nueva "trampa" de AESA:
+
+- Puedes añadir un comentario en https://github.com/VuelaLibre-net/examenes-spl/issues/new y lo revisaremos.
+
+- O bien, si quieres puedes hacer tú mismo la corrección o el añadido directamente:
+
 1. Haz un **Fork** del repositorio.
 2. Crea una nueva rama (`git checkout -b mejora-temario`).
 3. Edita los archivos `.adoc` correspondientes en la carpeta `book/`.
