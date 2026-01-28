@@ -3,4 +3,4 @@ title: Guía SPL
 version: main
 start_page: book.adoc
 nav:
-  - nav.adoc
+  - modules/ROOT/nav.adoc
