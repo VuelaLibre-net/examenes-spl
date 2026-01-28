@@ -1,4 +1,11 @@
 extends: default
+title_page:
+  authors:
+    margin_top: 10
+    font_size: 14
+  revision:
+    margin_top: 5
+    font_size: 12
 role:
   red:
     font_color: #FF0000
