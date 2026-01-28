@@ -1,0 +1,7 @@
+= Índice de Trampas AESA
+
+En esta sección se recopilan todos los puntos críticos identificados en el temario que suelen ser objeto de preguntas confusas o arbitrarias en los exámenes oficiales.
+
+- <<Responsabilidad Civil (Convenio de Montreal/Varsovia)>>
+- <<Código SSR 7500 (Secuestro)>>
+- <<Anexos OACI y Partes del AIP>>

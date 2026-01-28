@@ -9,3 +9,10 @@ title_page:
 role:
   red:
     font_color: #FF0000
+  trampa:
+    font_color: #B22222
+    font_style: bold
+    background_color: #FFF5F5
+    border_color: #FFC1C1
+    border_width: 0.5
+    padding: [5, 10, 5, 10]

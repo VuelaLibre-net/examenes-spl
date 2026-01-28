@@ -45,3 +45,5 @@ include::8-conocimiento-general-aeronave.adoc[leveloffset=+1]
 include::9-navegacion.adoc[leveloffset=+1]
 
 include::anexo-syllabus.adoc[leveloffset=+1]
+
+include::indice-trampas.adoc[leveloffset=+1]

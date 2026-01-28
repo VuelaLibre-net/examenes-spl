@@ -36,6 +36,9 @@ while true; do
     # Small debounce to let file writes finish
     sleep 0.5
     
+    # Generate Trap Index
+    python3 tools/generate_index.py
+    
     # Run asciidoctor-pdf and asciidoctor-epub3
     if asciidoctor-pdf "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.pdf" && \
        export GEM_HOME=$(ruby -r rubygems -e 'print Gem.user_dir') && \
