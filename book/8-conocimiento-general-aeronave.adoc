@@ -27,9 +27,9 @@ Estas son las preguntas específicas que Se advertía que salen con frecuencia y
 
 Se advertía repetidamente que AESA traduce literalmente términos del manual de la FAA:
 
-* *Freno de picada* / *Spoiler* = Aerofrenos.
-* *Trim Tab* = Compensador.
-* *Elevador* = Timón de profundidad.
+* [red]#icon:stop-circle[]# *Freno de picada* / *Spoiler* = Aerofrenos.
+* [red]#icon:stop-circle[]# *Trim Tab* = Compensador.
+* [red]#icon:stop-circle[]# *Elevador* = Timón de profundidad.
 
 == Estructura y Limitaciones (Gs)
 

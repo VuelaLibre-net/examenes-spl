@@ -11,7 +11,7 @@ _Se identifican explícitamente estos datos como materia de examen de AESA, a me
 
 Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar sometido *2 horas* a *50 dB*.
 
-_Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
+* [red]#icon:stop-circle[]# _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
 
 [#trap-nistagmo]
 [.trampa]
@@ -19,7 +19,7 @@ _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar co
 
 El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos *hacia delante*.
 
-_Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
+* [red]#icon:stop-circle[]# _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
 
 [#trap-consumo-de-aire-y-frecuencia-respiratoria]
 [.trampa]
@@ -28,7 +28,7 @@ _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
 * En reposo consumimos entre *5 a 8 litros* de aire por minuto.
 * La frecuencia normal es de *12 a 18 respiraciones* por minuto.
 
-_Iñaqui lo marca como "típica pregunta tonta AESA"._
+* [red]#icon:stop-circle[]# _Iñaqui lo marca como "típica pregunta tonta AESA"._
 
 [#trap-saturacion-de-oxigeno-y-hipoxia]
 [.trampa]
@@ -37,7 +37,7 @@ _Iñaqui lo marca como "típica pregunta tonta AESA"._
 * Para AESA, una saturación del *95%* ya es un valor peligroso.
 * Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*.
 
-_Se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
+* [red]#icon:stop-circle[]# _Se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
 
 == Fisiología de Vuelo y Salud [red]#icon:stop-circle[]#
 
@@ -98,5 +98,5 @@ El texto hace una distinción crucial que es importante para tu formación, aunq
 
 _Se incluía una sección de consejos de seguridad (como "tener siempre un plan B" o "la disciplina es una cualidad") y advertía explícitamente:_
 
-_"ESTO NO TE VA A SALIR EN LOS EXAMENES DE AESA, PERO DE TODOS LOS APUNTES DE F.H. ES LO MAS IMPORTANTE"_
+_"[red]#icon:stop-circle[]# ESTO NO TE VA A SALIR EN LOS EXAMENES DE AESA, PERO DE TODOS LOS APUNTES DE F.H. ES LO MAS IMPORTANTE"_
 ====

@@ -12,7 +12,7 @@ Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas
 * Es un sistema para comunicaciones de *larga distancia (HF)* usado en vuelos transoceánicos.
 * Consiste en una combinación de *4 tonos* de audio cuya transmisión requiere aprox. *2 segundos*.
 
-_Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
+* [red]#icon:stop-circle[]# _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
 
 [#trap-registros-de-comunicaciones-grabaciones]
 [.trampa]
@@ -20,7 +20,7 @@ _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy
 
 * Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es *45 días*.
 
-_Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
+* [red]#icon:stop-circle[]# _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
 
 [#trap-alcance-de-radio-y-senales-con-proyectiles]
 [.trampa]
@@ -29,7 +29,7 @@ _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días
 * *Fórmula de alcance de radio:* Rango (NM) = *1,25 x √ Altura (ft)*.
 * *Señales con proyectiles (Pirotecnia):* Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.
 
-_Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
+* [red]#icon:stop-circle[]# _Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
 
 == Procedimientos de Radio y Fraseología
 
@@ -60,7 +60,7 @@ Protocolos críticos de seguridad.
 * *Frecuencias y Códigos:*
 ** Frecuencia de emergencia VHF: *121.500 MHz*
 ** *Transpondedor 7600:* Fallo de comunicaciones
-** *Transpondedor 7500:* Interferencia ilícita (secuestro). _Se ironizaba: "Si te raptan el planeador"_
+** *Transpondedor 7500:* Interferencia ilícita (secuestro). [red]#icon:stop-circle[]# _Se ironizaba: "Si te raptan el planeador"_
 ** *Transpondedor 7700:* Emergencia general
 
 == Fallo de Radio

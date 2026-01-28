@@ -12,13 +12,13 @@ Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, 
 * El límite de responsabilidad de la compañía por daños personales es de *16.600 DEG* (Derechos Especiales de Giro)
 * Equipaje facturado: *17 DEG* por kilo
 * Equipaje de mano: *332 DEG*
-* _Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero._
+* [red]#icon:stop-circle[]# _Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero._
 
 [#trap-codigo-ssr-7500-secuestro]
 [.trampa]
 == Código SSR 7500 (Secuestro)
 
-* *7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
+* *7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: [red]#icon:stop-circle[]# _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
 
 [#trap-anexos-oaci-y-partes-del-aip]
 [.trampa]
@@ -32,7 +32,7 @@ Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habili
 ** Anexo 13: Investigación de accidentes
 ** Anexo 17: Seguridad (Secuestros)
 ** Anexo 18: Mercancías peligrosas
-** _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
+** [red]#icon:stop-circle[]# _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
 * *Partes del AIP:* Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)
 
 == Licencias y Requisitos (SPL)
@@ -88,5 +88,5 @@ Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habili
 ** Anexo 13: Investigación de accidentes
 ** Anexo 17: Seguridad (Secuestros)
 ** Anexo 18: Mercancías peligrosas
-** _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
+** [red]#icon:stop-circle[]# _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
 * *[red]#icon:stop-circle[]# Partes del AIP:* Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)
