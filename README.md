@@ -1,6 +1,6 @@
 # Guía de Estudio para el examen SPL (Piloto de Planeadores) en España
 
-![Version](https://img.shields.io/badge/version-v0.9.7-blue.svg)
+![Version](https://img.shields.io/badge/version-v0.9.8-blue.svg)
 ![License](https://img.shields.io/badge/license-CC--BY--4.0-blue.svg)
 ![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-success.svg)
 
