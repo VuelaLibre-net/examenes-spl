@@ -4,3 +4,7 @@ version: main
 start_page: book.adoc
 nav:
   - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    icons: font
+    docinfo: shared
