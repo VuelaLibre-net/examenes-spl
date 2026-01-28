@@ -1,53 +1,53 @@
 = Factores humanos
 
 
-== Preguntas "Señaladas" (Marcadas irónicamente) [red]#icon:stop-circle[]#
+== Preguntas "Señaladas" (Marcadas irónicamente) 🛑
 
 _Se identifican explícitamente estos datos como materia de examen de AESA, a menudo criticando su utilidad práctica frente a la seguridad real._
 
 [#trap-recuperacion-auditiva]
 [.trampa]
-== Recuperación auditiva [red]#icon:stop-circle[]#
+== Recuperación auditiva 🛑
 
 Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar sometido *2 horas* a *50 dB*.
 
-* [red]#icon:stop-circle[]# _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
+* 🛑 _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
 
 [#trap-nistagmo]
 [.trampa]
-== Nistagmo [red]#icon:stop-circle[]#
+== Nistagmo 🛑
 
 El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos *hacia delante*.
 
-* [red]#icon:stop-circle[]# _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
+* 🛑 _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
 
 [#trap-consumo-de-aire-y-frecuencia-respiratoria]
 [.trampa]
-== Consumo de aire y Frecuencia respiratoria [red]#icon:stop-circle[]#
+== Consumo de aire y Frecuencia respiratoria 🛑
 
 * En reposo consumimos entre *5 a 8 litros* de aire por minuto.
 * La frecuencia normal es de *12 a 18 respiraciones* por minuto.
 
-* [red]#icon:stop-circle[]# _Iñaqui lo marca como "típica pregunta tonta AESA"._
+* 🛑 _Iñaqui lo marca como "típica pregunta tonta AESA"._
 
 [#trap-saturacion-de-oxigeno-y-hipoxia]
 [.trampa]
-== Saturación de Oxígeno y Hipoxia [red]#icon:stop-circle[]#
+== Saturación de Oxígeno y Hipoxia 🛑
 
 * Para AESA, una saturación del *95%* ya es un valor peligroso.
 * Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*.
 
-* [red]#icon:stop-circle[]# _En en manual de Fuentemilanos se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
+* 🛑 _En en manual de Fuentemilanos se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
 
 [#trap-incapacitacion]
 [.trampa]
-== Causa de Incapacitación [red]#icon:stop-circle[]#
+== Causa de Incapacitación 🛑
 
 La mayor incapacitación para pilotos, según AESA, es la *gastroenteritis*.
 
-* [red]#icon:stop-circle[]# _Nota: Aunque opciones como "infarto" parezcan más graves, la respuesta correcta para el examen es esta. Probablemente proviene de una traducción incompleta de informes de la FAA, que señalan la gastroenteritis como la causa más **frecuente** (ambigüedad en la pregunta).._
+* 🛑 _Nota: Aunque opciones como "infarto" parezcan más graves, la respuesta correcta para el examen es esta. Probablemente proviene de una traducción incompleta de informes de la FAA, que señalan la gastroenteritis como la causa más **frecuente** (ambigüedad en la pregunta).._
 
-== Fisiología de Vuelo y Salud [red]#icon:stop-circle[]#
+== Fisiología de Vuelo y Salud 🛑
 
 Datos numéricos y leyes físicas aplicadas al cuerpo humano que aparecen en el temario y la "Chuleta" final.
 
@@ -96,7 +96,7 @@ Plazos administrativos para la licencia SPL (Planeador) y Clase
 ** *6/12 (0,5)* en cada ojo por separado.
 ** *6/9 (0,7)* con ambos ojos
 
-== Seguridad Real vs. Examen [red]#icon:stop-circle[]#
+== Seguridad Real vs. Examen 🛑
 
 El texto hace una distinción crucial que es importante para tu formación, aunque no salga en el test.
 
@@ -106,5 +106,5 @@ El texto hace una distinción crucial que es importante para tu formación, aunq
 
 _Se incluía una sección de consejos de seguridad (como "tener siempre un plan B" o "la disciplina es una cualidad") y advertía explícitamente:_
 
-_"[red]#icon:stop-circle[]# ESTO NO TE VA A SALIR EN LOS EXAMENES DE AESA, PERO DE TODOS LOS APUNTES DE F.H. ES LO MAS IMPORTANTE"_
+_"🛑 ESTO NO TE VA A SALIR EN LOS EXAMENES DE AESA, PERO DE TODOS LOS APUNTES DE F.H. ES LO MAS IMPORTANTE"_
 ====

@@ -1,25 +1,25 @@
 = Meteorología
 
 
-== Preguntas "Señaladas" y Burocracia (Opinión) [red]#icon:stop-circle[]#
+== Preguntas "Señaladas" y Burocracia (Opinión) 🛑
 
 Estas son las preguntas donde se hacía una pausa para advertir que "esto sale mucho" o hace comentarios irónicos sobre la pregunta.
 
 [#trap-validez-del-airmet]
 [.trampa]
-== Validez del AIRMET [red]#icon:stop-circle[]#
+== Validez del AIRMET 🛑
 
 El periodo de validez no será superior a *4 horas*.
 
-* [red]#icon:stop-circle[]# _Comentario: "(esta tontería sale mucho en los exámenes AESOS)"_
+* 🛑 _Comentario: "(esta tontería sale mucho en los exámenes AESOS)"_
 
 [#trap-intensidad-de-la-lluvia]
 [.trampa]
-== Intensidad de la lluvia [red]#icon:stop-circle[]#
+== Intensidad de la lluvia 🛑
 
-[red]#icon:stop-circle[]# Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte". Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta).
+🛑 Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte". Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta).
 
-* [red]#icon:stop-circle[]# _Se aclaraba que AEMET clasifica fuerte entre 15 y 30 mm/h y torrencial más de 60 mm/h_
+* 🛑 _Se aclaraba que AEMET clasifica fuerte entre 15 y 30 mm/h y torrencial más de 60 mm/h_
 * *Oxígeno Suplementario (EASA):* Es indispensable el uso de oxígeno para todos los ocupantes por encima de *10.000 ft (3.000 m)*.
 * _Se citaba la norma AMC 1 SAO OP 150_
 

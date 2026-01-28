@@ -1,23 +1,23 @@
 = Principios de vuelo
 
 
-== Preguntas "Señaladas" y Terminología AESA [red]#icon:stop-circle[]#
+== Preguntas "Señaladas" y Terminología AESA 🛑
 
 _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferente al habitual o plantea preguntas dudosas._
 
 [#trap-terminologia-aesa-de-controladores-y-ejes]
 [.trampa]
-== Terminología AESA de Controladores y Ejes [red]#icon:stop-circle[]#
+== Terminología AESA de Controladores y Ejes 🛑
 
-* *Freno de picada (Aerofrenos):* [red]#icon:stop-circle[]# En los exámenes de AESA, a menudo traducen el término inglés _dive brake_ como *"freno de picada"* o se refieren a ellos como *"Spoilers"*.
+* *Freno de picada (Aerofrenos):* 🛑 En los exámenes de AESA, a menudo traducen el término inglés _dive brake_ como *"freno de picada"* o se refieren a ellos como *"Spoilers"*.
 * *Trim Tab (Compensador):* AESA suele utilizar el término en inglés *"Trim Tab"* para referirse al compensador.
 * *Eje Lateral:* Los manuales americanos (y a veces los exámenes traducidos) llaman *"Eje Lateral"* al eje transversal (cabeceo), lo cual puede confundir.
 
 [#trap-posiciones-de-flaps]
 [.trampa]
-== Posiciones de Flaps [red]#icon:stop-circle[]#
+== Posiciones de Flaps 🛑
 
-* [red]#icon:stop-circle[]# Si preguntan cuántas posiciones de flap tiene un planeador, se sugería *impugnar* la pregunta, ya que depende del modelo. Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua.
+* 🛑 Si preguntan cuántas posiciones de flap tiene un planeador, se sugería *impugnar* la pregunta, ya que depende del modelo. Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua.
 
 == Aerodinámica Básica y Fórmulas
 

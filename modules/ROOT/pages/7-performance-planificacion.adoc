@@ -1,15 +1,15 @@
 = Performance y planificación de vuelo
 
 
-== Preguntas "Señaladas" y Curiosidades AESA ([red]#icon:stop-circle[]#)
+== Preguntas "Señaladas" y Curiosidades AESA (🛑)
 
 _Se identifican explícitamente secciones que se incluyen solo porque salen en el examen, aunque correspondan más a aviones con motor o sean teóricas._
 
 [#trap-curvas-de-potencia-aviones-con-motor]
 [.trampa]
-== Curvas de Potencia (Aviones con motor) [red]#icon:stop-circle[]#
+== Curvas de Potencia (Aviones con motor) 🛑
 
-* [red]#icon:stop-circle[]# El documento incluye un apartado sobre curvas de potencia porque *"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"*.
+* 🛑 El documento incluye un apartado sobre curvas de potencia porque *"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"*.
 
 * *Vy (Mejor régimen de ascenso):* Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima.
 * *Segundo Régimen:* Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta *más potencia* (inestabilidad).

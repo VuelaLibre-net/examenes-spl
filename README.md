@@ -163,7 +163,7 @@ examenes-spl/
 - **Una frase por línea** (semantic line breaks) para facilitar diffs
 - **Markdown y Asciidoctor** para el formato
 - **Referencias cruzadas** usando `<<anchor,text>>`
-- **Advertencias AESA** marcar con `[red]#icon:stop-circle[]#`
+- **Advertencias AESA** marcar con `🛑`
 
 ---
 

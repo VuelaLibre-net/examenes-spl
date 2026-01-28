@@ -41,7 +41,7 @@ Agents must follow the **Antora Standard Directory Layout**:
   ```asciidoc
   [#trap-unique-id]
   [.trampa]
-  == Title [red]#icon:stop-circle[]#
+  == Title 🛑
   ```
 - **Admonitions**: Use Spanish captions defined in `antora.yml` (Nota, Consejo, Advertencia).
 

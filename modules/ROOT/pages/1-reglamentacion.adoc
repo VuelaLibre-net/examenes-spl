@@ -1,28 +1,28 @@
 = Derecho aéreo y procedimientos de control de tráfico aéreo
 
 
-== Preguntas "Frecuentes" (Señaladas explícitamente) [red]#icon:stop-circle[]#
+== Preguntas "Frecuentes" (Señaladas explícitamente) 🛑
 
 Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, _"esto lo preguntan mucho"_ o _"sale mucho"_.
 
 [#trap-responsabilidad-civil-convenio-de-montrealvarsovia]
 [.trampa]
-== Responsabilidad Civil (Convenio de Montreal/Varsovia) [red]#icon:stop-circle[]#
+== Responsabilidad Civil (Convenio de Montreal/Varsovia) 🛑
 
 * El límite de responsabilidad de la compañía por daños personales es de *16.600 DEG* (Derechos Especiales de Giro)
 * Equipaje facturado: *17 DEG* por kilo
 * Equipaje de mano: *332 DEG*
-* [red]#icon:stop-circle[]# _Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero._
+* 🛑 _Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero._
 
 [#trap-codigo-ssr-7500-secuestro]
 [.trampa]
-== Código SSR 7500 (Secuestro) [red]#icon:stop-circle[]#
+== Código SSR 7500 (Secuestro) 🛑
 
-* *7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: [red]#icon:stop-circle[]# _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
+* *7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: 🛑 _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
 
 [#trap-anexos-oaci-y-partes-del-aip]
 [.trampa]
-== Anexos OACI y Partes del AIP [red]#icon:stop-circle[]#
+== Anexos OACI y Partes del AIP 🛑
 
 Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habilidad de vuelo.
 
@@ -32,7 +32,7 @@ Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habili
 ** Anexo 13: Investigación de accidentes
 ** Anexo 17: Seguridad (Secuestros)
 ** Anexo 18: Mercancías peligrosas
-** [red]#icon:stop-circle[]# _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
+** 🛑 _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
 * *Partes del AIP:* Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)
 
 == Licencias y Requisitos (SPL)
@@ -78,15 +78,15 @@ Normativa operativa y mínimos de seguridad.
 * *Categoría "Aeronave Ligera":* Aquella de menos de *7.000 Kg* (Categoría de estela turbulenta)
 * *Estela Turbulenta:* Separación mínima de *3 minutos* entre ligera y pesada en despegue
 
-== Memorización de Normativa ([red]#icon:stop-circle[]# Irrelevancia Operativa)
+== Memorización de Normativa (🛑 Irrelevancia Operativa)
 
 Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habilidad de vuelo.
 
-* _*[red]#icon:stop-circle[]# Números de Anexos OACI:* Se incluía una regla mnemotécnica para memorizarlos ("1 6 7 11 13 14 17 18...")._
+* _*🛑 Números de Anexos OACI:* Se incluía una regla mnemotécnica para memorizarlos ("1 6 7 11 13 14 17 18...")._
 ** Anexo 1: Licencias.
 ** Anexo 2: Reglamento del aire / Interferencias ilícitas
 ** Anexo 13: Investigación de accidentes
 ** Anexo 17: Seguridad (Secuestros)
 ** Anexo 18: Mercancías peligrosas
-** [red]#icon:stop-circle[]# _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
-* *[red]#icon:stop-circle[]# Partes del AIP:* Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)
+** 🛑 _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
+* *🛑 Partes del AIP:* Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)

@@ -1,7 +1,7 @@
 = Conocimiento general de la aeronave
 
 
-== Preguntas "Señaladas" y Rarezas AESA ([red]#icon:stop-circle[]#)
+== Preguntas "Señaladas" y Rarezas AESA (🛑)
 
 Estas son las preguntas específicas que Se advertía que salen con frecuencia y que suelen tener "truco" o una redacción particular en los exámenes oficiales.
 
@@ -23,13 +23,13 @@ Estas son las preguntas específicas que Se advertía que salen con frecuencia y
 
 [#trap-traducciones-macarronicas-aesa]
 [.trampa]
-== Traducciones "Macarrónicas" AESA [red]#icon:stop-circle[]#
+== Traducciones "Macarrónicas" AESA 🛑
 
 Se advertía repetidamente que AESA traduce literalmente términos del manual de la FAA:
 
-* [red]#icon:stop-circle[]# *Freno de picada* / *Spoiler* = Aerofrenos.
-* [red]#icon:stop-circle[]# *Trim Tab* = Compensador.
-* [red]#icon:stop-circle[]# *Elevador* = Timón de profundidad.
+* 🛑 *Freno de picada* / *Spoiler* = Aerofrenos.
+* 🛑 *Trim Tab* = Compensador.
+* 🛑 *Elevador* = Timón de profundidad.
 
 == Estructura y Limitaciones (Gs)
 

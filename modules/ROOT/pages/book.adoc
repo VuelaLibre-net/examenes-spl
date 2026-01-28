@@ -1,6 +1,6 @@
 = Guía para 'aprobar' el examen SPL en España (no para aprender a volar planeadores): Preguntas, trampas y claves para aprobar los exámenes
 Basado en los apuntes de Iñaqui
-v0.9.9, 28 de Enero de 2026
+v0.9.10, 28 de Enero de 2026
 :repository-url: https://github.com/VuelaLibre-net/examenes-spl
 :doctype: book
 :pdf-theme: theme.yml
@@ -41,7 +41,7 @@ Con frecuencia los instructores te dirán que, para aprobar el examen, respondas
 
 [TIP]
 ====
-Las secciones marcadas con *[red]#icon:stop-circle[]#* indican esas preguntas específicas que suelen salir en los exámenes, a menudo con redacciones confusas o exigiendo datos muy concretos, erróneos, arbitrarios o absolutamente irrelevantes para nuestro deporte.
+Las secciones marcadas con *🛑* indican esas preguntas específicas que suelen salir en los exámenes, a menudo con redacciones confusas o exigiendo datos muy concretos, erróneos, arbitrarios o absolutamente irrelevantes para nuestro deporte.
 ====
 
 include::resumen-ejecutivo.adoc[leveloffset=+1]

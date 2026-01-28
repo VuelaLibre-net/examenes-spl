@@ -54,8 +54,9 @@ def generate_trap_index():
 
                 if not anchor:
                     # Clean title for slugification
+                    # Remove [red]#icon:stop-circle[]# OR the unicode 🛑
                     clean_title = re.sub(
-                        r"\[red\]#icon:stop-circle\[\]#", "", title
+                        r"(\[red\]#icon:stop-circle\[\]#|🛑)", "", title
                     ).strip()
                     anchor = f"trap-{slugify(clean_title)}"
 
