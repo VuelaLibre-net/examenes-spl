@@ -6,6 +6,10 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Latest Release](https://img.shields.io/github/v/release/VuelaLibre-net/examenes-spl)](https://github.com/VuelaLibre-net/examenes-spl/releases/latest)
 
+<p align="center">
+  <img src="modules/ROOT/assets/images/mockup.jpg" alt="Mockup de la Guía" width="600">
+</p>
+
 ## 📖 Acerca de esta Guía
 
 Esta guía de estudio es un recurso integral diseñado para ayudar a los pilotos de planeador a prepararse para el examen oficial de la SPL (Sailplane Pilot License) en España. El contenido está estructurado según el temario oficial de AESA e incluye:
