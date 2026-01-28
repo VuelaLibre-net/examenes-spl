@@ -45,6 +45,11 @@ while true; do
        export GEM_HOME=$(ruby -r rubygems -e 'print Gem.user_dir') && \
        export PATH=$PATH:$GEM_HOME/bin && \
        asciidoctor -r asciidoctor-epub3 -b epub3 "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.epub"; then
+        
+        # Copy to release filenames
+        cp "${MAIN_FILE%.adoc}.pdf" "book/preguntas-aesa-spl.pdf"
+        cp "${MAIN_FILE%.adoc}.epub" "book/preguntas-aesa-spl.epub"
+        
         echo "✅ PDF and EPUB generated successfully"
         echo "Time: $(date '+%H:%M:%S')"
     else
