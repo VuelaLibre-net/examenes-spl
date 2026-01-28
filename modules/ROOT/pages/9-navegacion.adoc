@@ -1,37 +1,37 @@
 = Navegación
 
 
-== Preguntas "Señaladas", Trampas y Rarezas AESA (🛑)
+== Preguntas "Señaladas", Trampas y Rarezas AESA ({trampa-icon})
 
 _Se destaca varios puntos donde el examen oficial pide datos muy específicos, obsoletos o confusos._
 
 [#trap-geodesia-cartas-y-plan-de-vuelo]
 [.trampa]
-== Geodesia, Cartas y Plan de Vuelo 🛑
+== Geodesia, Cartas y Plan de Vuelo {trampa-icon}
 
 * *Sistemas Geodésicos:* GLONASS usa el *PZ-90*.
-* *Validez de Cartas:* *28 días* (ciclo AIRAC) o *6 meses* (papel). 🛑 "Si preguntan 6 meses, impúgnala".
+* *Validez de Cartas:* *28 días* (ciclo AIRAC) o *6 meses* (papel). {trampa-icon} "Si preguntan 6 meses, impúgnala".
 * *Cambio de FIR:* Se requiere plan de vuelo al cambiar de FIR (vuelo VFR en examen AESA).
 
 [#trap-errores-de-brujula-y-cartografia]
 [.trampa]
-== Errores de Brújula y Cartografía 🛑
+== Errores de Brújula y Cartografía {trampa-icon}
 
 * *Aceleración Brújula (E/W):* Acelerar -> Norte. Desacelerar -> Sur.
-* 🛑 *Escala WAC:* La escala es *1:1.000.000*. "Esto lo preguntan mucho".
+* {trampa-icon} *Escala WAC:* La escala es *1:1.000.000*. "Esto lo preguntan mucho".
 * *Referencias:* Se marcan *sobre la ruta* (según AESA).
 
 [#trap-trampas-matematicas-aesa]
 [.trampa]
-== Trampas Matemáticas AESA 🛑
+== Trampas Matemáticas AESA {trampa-icon}
 
-* 🛑 *Trampa de Cálculos de Tiempo:* En cálculos de conversión de tiempo, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.
+* {trampa-icon} *Trampa de Cálculos de Tiempo:* En cálculos de conversión de tiempo, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.
 
-== Cartografía y Proyecciones 🛑
+== Cartografía y Proyecciones {trampa-icon}
 
 Definiciones teóricas que "preguntan mucho".
 
-* 🛑 *Escala Carta Aeronáutica Mundial (WAC):* La escala es *1:1.000.000*. Se indicaba: *"esto lo preguntan mucho"*
+* {trampa-icon} *Escala Carta Aeronáutica Mundial (WAC):* La escala es *1:1.000.000*. Se indicaba: *"esto lo preguntan mucho"*
 * *Proyección Lambert (Cónica Conforme):*
 ** Es la usada en cartas aeronáuticas (OACI).
 ** La línea recta dibujada en la carta es una *Ortodrómica* (distancia más corta).

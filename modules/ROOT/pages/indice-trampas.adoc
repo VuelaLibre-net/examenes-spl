@@ -3,52 +3,52 @@
 En esta sección se recopilan todos los puntos críticos identificados en el temario que suelen ser objeto de preguntas confusas o arbitrarias en los exámenes oficiales.
 
 ifdef::env-antora[]
-- xref:1-reglamentacion.adoc#trap-responsabilidad-civil-convenio-de-montrealvarsovia[Responsabilidad Civil (Convenio de Montreal/Varsovia) 🛑]
+- xref:1-reglamentacion.adoc#trap-responsabilidad-civil-convenio-de-montrealvarsovia[Responsabilidad Civil (Convenio de Montreal/Varsovia) {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-responsabilidad-civil-convenio-de-montrealvarsovia,Responsabilidad Civil (Convenio de Montreal/Varsovia) 🛑>>
+- <<trap-responsabilidad-civil-convenio-de-montrealvarsovia,Responsabilidad Civil (Convenio de Montreal/Varsovia) {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:1-reglamentacion.adoc#trap-codigo-ssr-7500-secuestro[Código SSR 7500 (Secuestro) 🛑]
+- xref:1-reglamentacion.adoc#trap-codigo-ssr-7500-secuestro[Código SSR 7500 (Secuestro) {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-codigo-ssr-7500-secuestro,Código SSR 7500 (Secuestro) 🛑>>
+- <<trap-codigo-ssr-7500-secuestro,Código SSR 7500 (Secuestro) {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:1-reglamentacion.adoc#trap-anexos-oaci-y-partes-del-aip[Anexos OACI y Partes del AIP 🛑]
+- xref:1-reglamentacion.adoc#trap-anexos-oaci-y-partes-del-aip[Anexos OACI y Partes del AIP {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-anexos-oaci-y-partes-del-aip,Anexos OACI y Partes del AIP 🛑>>
+- <<trap-anexos-oaci-y-partes-del-aip,Anexos OACI y Partes del AIP {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:2-factores-humanos.adoc#trap-recuperacion-auditiva[Recuperación auditiva 🛑]
+- xref:2-factores-humanos.adoc#trap-recuperacion-auditiva[Recuperación auditiva {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-recuperacion-auditiva,Recuperación auditiva 🛑>>
+- <<trap-recuperacion-auditiva,Recuperación auditiva {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:2-factores-humanos.adoc#trap-nistagmo[Nistagmo 🛑]
+- xref:2-factores-humanos.adoc#trap-nistagmo[Nistagmo {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-nistagmo,Nistagmo 🛑>>
+- <<trap-nistagmo,Nistagmo {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:2-factores-humanos.adoc#trap-consumo-de-aire-y-frecuencia-respiratoria[Consumo de aire y Frecuencia respiratoria 🛑]
+- xref:2-factores-humanos.adoc#trap-consumo-de-aire-y-frecuencia-respiratoria[Consumo de aire y Frecuencia respiratoria {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-consumo-de-aire-y-frecuencia-respiratoria,Consumo de aire y Frecuencia respiratoria 🛑>>
+- <<trap-consumo-de-aire-y-frecuencia-respiratoria,Consumo de aire y Frecuencia respiratoria {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:2-factores-humanos.adoc#trap-saturacion-de-oxigeno-y-hipoxia[Saturación de Oxígeno y Hipoxia 🛑]
+- xref:2-factores-humanos.adoc#trap-saturacion-de-oxigeno-y-hipoxia[Saturación de Oxígeno y Hipoxia {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-saturacion-de-oxigeno-y-hipoxia,Saturación de Oxígeno y Hipoxia 🛑>>
+- <<trap-saturacion-de-oxigeno-y-hipoxia,Saturación de Oxígeno y Hipoxia {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:2-factores-humanos.adoc#trap-incapacitacion[Causa de Incapacitación 🛑]
+- xref:2-factores-humanos.adoc#trap-incapacitacion[Causa de Incapacitación {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-incapacitacion,Causa de Incapacitación 🛑>>
+- <<trap-incapacitacion,Causa de Incapacitación {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
 - xref:2-factores-humanos.adoc#trap-leyes-de-los-gases[Leyes de los Gases]
@@ -57,70 +57,70 @@ ifndef::env-antora[]
 - <<trap-leyes-de-los-gases,Leyes de los Gases>>
 endif::[]
 ifdef::env-antora[]
-- xref:3-meteorologia.adoc#trap-validez-del-airmet[Validez del AIRMET 🛑]
+- xref:3-meteorologia.adoc#trap-validez-del-airmet[Validez del AIRMET {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-validez-del-airmet,Validez del AIRMET 🛑>>
+- <<trap-validez-del-airmet,Validez del AIRMET {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:3-meteorologia.adoc#trap-intensidad-de-la-lluvia[Intensidad de la lluvia 🛑]
+- xref:3-meteorologia.adoc#trap-intensidad-de-la-lluvia[Intensidad de la lluvia {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-intensidad-de-la-lluvia,Intensidad de la lluvia 🛑>>
+- <<trap-intensidad-de-la-lluvia,Intensidad de la lluvia {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:4-comunicaciones.adoc#trap-selcal-sistema-de-llamada-selectiva[SELCAL (Sistema de Llamada Selectiva) 🛑]
+- xref:4-comunicaciones.adoc#trap-selcal-sistema-de-llamada-selectiva[SELCAL (Sistema de Llamada Selectiva) {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-selcal-sistema-de-llamada-selectiva,SELCAL (Sistema de Llamada Selectiva) 🛑>>
+- <<trap-selcal-sistema-de-llamada-selectiva,SELCAL (Sistema de Llamada Selectiva) {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:4-comunicaciones.adoc#trap-registros-de-comunicaciones-grabaciones[Registros de comunicaciones (Grabaciones) 🛑]
+- xref:4-comunicaciones.adoc#trap-registros-de-comunicaciones-grabaciones[Registros de comunicaciones (Grabaciones) {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-registros-de-comunicaciones-grabaciones,Registros de comunicaciones (Grabaciones) 🛑>>
+- <<trap-registros-de-comunicaciones-grabaciones,Registros de comunicaciones (Grabaciones) {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:4-comunicaciones.adoc#trap-alcance-de-radio-y-senales-con-proyectiles[Alcance de radio y Señales con proyectiles 🛑]
+- xref:4-comunicaciones.adoc#trap-alcance-de-radio-y-senales-con-proyectiles[Alcance de radio y Señales con proyectiles {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-alcance-de-radio-y-senales-con-proyectiles,Alcance de radio y Señales con proyectiles 🛑>>
+- <<trap-alcance-de-radio-y-senales-con-proyectiles,Alcance de radio y Señales con proyectiles {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:5-principios-vuelo.adoc#trap-terminologia-aesa-de-controladores-y-ejes[Terminología AESA de Controladores y Ejes 🛑]
+- xref:5-principios-vuelo.adoc#trap-terminologia-aesa-de-controladores-y-ejes[Terminología AESA de Controladores y Ejes {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-terminologia-aesa-de-controladores-y-ejes,Terminología AESA de Controladores y Ejes 🛑>>
+- <<trap-terminologia-aesa-de-controladores-y-ejes,Terminología AESA de Controladores y Ejes {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:5-principios-vuelo.adoc#trap-posiciones-de-flaps[Posiciones de Flaps 🛑]
+- xref:5-principios-vuelo.adoc#trap-posiciones-de-flaps[Posiciones de Flaps {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-posiciones-de-flaps,Posiciones de Flaps 🛑>>
+- <<trap-posiciones-de-flaps,Posiciones de Flaps {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:6-procedimientos-operacionales.adoc#trap-remolque-por-coche-y-apertura-de-paracaidas[Remolque por Coche y Apertura de Paracaídas 🛑]
+- xref:6-procedimientos-operacionales.adoc#trap-remolque-por-coche-y-apertura-de-paracaidas[Remolque por Coche y Apertura de Paracaídas {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-remolque-por-coche-y-apertura-de-paracaidas,Remolque por Coche y Apertura de Paracaídas 🛑>>
+- <<trap-remolque-por-coche-y-apertura-de-paracaidas,Remolque por Coche y Apertura de Paracaídas {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:6-procedimientos-operacionales.adoc#trap-monitorizacion-limpieza-y-despegue[Monitorización, Limpieza y Despegue 🛑]
+- xref:6-procedimientos-operacionales.adoc#trap-monitorizacion-limpieza-y-despegue[Monitorización, Limpieza y Despegue {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-monitorizacion-limpieza-y-despegue,Monitorización, Limpieza y Despegue 🛑>>
+- <<trap-monitorizacion-limpieza-y-despegue,Monitorización, Limpieza y Despegue {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:6-procedimientos-operacionales.adoc#trap-post-accidente-y-frecuencias[Post-accidente y Frecuencias 🛑]
+- xref:6-procedimientos-operacionales.adoc#trap-post-accidente-y-frecuencias[Post-accidente y Frecuencias {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-post-accidente-y-frecuencias,Post-accidente y Frecuencias 🛑>>
+- <<trap-post-accidente-y-frecuencias,Post-accidente y Frecuencias {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:7-performance-planificacion.adoc#trap-curvas-de-potencia-aviones-con-motor[Curvas de Potencia (Aviones con motor) 🛑]
+- xref:7-performance-planificacion.adoc#trap-curvas-de-potencia-aviones-con-motor[Curvas de Potencia (Aviones con motor) {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-curvas-de-potencia-aviones-con-motor,Curvas de Potencia (Aviones con motor) 🛑>>
+- <<trap-curvas-de-potencia-aviones-con-motor,Curvas de Potencia (Aviones con motor) {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
 - xref:7-performance-planificacion.adoc#trap-formula-de-desplazamiento-del-cg[Fórmula de Desplazamiento del CG]
@@ -141,26 +141,26 @@ ifndef::env-antora[]
 - <<trap-baterias-paracaidas-y-limpieza,Baterías, Paracaídas y Limpieza>>
 endif::[]
 ifdef::env-antora[]
-- xref:8-conocimiento-general-aeronave.adoc#trap-traducciones-macarronicas-aesa[Traducciones "Macarrónicas" AESA 🛑]
+- xref:8-conocimiento-general-aeronave.adoc#trap-traducciones-macarronicas-aesa[Traducciones "Macarrónicas" AESA {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-traducciones-macarronicas-aesa,Traducciones "Macarrónicas" AESA 🛑>>
+- <<trap-traducciones-macarronicas-aesa,Traducciones "Macarrónicas" AESA {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:9-navegacion.adoc#trap-geodesia-cartas-y-plan-de-vuelo[Geodesia, Cartas y Plan de Vuelo 🛑]
+- xref:9-navegacion.adoc#trap-geodesia-cartas-y-plan-de-vuelo[Geodesia, Cartas y Plan de Vuelo {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-geodesia-cartas-y-plan-de-vuelo,Geodesia, Cartas y Plan de Vuelo 🛑>>
+- <<trap-geodesia-cartas-y-plan-de-vuelo,Geodesia, Cartas y Plan de Vuelo {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:9-navegacion.adoc#trap-errores-de-brujula-y-cartografia[Errores de Brújula y Cartografía 🛑]
+- xref:9-navegacion.adoc#trap-errores-de-brujula-y-cartografia[Errores de Brújula y Cartografía {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-errores-de-brujula-y-cartografia,Errores de Brújula y Cartografía 🛑>>
+- <<trap-errores-de-brujula-y-cartografia,Errores de Brújula y Cartografía {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
-- xref:9-navegacion.adoc#trap-trampas-matematicas-aesa[Trampas Matemáticas AESA 🛑]
+- xref:9-navegacion.adoc#trap-trampas-matematicas-aesa[Trampas Matemáticas AESA {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
-- <<trap-trampas-matematicas-aesa,Trampas Matemáticas AESA 🛑>>
+- <<trap-trampas-matematicas-aesa,Trampas Matemáticas AESA {trampa-icon}>>
 endif::[]

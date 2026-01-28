@@ -1,35 +1,35 @@
 = Comunicaciones
 
 
-== Preguntas "Señaladas" y Temas Irrelevantes para Vuelo a Vela 🛑
+== Preguntas "Señaladas" y Temas Irrelevantes para Vuelo a Vela {trampa-icon}
 
 Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas que aparecen frecuentemente en los exámenes a pesar de su nula aplicación práctica en un velero.
 
 [#trap-selcal-sistema-de-llamada-selectiva]
 [.trampa]
-== SELCAL (Sistema de Llamada Selectiva) 🛑
+== SELCAL (Sistema de Llamada Selectiva) {trampa-icon}
 
 * Es un sistema para comunicaciones de *larga distancia (HF)* usado en vuelos transoceánicos.
 * Consiste en una combinación de *4 tonos* de audio cuya transmisión requiere aprox. *2 segundos*.
 
-* 🛑 _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
+* {trampa-icon} _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
 
 [#trap-registros-de-comunicaciones-grabaciones]
 [.trampa]
-== Registros de comunicaciones (Grabaciones) 🛑
+== Registros de comunicaciones (Grabaciones) {trampa-icon}
 
 * Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es *45 días*.
 
-* 🛑 _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
+* {trampa-icon} _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
 
 [#trap-alcance-de-radio-y-senales-con-proyectiles]
 [.trampa]
-== Alcance de radio y Señales con proyectiles 🛑
+== Alcance de radio y Señales con proyectiles {trampa-icon}
 
 * *Fórmula de alcance de radio:* Rango (NM) = *1,25 x √ Altura (ft)*.
 * *Señales con proyectiles (Pirotecnia):* Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.
 
-* 🛑 _Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
+* {trampa-icon} _Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
 
 == Procedimientos de Radio y Fraseología
 
@@ -48,7 +48,7 @@ Reglas operativas estrictas que suelen ser objeto de preguntas tipo test.
 * *Distintivos de llamada:*
 ** Tras la primera comunicación (ej. EC-DPE), se puede abreviar usando el primer y los dos últimos caracteres (ej. *E-PE*)
 
-== Emergencia y Urgencia 🛑
+== Emergencia y Urgencia {trampa-icon}
 
 Protocolos críticos de seguridad.
 
@@ -60,7 +60,7 @@ Protocolos críticos de seguridad.
 * *Frecuencias y Códigos:*
 ** Frecuencia de emergencia VHF: *121.500 MHz*
 ** *Transpondedor 7600:* Fallo de comunicaciones
-** *Transpondedor 7500:* Interferencia ilícita (secuestro). 🛑 _Se ironizaba: "Si te raptan el planeador"_
+** *Transpondedor 7500:* Interferencia ilícita (secuestro). {trampa-icon} _Se ironizaba: "Si te raptan el planeador"_
 ** *Transpondedor 7700:* Emergencia general
 
 == Fallo de Radio
