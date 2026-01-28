@@ -1,51 +1,57 @@
-# Guía de Estudio para el examen SPL (Piloto de Planeadores) en España.
+# Guía de Estudio para el examen SPL (Piloto de Planeadores) en España
 
 Este repositorio contiene la **Guía de Estudio SPL**, con una recopilación estructurada de los puntos clave, preguntas frecuentes y "trampas" de examen para la obtención de la Licencia de Piloto de Planeador (SPL) en España.
+
+🌐 **[Ver Sitio Web Online](https://VuelaLibre-net.github.io/examenes-spl)**
 
 La guía está basada en los apuntes de nuestro estimado **Iñaqui**, enfocándose en diferenciar el conocimiento práctico y seguro de la pura burocracia teórica exigida por AESA.
 
 ## 🚀 Características principales
 
 - **Enfoque en el examen**: Identifica las preguntas que pueden aparecer en los exámenes oficiales de AESA.
-- **Iconografía de advertencia**: Las secciones marcadas con círculos rojos indican _"preguntitas AESA"_ (datos arbitrarios o irrelevantes para el vuelo real pero, lamentablemente, necesarios para aprobar).
-- **Formato profesional**: Generado en PDF de calidad mediante Asciidoctor.
+- **Trampas Señaladas**: Las secciones marcadas como "Trampa" o con iconos rojos [red]#icon:stop-circle[]# indican datos arbitrarios, traducciones confusas o "preguntitas AESA" necesarias para aprobar pero discutibles en la práctica.
+- **Multi-formato**: Disponible en **Web** (Antora), **PDF** y **EPUB**.
 
-## 📂 Estructura del Libro
+## 📂 Estructura del Proyecto
 
-El contenido sigue el Syllabus oficial de EASA:
+El proyecto sigue la estructura estándar de **Antora**:
 
-1.  **Reglamentación**: Derecho aéreo y procedimientos ATC.
-2.  **Factores Humanos**: Fisiología y psicología aplicada al vuelo.
-3.  **Meteorología**: Dinámica atmosférica e interpretación de informes.
-4.  **Comunicaciones**: Fraseología y procedimientos de radio.
-5.  **Principios de Vuelo**: Aerodinámica y mecánica de vuelo.
-6.  **Procedimientos Operacionales**: Lanzamientos, tomas y emergencias.
-7.  **Performance y Planificación**: Carga, centrado y planificación de tareas.
-8.  **Conocimiento General de la Aeronave**: Estructuras, sistemas e instrumentos.
-9.  **Navegación**: Magnetismo, cartas y uso de GNSS.
+- `modules/ROOT/pages/`: Contiene los capítulos del libro en formato `.adoc`.
+- `antora-playbook.yml`: Configuración para generar el sitio web.
+- `book/`: Directorio de salida para los artefactos PDF y EPUB.
 
-## 🛠️ Generación del PDF y EPUB
+## 🛠️ Generación de Documentos
 
-El libro se escribe en formato **AsciiDoc**. Para generar el PDF y EPUB automáticamente cada vez que realices un cambio, puedes usar el script incluido:
+### Sitio Web (HTML)
+El sitio web se genera usando [Antora](https://antora.org/).
+
+**Requisitos**: Node.js (v16+).
 
 ```bash
-./watch_book.sh
+# Instalar dependencias
+npm install
+
+# Generar sitio localmente
+npx antora antora-playbook.yml
 ```
+El resultado estará disponible en `build/site/index.html`.
 
-### Requisitos
+### PDF y EPUB
+Para generar los documentos portables (PDF y EPUB), utilizamos Asciidoctor directamente.
 
-Para compilar el libro, necesitas tener instalado:
+**Requisitos**: Ruby, `asciidoctor-pdf`, `asciidoctor-epub3`.
 
-- **Asciidoctor PDF**: `gem install asciidoctor-pdf` si tienes ruby.
-- **Asciidoctor EPUB3**: `gem install asciidoctor-epub3`
-- **inotify-tools** (opcional, para el script de auto-watch): `sudo apt install inotify-tools` en linux.
+```bash
+# Generar PDF y EPUB
+./build_book.sh
+```
+Los archivos se generarán en la carpeta `book/` con el formato `preguntas-aesa-spl.{FECHA}.{VERSION}.pdf`.
 
-## 📄 Archivos del Proyecto
+## 📄 Archivos Clave
 
-- `book/book.adoc`: Archivo principal que organiza todos los capítulos.
-- `book/theme.yml`: Configuración visual del PDF.
-- `SYLLABUS.md`: Referencia al temario oficial EASA.
-- `watch_book.sh`: Script de automatización de compilación.
+- `modules/ROOT/pages/book.adoc`: Archivo "maestro" para la generación del PDF.
+- `modules/ROOT/nav.adoc`: Menú de navegación para el sitio web.
+- `supplemental-ui/`: Personalización del tema visual (CSS para las marcas rojas).
 
 ---
 *Vuela libre, vuela seguro.*
