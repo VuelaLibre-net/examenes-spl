@@ -1,5 +1,8 @@
 *.pdf
+*.epub
 !book/preguntas-aesa-spl.pdf
 !book/preguntas-aesa-spl.epub
 .tmp/
 
+book/book.epub
+book/book.pdf
