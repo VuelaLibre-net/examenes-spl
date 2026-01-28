@@ -11,7 +11,7 @@ def slugify(value):
     return re.sub(r"[-\s]+", "-", value)
 
 
-book_dir = "book"
+book_dir = "modules/ROOT/pages"
 for filename in os.listdir(book_dir):
     if filename.endswith(".adoc") and filename not in [
         "book.adoc",

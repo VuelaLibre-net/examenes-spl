@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-MAIN_FILE="book/book.adoc"
+MAIN_FILE="modules/ROOT/pages/book.adoc"
 
 # Check if asciidoctor-pdf exists
 if ! command -v asciidoctor-pdf &> /dev/null; then

@@ -12,7 +12,7 @@ def slugify(value):
 
 
 def generate_trap_index():
-    book_dir = "book"
+    book_dir = "modules/ROOT/pages"
     output_file = os.path.join(book_dir, "indice-trampas.adoc")
     # This pattern matches the anchor, the trap mark, and the title
     # It handles cases with and without anchor

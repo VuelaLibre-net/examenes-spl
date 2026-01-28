@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration
-BOOK_DIR="book"
-MAIN_FILE="book/book.adoc"
+BOOK_DIR="modules/ROOT/pages"
+MAIN_FILE="modules/ROOT/pages/book.adoc"
 
 # Check if inotifywait exists
 if ! command -v inotifywait &> /dev/null; then

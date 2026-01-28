@@ -1,0 +1,15 @@
+site:
+  title: Guía de Estudio SPL
+  url: https://VuelaLibre-net.github.io/examenes-spl
+  start_page: spl-guide::book.adoc
+
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    start_path: .
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

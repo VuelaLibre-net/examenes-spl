@@ -1,0 +1,6 @@
+name: spl-guide
+title: Guía SPL
+version: master
+start_page: book.adoc
+nav:
+  - modules/ROOT/nav.adoc
