@@ -5,19 +5,28 @@
 
 Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas que aparecen frecuentemente en los exámenes a pesar de su nula aplicación práctica en un velero.
 
-* *[red]#icon:stop-circle[]# SELCAL (Sistema de Llamada Selectiva):*
-** Es un sistema para comunicaciones de *larga distancia (HF)* usado en vuelos transoceánicos.
-** Consiste en una combinación de *4 tonos* de audio cuya transmisión requiere aprox. *2 segundos*.
-** _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
-* *[red]#icon:stop-circle[]# Registros de comunicaciones (Grabaciones):*
-** Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es *45 días*.
-** _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
-* *[red]#icon:stop-circle[]# Fórmula de alcance de radio:*
-** Rango (NM) = *1,25 x √ Altura (ft)*.
-** _Comentario: "Apréndete la formulita que a veces lo preguntan"_
-* *[red]#icon:stop-circle[]# Señales con proyectiles (Pirotecnia):*
-** Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.
-** _Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
+[.trampa]
+== SELCAL (Sistema de Llamada Selectiva)
+
+* Es un sistema para comunicaciones de *larga distancia (HF)* usado en vuelos transoceánicos.
+* Consiste en una combinación de *4 tonos* de audio cuya transmisión requiere aprox. *2 segundos*.
+
+_Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
+
+[.trampa]
+== Registros de comunicaciones (Grabaciones)
+
+* Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es *45 días*.
+
+_Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
+
+[.trampa]
+== Alcance de radio y Señales con proyectiles
+
+* *Fórmula de alcance de radio:* Rango (NM) = *1,25 x √ Altura (ft)*.
+* *Señales con proyectiles (Pirotecnia):* Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.
+
+_Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
 
 == Procedimientos de Radio y Fraseología
 

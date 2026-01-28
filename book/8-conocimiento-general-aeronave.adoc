@@ -5,32 +5,28 @@
 
 Estas son las preguntas específicas que Se advertía que salen con frecuencia y que suelen tener "truco" o una redacción particular en los exámenes oficiales.
 
-* *[red]#icon:stop-circle[]# Gancho de Centro de Gravedad:*
-** Pregunta: ¿Se puede usar el gancho de centro de gravedad para remolque avión?
-** Respuesta: *SÍ*, si así lo indica el manual de vuelo (AFM)
-* *[red]#icon:stop-circle[]# Cápsula del Anemómetro:*
-** Pregunta: ¿Qué tipo de cápsula tiene el anemómetro?
-** Respuesta: Tiene una cápsula *elástica*.
-** _Trampa:_ No tiene una cápsula "aneroide" (esa es la del altímetro). Se marcaba esto como "pregunta típica de AESA"_
-* *[red]#icon:stop-circle[]# Mandos Primarios:*
-** Pregunta: ¿Cuáles son los mandos primarios?
-** Respuesta: *Timón de profundidad, timón de dirección y alerones*.
-** _Comentario:_ "Esta tontaa la preguntan mucho"_
-* *[red]#icon:stop-circle[]# Baterías (Requisito IFR):*
-** Para vuelo instrumental (nubes), AESA exige que la batería tenga al menos el *80%* de su capacidad
-** Sujeción: El soporte de la batería debe aguantar una deceleración de *15 Gs*
-* *[red]#icon:stop-circle[]# Paracaídas:*
-** *Automático:* Funciona mediante una *cinta estática*
-** *Tiempo de apertura:* Según AESA, tarda *4 segundos* (aunque los fabricantes digan 2-3 segundos)
-* *[red]#icon:stop-circle[]# Limpieza del Gel Coat:*
-** Se debe usar una gamuza *húmeda*.
-** _Ojo:_ Según los exámenes de AESA, "no vale una gamuza mojada"
-* *[red]#icon:stop-circle[]# Traducciones "Macarrónicas" (Inglés-Español):*
-** _Se advertía repetidamente que AESA traduce literalmente términos del manual de la FAA 9:_
-** *Freno de picada* = Aerofrenos (Dive brakes).
-** *Spoiler* = Aerofrenos.
-** *Trim Tab* = Compensador
-** *Elevador* = Timón de profundidad.
+[.trampa]
+== Gancho de CG, Cápsula de Anemómetro y Mandos
+
+* *Gancho de CG:* ¿Se puede usar para remolque avión? *SÍ*, si así lo indica el AFM.
+* *Cápsula del Anemómetro:* Tiene una cápsula *elástica* (no aneroide).
+* *Mandos Primarios:* Timón de profundidad, timón de dirección y alerones.
+
+[.trampa]
+== Baterías, Paracaídas y Limpieza
+
+* *Baterías (IFR):* Deben estar al *80%* de capacidad y el soporte aguantar *15 Gs*.
+* *Paracaídas:* El automático funciona por *cinta estática* y abre en *4 segundos*.
+* *Limpieza:* Usar gamuza *húmeda* (no mojada).
+
+[.trampa]
+== Traducciones "Macarrónicas" AESA
+
+Se advertía repetidamente que AESA traduce literalmente términos del manual de la FAA:
+
+* *Freno de picada* / *Spoiler* = Aerofrenos.
+* *Trim Tab* = Compensador.
+* *Elevador* = Timón de profundidad.
 
 == Estructura y Limitaciones (Gs)
 

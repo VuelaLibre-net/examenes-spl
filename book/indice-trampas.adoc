@@ -5,3 +5,26 @@ En esta sección se recopilan todos los puntos críticos identificados en el tem
 - <<Responsabilidad Civil (Convenio de Montreal/Varsovia)>>
 - <<Código SSR 7500 (Secuestro)>>
 - <<Anexos OACI y Partes del AIP>>
+- <<Recuperación auditiva>>
+- <<Nistagmo>>
+- <<Consumo de aire y Frecuencia respiratoria>>
+- <<Saturación de Oxígeno y Hipoxia>>
+- <<Leyes de los Gases>>
+- <<Validez del AIRMET>>
+- <<Intensidad de la lluvia>>
+- <<SELCAL (Sistema de Llamada Selectiva)>>
+- <<Registros de comunicaciones (Grabaciones)>>
+- <<Alcance de radio y Señales con proyectiles>>
+- <<Terminología AESA de Controladores y Ejes>>
+- <<Posiciones de Flaps>>
+- <<Remolque por Coche y Apertura de Paracaídas>>
+- <<Monitorización, Limpieza y Despegue>>
+- <<Post-accidente y Frecuencias>>
+- <<Curvas de Potencia (Aviones con motor)>>
+- <<Fórmula de Desplazamiento del CG>>
+- <<Gancho de CG, Cápsula de Anemómetro y Mandos>>
+- <<Baterías, Paracaídas y Limpieza>>
+- <<Traducciones "Macarrónicas" AESA>>
+- <<Geodesia, Cartas y Plan de Vuelo>>
+- <<Errores de Brújula y Cartografía>>
+- <<Trampas Matemáticas AESA>>

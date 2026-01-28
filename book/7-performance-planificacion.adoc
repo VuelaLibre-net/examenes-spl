@@ -5,14 +5,20 @@
 
 _Se identifican explícitamente secciones que se incluyen solo porque salen en el examen, aunque correspondan más a aviones con motor o sean teóricas._
 
-* *[red]#icon:stop-circle[]# Curvas de Potencia (Aviones con motor):*
-** El documento incluye un apartado entero sobre curvas de potencia porque *"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"*
-** *Vy (Mejor régimen de ascenso):* Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima
-** *Segundo Régimen:* Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta *más potencia* (inestabilidad)
-** *Resistencia:* La resistencia parásita aumenta con la velocidad; la inducida disminuye con la velocidad
-* *[red]#icon:stop-circle[]# Fórmula de Desplazamiento del CG:*
-** Preguntan cálculos matemáticos sobre cuánto se mueve el centro de gravedad al añadir peso.
-** *Fórmula:* _Desplazamiento = (Peso añadido × Distancia) / Peso Total_
+[.trampa]
+== Curvas de Potencia (Aviones con motor)
+
+El documento incluye un apartado sobre curvas de potencia porque *"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"*.
+
+* *Vy (Mejor régimen de ascenso):* Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima.
+* *Segundo Régimen:* Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta *más potencia* (inestabilidad).
+
+[.trampa]
+== Fórmula de Desplazamiento del CG
+
+Preguntan cálculos matemáticos sobre cuánto se mueve el centro de gravedad al añadir peso.
+
+* *Fórmula:* _Desplazamiento = (Peso añadido × Distancia) / Peso Total_
 
 == Peso y Centrado (Mass and Balance)
 

@@ -5,10 +5,19 @@
 
 Estas son las preguntas donde se hacía una pausa para advertir que "esto sale mucho" o hace comentarios irónicos sobre la pregunta.
 
-* *[red]#icon:stop-circle[]# Validez del AIRMET:* El periodo de validez no será superior a *4 horas*.
-* _Comentario: "(esta tontería sale mucho en los exámenes AESOS)"_
-* _*[red]#icon:stop-circle[]# Intensidad de la lluvia:* Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte"._
-* _Comentario: "Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta)". Se aclaraba que AEMET clasifica fuerte entre 15 y 30 mm/h y torrencial más de 60 mm/h_
+[.trampa]
+== Validez del AIRMET
+
+El periodo de validez no será superior a *4 horas*.
+
+_Comentario: "(esta tontería sale mucho en los exámenes AESOS)"_
+
+[.trampa]
+== Intensidad de la lluvia
+
+Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte". Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta).
+
+_Se aclaraba que AEMET clasifica fuerte entre 15 y 30 mm/h y torrencial más de 60 mm/h_
 * *Oxígeno Suplementario (EASA):* Es indispensable el uso de oxígeno para todos los ocupantes por encima de *10.000 ft (3.000 m)*.
 * _Se citaba la norma AMC 1 SAO OP 150_
 

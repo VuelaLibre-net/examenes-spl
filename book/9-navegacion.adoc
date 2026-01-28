@@ -5,32 +5,24 @@
 
 _Se destaca varios puntos donde el examen oficial pide datos muy específicos, obsoletos o confusos._
 
-* *[red]#icon:stop-circle[]# Sistemas Geodésicos (GPS vs GLONASS):*
-** Pregunta: ¿Qué sistema geodésico usa el GLONASS (Ruso)?
-** Respuesta: *PZ-90* (Parametry Zemli 1990).
-** _Nota:_ El GPS americano usa el WGS84. Se marcaba esto explícitamente: *"Esto tan raro lo preguntan en los exámenes de AESA"*_
-* *[red]#icon:stop-circle[]# Validez de las Cartas Aeronáuticas:*
-** _Se advertía de una contradicción. En los exámenes actuales ponen respuestas cortas como *28 días* (ciclo AIRAC)_
-** Sin embargo, en otra sección menciona que AESA a veces pregunta por cartas de papel con validez de *6 meses*. _Consejo: "Si te preguntan eso 6 meses, impúgnala"_
-* *[red]#icon:stop-circle[]# Errores de Aceleración de la Brújula:*
-** En rumbos *Este (E)* u *Oeste (W)*:
-** Si aceleras (o asciendes), la brújula se desvía al *Norte*.
-** Si desaceleras (o desciendes), la brújula se desvía al *Sur*.
-** _Comentario:_ "Esto solo te lo explico por qué sale mucho en los exámenes de AESA"_
-* *[red]#icon:stop-circle[]# Trampas con Segundos:*
-** En cálculos de conversión de tiempo (decimal a sexagesimal), AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales
-* *[red]#icon:stop-circle[]# Marcado de Referencias en la Carta:*
-** Pregunta: ¿Cómo se marcan los puntos de referencia en la carta?
-** Respuesta sugerida: *Sobre la ruta*.
-** _Comentario:_ "Pregunta rara AESA... Ni idea. Yo pondría sobre la ruta"_
-* *[red]#icon:stop-circle[]# Plan de Vuelo al cambiar de FIR:*
-** Aunque vueles VFR, en los exámenes de AESA se requiere plan de vuelo si *cambias de FIR*
+[.trampa]
+== Geodesia, Cartas y Plan de Vuelo
 
-== Cartografía y Proyecciones
+* *Sistemas Geodésicos:* GLONASS usa el *PZ-90*.
+* *Validez de Cartas:* *28 días* (ciclo AIRAC) o *6 meses* (papel). "Si preguntan 6 meses, impúgnala".
+* *Cambio de FIR:* Se requiere plan de vuelo al cambiar de FIR (vuelo VFR en examen AESA).
 
-Definiciones teóricas que "preguntan mucho".
+[.trampa]
+== Errores de Brújula y Cartografía
 
-* _*Escala Carta Aeronáutica Mundial (WAC):* La escala es *1:1.000.000*. Se indicaba: *"esto lo preguntan mucho"*_
+* *Aceleración Brújula (E/W):* Acelerar -> Norte. Desacelerar -> Sur.
+* *Escala WAC:* La escala es *1:1.000.000*. "Esto lo preguntan mucho".
+* *Referencias:* Se marcan *sobre la ruta* (según AESA).
+
+[.trampa]
+== Trampas Matemáticas AESA
+
+En cálculos de conversión de tiempo, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.
 * *Proyección Lambert (Cónica Conforme):*
 ** Es la usada en cartas aeronáuticas (OACI).
 ** La línea recta dibujada en la carta es una *Ortodrómica* (distancia más corta).

@@ -5,25 +5,45 @@
 
 _Se identifican explícitamente estos datos como materia de examen de AESA, a menudo criticando su utilidad práctica frente a la seguridad real._
 
-* *[red]#icon:stop-circle[]# Recuperación auditiva:* Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar sometido *2 horas* a *50 dB*
-* _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
-* *[red]#icon:stop-circle[]# Nistagmo:* El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos *hacia delante*
-* _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
-* *[red]#icon:stop-circle[]# Consumo de aire:* En reposo consumimos entre *5 a 8 litros* de aire por minuto
-* _Iñaqui lo marca como "típica pregunta tonta AESA"._
-* *[red]#icon:stop-circle[]# Frecuencia respiratoria:* La frecuencia normal es de *12 a 18 respiraciones* por minuto
-* _Se añadía: "otra pregunta tonta AESA"._
-* *Saturación de Oxígeno:*
-** Para AESA, una saturación del *95%* ya es un valor peligroso
-** _Se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
-* *Síntomas de Hipoxia:*
-** Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*
+[.trampa]
+== Recuperación auditiva
+
+Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar sometido *2 horas* a *50 dB*.
+
+_Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
+
+[.trampa]
+== Nistagmo
+
+El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos *hacia delante*.
+
+_Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
+
+[.trampa]
+== Consumo de aire y Frecuencia respiratoria
+
+* En reposo consumimos entre *5 a 8 litros* de aire por minuto.
+* La frecuencia normal es de *12 a 18 respiraciones* por minuto.
+
+_Iñaqui lo marca como "típica pregunta tonta AESA"._
+
+[.trampa]
+== Saturación de Oxígeno y Hipoxia
+
+* Para AESA, una saturación del *95%* ya es un valor peligroso.
+* Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*.
+
+_Se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
 
 == Fisiología de Vuelo y Salud [red]#icon:stop-circle[]#
 
 Datos numéricos y leyes físicas aplicadas al cuerpo humano que aparecen en el temario y la "Chuleta" final.
 
-* _*[red]#icon:stop-circle[]# Leyes de los Gases:* Se recomendaba mirarlas porque "a veces lo preguntan"_
+[.trampa]
+== Leyes de los Gases
+
+Se recomendaba mirarlas porque "a veces lo preguntan":
+
 * *Ley de Boyle-Mariotte:* El volumen de un gas es inversamente proporcional a la presión (explica la expansión de gases en oídos/tripas al subir)
 * *Ley de Dalton:* La presión total es la suma de las presiones parciales
 * *Ley de Henry:* Explica la enfermedad descompresiva (burbujas de nitrógeno en sangre)

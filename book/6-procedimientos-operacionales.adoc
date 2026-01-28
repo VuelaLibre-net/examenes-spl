@@ -5,31 +5,24 @@
 
 El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y comentarios irónicos de Iñaqui sobre discrepancias entre la realidad y el examen.
 
-* *[red]#icon:stop-circle[]# Remolque por Coche:*
-** _Aunque Se indicaba que "En España no conozco ningún sitio donde se realice", AESA pregunta mucho sobre la velocidad de remolque._
-** *Cálculo de velocidad:* Se debe restar todo a la velocidad máxima de remolque.
-** _Fórmula:_ Velocidad Coche = (VNE remolque) – (Viento superficie) – (Gradiente viento) – (Factor seguridad 5 mph) – (Incremento por ascenso).
-* *[red]#icon:stop-circle[]# Apertura del Paracaídas:*
-** Tiempo de apertura: *4 segundos*.
-** _Comentario:_ "Da igual lo que diga el fabricante" o la realidad (150-300ft), para AESA son 4 segundos._
-* *[red]#icon:stop-circle[]# Monitorización en Aterrizaje:*
-** Pregunta: ¿Qué se monitoriza todo el rato en el aterrizaje?
-** Respuesta AESA: *La velocidad*.
-** _Ironía:_ "(según aesa no mires fuera)"._
-* *[red]#icon:stop-circle[]# Limpieza del Velero:*
-** Frecuencia: *Cada vuelo*.
-** Método: Agua y una gamuza húmeda.
-** Producto: Cera neutra *sin silicona*.
-** _Comentario:_ "Tontería AESA"._
-* *[red]#icon:stop-circle[]# Despegue:*
-** Técnica preferible: Mantener las ruedas en el suelo el *máximo de tiempo posible*.
-** _Comentario:_ "Esta tontería solo para el examen de AESA. Los veleros vuelan bien, pero reptan muy mal. ¡Juradme que jamás haréis esto!"._
-* *[red]#icon:stop-circle[]# Procedimiento tras accidente:*
-** ¿Qué hay que hacer al tener un accidente en vuelo? Respuesta: *Mentalizarse antes del vuelo*.
-** _Comentario:_ "Tontería AESA"._
-* *[red]#icon:stop-circle[]# Frecuencias de radio:*
-** Frecuencia VHF fuera de alcance en región NAT (Atlántico Norte): *131.8 MHz*.
-** _Comentario:_ "Si saber esto te matas seguro"._
+[.trampa]
+== Remolque por Coche y Apertura de Paracaídas
+
+* *Remolque por Coche:* Aunque se indicaba que "En España no conozco ningún sitio donde se realice", AESA pregunta mucho sobre la velocidad de remolque.
+* *Apertura del Paracaídas:* Para AESA el tiempo de apertura son *4 segundos*. _"Da igual lo que diga el fabricante"_.
+
+[.trampa]
+== Monitorización, Limpieza y Despegue
+
+* *Monitorización:* En el aterrizaje AESA dice que se monitoriza todo el rato *la velocidad*.
+* *Limpieza:* Frecuencia *cada vuelo* con cera neutra *sin silicona*.
+* *Despegue:* Técnica de mantener las ruedas en el suelo el *máximo de tiempo posible*. _"¡Juradme que jamás haréis esto!"_.
+
+[.trampa]
+== Post-accidente y Frecuencias
+
+* *Accidente:* ¿Qué hay que hacer? *Mentalizarse antes del vuelo*.
+* *Frecuencias:* Frecuencia VHF fuera de alcance en región NAT: *131.8 MHz*.
 
 == Procedimientos de Despegue y Lanzamiento
 
