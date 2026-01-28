@@ -31,6 +31,9 @@ Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a ve
 * *Síntomas de Hipoxia:* [red]#icon:stop-circle[]#
 ** _Dato:_ Primer síntoma = *Euforia*. [red]#icon:stop-circle[]#
 ** _Crítica:_ Simplificación excesiva. Los síntomas son individuales (visión túnel, hormigueo, fatiga). [red]#icon:stop-circle[]#
+* *Causa de Incapacitación:* [red]#icon:stop-circle[]#
+** _Dato:_ La causa más incapacitante para de pilotos, según AESA, es la *gastroenteritis*. [red]#icon:stop-circle[]#
+** _Crítica:_ Aunque "infarto" aparece como opción, se debe marcar gastroenteritis. Probable traducción incompleta de informes de la FAA que señala la gastroenteritis como la causa más **frecuente**, pero la pregunta es ambígua (más incapacitante vs más frecuente).. [red]#icon:stop-circle[]#
 
 === 3. Meteorología [red]#icon:stop-circle[]#
 

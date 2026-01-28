@@ -37,7 +37,15 @@ El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se p
 * Para AESA, una saturación del *95%* ya es un valor peligroso.
 * Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*.
 
-* [red]#icon:stop-circle[]# _Se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
+* [red]#icon:stop-circle[]# _En en manual de Fuentemilanos se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
+
+[#trap-incapacitacion]
+[.trampa]
+== Causa de Incapacitación [red]#icon:stop-circle[]#
+
+La mayor incapacitación para pilotos, según AESA, es la *gastroenteritis*.
+
+* [red]#icon:stop-circle[]# _Nota: Aunque opciones como "infarto" parezcan más graves, la respuesta correcta para el examen es esta. Probablemente proviene de una traducción incompleta de informes de la FAA, que señalan la gastroenteritis como la causa más **frecuente** (ambigüedad en la pregunta).._
 
 == Fisiología de Vuelo y Salud [red]#icon:stop-circle[]#
 

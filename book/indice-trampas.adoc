@@ -9,6 +9,7 @@ En esta sección se recopilan todos los puntos críticos identificados en el tem
 - <<trap-nistagmo,Nistagmo [red]#icon:stop-circle[]#>>
 - <<trap-consumo-de-aire-y-frecuencia-respiratoria,Consumo de aire y Frecuencia respiratoria [red]#icon:stop-circle[]#>>
 - <<trap-saturacion-de-oxigeno-y-hipoxia,Saturación de Oxígeno y Hipoxia [red]#icon:stop-circle[]#>>
+- <<trap-incapacitacion,Causa de Incapacitación [red]#icon:stop-circle[]#>>
 - <<trap-leyes-de-los-gases,Leyes de los Gases>>
 - <<trap-validez-del-airmet,Validez del AIRMET [red]#icon:stop-circle[]#>>
 - <<trap-intensidad-de-la-lluvia,Intensidad de la lluvia [red]#icon:stop-circle[]#>>
