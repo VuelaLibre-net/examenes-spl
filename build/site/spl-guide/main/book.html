@@ -1,0 +1,3585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Guía de Estudio SPL: Preguntas, trampas y claves para aprobar los exámenes :: Guía de Estudio SPL</title>
+    <link rel="canonical" href="https://VuelaLibre-net.github.io/examenes-spl/spl-guide/main/book.html">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="../../_/css/site.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* Enforce FA4 family to avoid conflicts with FA5 in default UI */
+.fa {
+    font-family: FontAwesome !important;
+}
+
+/* Restore [red]#...# style */
+span.red {
+  color: #d9534f !important;
+  font-weight: bold;
+}
+
+/* Style for [.trampa] blocks */
+.trampa {
+  background-color: #fff5f5;
+  border-left: 5px solid #d9534f;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.trampa .title {
+  color: #d9534f !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure font-awesome icons are red when inside red span */
+span.red .fa, span.red .fas, span.red .far {
+    color: #d9534f !important;
+}
+</style>
+
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Guía de Estudio SPL</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Inicio</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Descargas</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl/releases/latest" target="_blank" rel="noopener">Descargar PDF/EPUB</a>
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">Código Fuente</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">GitHub</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="spl-guide" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="book.html">Guía SPL</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="book.html">Portada</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="resumen-ejecutivo.html">Resumen Ejecutivo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-reglamentacion.html">1. Derecho Aéreo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-factores-humanos.html">2. Factores Humanos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-meteorologia.html">3. Meteorología</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-comunicaciones.html">4. Comunicaciones</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="5-principios-vuelo.html">5. Principios de Vuelo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="6-procedimientos-operacionales.html">6. Procedimientos Operacionales</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="7-performance-planificacion.html">7. Performance y Planificación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="8-conocimiento-general-aeronave.html">8. Conocimiento General de la Aeronave</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="9-navegacion.html">9. Navegación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="indice-trampas.html">Índice de Trampas</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="anexo-syllabus.html">Anexo: Syllabus</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Guía SPL</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="book.html">Guía SPL</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="book.html">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="book.html" class="home-link is-current"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="book.html">Guía SPL</a></li>
+    <li><a href="book.html">Portada</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/camus/ws/VuelaLibre.net/examenes-spl/./modules/ROOT/pages/book.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="En este capítulo" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Guía de Estudio SPL: Preguntas, trampas y claves para aprobar los exámenes</h1>
+<div id="toc" class="toc">
+<div id="toctitle">Índice</div>
+<ul class="sectlevel1">
+<li><a href="#_introducción">Introducción</a>
+<ul class="sectlevel2">
+<li><a href="#_resumen_ejecutivo_errores_dudas_y_trampas_aesa">Resumen ejecutivo: Errores, Dudas y Trampas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+</ul>
+</li>
+<li><a href="#_derecho_aéreo_y_procedimientos_de_control_de_tráfico_aéreo">Capítulo 1. Derecho aéreo y procedimientos de control de tráfico aéreo</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_frecuentes_señaladas_explícitamente">1.1. Preguntas "Frecuentes" (Señaladas explícitamente) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-responsabilidad-civil-convenio-de-montrealvarsovia">1.2. Responsabilidad Civil (Convenio de Montreal/Varsovia) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-codigo-ssr-7500-secuestro">1.3. Código SSR 7500 (Secuestro) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-anexos-oaci-y-partes-del-aip">1.4. Anexos OACI y Partes del AIP <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_licencias_y_requisitos_spl">1.5. Licencias y Requisitos (SPL)</a></li>
+<li><a href="#_reglas_del_aire_y_operación">1.6. Reglas del Aire y Operación</a></li>
+<li><a href="#_aeronaves_y_categorías">1.7. Aeronaves y Categorías</a></li>
+<li><a href="#_memorización_de_normativa_irrelevancia_operativa">1.8. Memorización de Normativa (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> Irrelevancia Operativa)</a></li>
+</ul>
+</li>
+<li><a href="#_factores_humanos">Capítulo 2. Factores humanos</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_marcadas_irónicamente">2.1. Preguntas "Señaladas" (Marcadas irónicamente) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-recuperacion-auditiva">2.2. Recuperación auditiva <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-nistagmo">2.3. Nistagmo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-consumo-de-aire-y-frecuencia-respiratoria">2.4. Consumo de aire y Frecuencia respiratoria <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-saturacion-de-oxigeno-y-hipoxia">2.5. Saturación de Oxígeno y Hipoxia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-incapacitacion">2.6. Causa de Incapacitación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_fisiología_de_vuelo_y_salud">2.7. Fisiología de Vuelo y Salud <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-leyes-de-los-gases">2.8. Leyes de los Gases</a></li>
+<li><a href="#_psicología_y_modelos_de_error">2.9. Psicología y Modelos de Error</a></li>
+<li><a href="#_certificados_médicos_y_validez">2.10. Certificados Médicos y Validez</a></li>
+<li><a href="#_seguridad_real_vs_examen">2.11. Seguridad Real vs. Examen <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+</ul>
+</li>
+<li><a href="#_meteorología">Capítulo 3. Meteorología</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_y_burocracia_opinión">3.1. Preguntas "Señaladas" y Burocracia (Opinión) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-validez-del-airmet">3.2. Validez del AIRMET <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-intensidad-de-la-lluvia">3.3. Intensidad de la lluvia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_atmósfera_estándar_isa_y_altimetría">3.4. Atmósfera Estándar (ISA) y Altimetría</a></li>
+<li><a href="#_viento_y_dinámica_atmosférica">3.5. Viento y Dinámica Atmosférica</a></li>
+<li><a href="#_termodinámica_y_nubes">3.6. Termodinámica y Nubes</a></li>
+<li><a href="#_frentes_y_sistemas_de_presión">3.7. Frentes y Sistemas de Presión</a></li>
+<li><a href="#_informes_meteorológicos_metartafsigmet">3.8. Informes Meteorológicos (METAR/TAF/SIGMET)</a></li>
+<li><a href="#_peligros_en_vuelo">3.9. Peligros en Vuelo</a></li>
+</ul>
+</li>
+<li><a href="#_comunicaciones">Capítulo 4. Comunicaciones</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_y_temas_irrelevantes_para_vuelo_a_vela">4.1. Preguntas "Señaladas" y Temas Irrelevantes para Vuelo a Vela <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-selcal-sistema-de-llamada-selectiva">4.2. SELCAL (Sistema de Llamada Selectiva) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-registros-de-comunicaciones-grabaciones">4.3. Registros de comunicaciones (Grabaciones) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-alcance-de-radio-y-senales-con-proyectiles">4.4. Alcance de radio y Señales con proyectiles <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_procedimientos_de_radio_y_fraseología">4.5. Procedimientos de Radio y Fraseología</a></li>
+<li><a href="#_emergencia_y_urgencia">4.6. Emergencia y Urgencia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_fallo_de_radio">4.7. Fallo de Radio</a></li>
+<li><a href="#_técnica_y_definiciones_anexo_test">4.8. Técnica y Definiciones (Anexo Test)</a></li>
+</ul>
+</li>
+<li><a href="#_principios_de_vuelo">Capítulo 5. Principios de vuelo</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_y_terminología_aesa">5.1. Preguntas "Señaladas" y Terminología AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-terminologia-aesa-de-controladores-y-ejes">5.2. Terminología AESA de Controladores y Ejes <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-posiciones-de-flaps">5.3. Posiciones de Flaps <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_aerodinámica_básica_y_fórmulas">5.4. Aerodinámica Básica y Fórmulas</a></li>
+<li><a href="#_estabilidad_y_ejes">5.5. Estabilidad y Ejes</a></li>
+<li><a href="#_factores_de_carga_gs_y_virajes">5.6. Factores de Carga (Gs) y Virajes</a></li>
+<li><a href="#_velocidades_y_anemómetro_código_de_colores">5.7. Velocidades y Anemómetro (Código de Colores)</a></li>
+<li><a href="#_recuperación_de_maniobras_procedimientos">5.8. Recuperación de Maniobras (Procedimientos)</a></li>
+</ul>
+</li>
+<li><a href="#_procedimientos_operacionales">Capítulo 6. Procedimientos operacionales</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_y_rarezas_aesa">6.1. Preguntas "Señaladas" y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</a></li>
+<li><a href="#trap-remolque-por-coche-y-apertura-de-paracaidas">6.2. Remolque por Coche y Apertura de Paracaídas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-monitorizacion-limpieza-y-despegue">6.3. Monitorización, Limpieza y Despegue <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-post-accidente-y-frecuencias">6.4. Post-accidente y Frecuencias <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_procedimientos_de_despegue_y_lanzamiento">6.5. Procedimientos de Despegue y Lanzamiento</a></li>
+<li><a href="#_circuitos_aproximación_y_aterrizaje">6.6. Circuitos, Aproximación y Aterrizaje <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_vuelo_en_ladera_y_térmica">6.7. Vuelo en Ladera y Térmica</a></li>
+<li><a href="#_equipamiento_y_normativa_general">6.8. Equipamiento y Normativa General</a></li>
+</ul>
+</li>
+<li><a href="#_performance_y_planificación_de_vuelo">Capítulo 7. Performance y planificación de vuelo</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_y_curiosidades_aesa">7.1. Preguntas "Señaladas" y Curiosidades AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</a></li>
+<li><a href="#trap-curvas-de-potencia-aviones-con-motor">7.2. Curvas de Potencia (Aviones con motor) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-formula-de-desplazamiento-del-cg">7.3. Fórmula de Desplazamiento del CG</a></li>
+<li><a href="#_peso_y_centrado_mass_and_balance">7.4. Peso y Centrado (Mass and Balance)</a></li>
+<li><a href="#_la_polar_de_velocidades">7.5. La Polar de Velocidades</a></li>
+<li><a href="#_teoría_mccready_y_vuelo_de_velocidad">7.6. Teoría McCready y Vuelo de Velocidad</a></li>
+<li><a href="#_planificación_y_cálculos_de_alcance">7.7. Planificación y Cálculos de Alcance</a></li>
+<li><a href="#_virajes_y_térmicas">7.8. Virajes y Térmicas</a></li>
+</ul>
+</li>
+<li><a href="#_conocimiento_general_de_la_aeronave">Capítulo 8. Conocimiento general de la aeronave</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_y_rarezas_aesa_2">8.1. Preguntas "Señaladas" y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</a></li>
+<li><a href="#trap-gancho-de-cg-capsula-de-anemometro-y-mandos">8.2. Gancho de CG, Cápsula de Anemómetro y Mandos</a></li>
+<li><a href="#trap-baterias-paracaidas-y-limpieza">8.3. Baterías, Paracaídas y Limpieza</a></li>
+<li><a href="#trap-traducciones-macarronicas-aesa">8.4. Traducciones "Macarrónicas" AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_estructura_y_limitaciones_gs">8.5. Estructura y Limitaciones (Gs)</a></li>
+<li><a href="#_peso_y_centrado">8.6. Peso y Centrado</a></li>
+<li><a href="#_instrumentación">8.7. Instrumentación</a></li>
+<li><a href="#_motores_motoveleros_y_autolanzables">8.8. Motores (Motoveleros y Autolanzables)</a></li>
+<li><a href="#_lastre_de_agua">8.9. Lastre de Agua</a></li>
+</ul>
+</li>
+<li><a href="#_navegación">Capítulo 9. Navegación</a>
+<ul class="sectlevel2">
+<li><a href="#_preguntas_señaladas_trampas_y_rarezas_aesa">9.1. Preguntas "Señaladas", Trampas y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</a></li>
+<li><a href="#trap-geodesia-cartas-y-plan-de-vuelo">9.2. Geodesia, Cartas y Plan de Vuelo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-errores-de-brujula-y-cartografia">9.3. Errores de Brújula y Cartografía <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#trap-trampas-matematicas-aesa">9.4. Trampas Matemáticas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_cartografía_y_proyecciones">9.5. Cartografía y Proyecciones <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></li>
+<li><a href="#_magnetismo_y_cálculos_de_rumbo">9.6. Magnetismo y Cálculos de Rumbo</a></li>
+<li><a href="#_coordenadas_y_tiempo">9.7. Coordenadas y Tiempo</a></li>
+<li><a href="#_plan_de_vuelo_fpl_y_normativa">9.8. Plan de Vuelo (FPL) y Normativa</a></li>
+<li><a href="#_gps_global_positioning_system">9.9. GPS (Global Positioning System)</a></li>
+<li><a href="#_cálculos_de_viento_y_deriva">9.10. Cálculos de Viento y Deriva</a></li>
+</ul>
+</li>
+<li><a href="#_syllabus_oficial_spl">Apéndice A: Syllabus Oficial SPL</a>
+<ul class="sectlevel2">
+<li><a href="#_1_derecho_aéreo_y_procedimientos_atc">A.1. 1. DERECHO AÉREO Y PROCEDIMIENTOS ATC</a></li>
+<li><a href="#_2_factores_humanos_2">A.2. 2. FACTORES HUMANOS</a></li>
+<li><a href="#_3_meteorología_2">A.3. 3. METEOROLOGÍA</a></li>
+<li><a href="#_4_comunicaciones_2">A.4. 4. COMUNICACIONES</a></li>
+<li><a href="#_5_principios_de_vuelo_2">A.5. 5. PRINCIPIOS DE VUELO</a></li>
+<li><a href="#_6_procedimientos_operacionales_2">A.6. 6. PROCEDIMIENTOS OPERACIONALES</a></li>
+<li><a href="#_7_performance_y_planificación_de_vuelo">A.7. 7. PERFORMANCE Y PLANIFICACIÓN DE VUELO</a></li>
+<li><a href="#_8_conocimiento_general_de_la_aeronave_2">A.8. 8. CONOCIMIENTO GENERAL DE LA AERONAVE</a></li>
+<li><a href="#_9_navegación_2">A.9. 9. NAVEGACIÓN</a></li>
+</ul>
+</li>
+<li><a href="#_índice_de_trampas_aesa">Índice de Trampas AESA</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_introducción"><a class="anchor" href="#_introducción"></a>Introducción</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://github.com/VuelaLibre-net/examenes-spl" class="bare">https://github.com/VuelaLibre-net/examenes-spl</a></p>
+</div>
+<div class="paragraph">
+<p>Este documento está extraído de la información contenida en los manuales de teoría del aeroclub de Fuentemilanos de Iñaqui Ulibarri.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Nota"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Este documento se distribuye bajo la licencia <strong>Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</strong>. Se debe dar crédito a <strong>Iñaki Ulibarri</strong> por el contenido original.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advertencia"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Descargo de Responsabilidad:</strong> Este documento ha sido elaborado con la mayor dedicación y cuidado; sin embargo, puede contener erratas o información desactualizada. El autor y los colaboradores no se hacen responsables de posibles errores u omisiones, ni de las consecuencias derivadas del uso de esta información. Se recomienda encarecidamente contrastar siempre los datos con la normativa oficial vigente de AESA/EASA y los manuales de vuelo específicos de cada aeronave.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Recopilación de los puntos clave, preguntas frecuentes, "trampas" y comentarios irónicos de Iñaqui sobre el examen oficial para la obtención de la Licencia de Piloto de Planeador (SPL).</p>
+</div>
+<div class="paragraph">
+<p>El objetivo de este documento es ayudar al estudiante a identificar qué es realmente relevante para el examen de AESA, diferenciando entre conocimientos prácticos esenciales y seguros y burocracia o datos teóricos que "hay que saberse" para aprobar.</p>
+</div>
+<div class="paragraph">
+<p>Con frecuencia los instructores te dirán que, para aprobar el examen, respondas de determinada forma, incluso contraria a la seguridad. El bueno de Iñaqui nos hacía jurar que jamás íbamos a hacer eso en el vuelo real.</p>
+</div>
+<div class="paragraph">
+<p>Las secciones marcadas con <strong><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></strong> indican esas preguntas específicas que suelen salir en los exámenes, a menudo con redacciones confusas o exigiendo datos muy concretos, erróneos, arbitrarios o absolutamente irrelevantes para nuestro deporte.</p>
+</div>
+<div class="sect2">
+<h3 id="_resumen_ejecutivo_errores_dudas_y_trampas_aesa"><a class="anchor" href="#_resumen_ejecutivo_errores_dudas_y_trampas_aesa"></a>Resumen ejecutivo: Errores, Dudas y Trampas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a vela identifican como conflictivos. Se incluyen preguntas consideradas "trampa", datos desactualizados, terminología confusa por malas traducciones, o procedimientos que divergen significativamente de la práctica real.</p>
+</div>
+<div class="sect3">
+<h4 id="_1_derecho_aéreo_y_procedimientos"><a class="anchor" href="#_1_derecho_aéreo_y_procedimientos"></a>1. Derecho aéreo y procedimientos <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_trampas_y_burocracia"><a class="anchor" href="#_trampas_y_burocracia"></a>Trampas y Burocracia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Responsabilidad Civil (Convenio de Montreal/Varsovia):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Preguntas sobre límites exactos en DEG (16.600 DEG daños personales, 17 DEG equipaje). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Normativa de transporte aéreo comercial. Exigir memorizar estas cifras a un piloto de planeador recreativo es puramente filtro académico. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Código Transpondedor 7500 (Secuestro):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Se incluye el código de interferencia ilícita. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Situación extremadamente improbable en un velero ("para cuando te secuestren el planeador"). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Memorización de Anexos OACI:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Exigencia de relacionar número de Anexo con su título. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Conocimiento enciclopédico de poco valor operativo. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_datos_a_verificar"><a class="anchor" href="#_datos_a_verificar"></a>Datos a Verificar <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Plan de Vuelo (FPL):</strong> Se cita la antelación de <strong>60 minutos</strong>. Verificar excepciones para VFR local. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><strong>Alcohol:</strong> Regla de <strong>8 horas</strong>. Estándar EASA, aunque algunas normativas nacionales o de club pueden ser más estrictas (12-24h). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_2_factores_humanos"><a class="anchor" href="#_2_factores_humanos"></a>2. Factores humanos <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_preguntas_dudosas"><a class="anchor" href="#_preguntas_dudosas"></a>Preguntas Dudosas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Recuperación auditiva:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> 16 horas tras 2h a 50 dB. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> 50 dB es un nivel muy bajo (conversación tranquila). La fatiga auditiva a ese nivel es fisiológicamente despreciable. Probable error en la pregunta original (referida a &gt;90dB) que se ha canonizado. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Saturación de Oxígeno:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> AESA considera <strong>95%</strong> "peligroso". <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> En medicina, 95% es normal. La hipoxia clínica suele definirse bajo 90-92%. El umbral de AESA es excesivamente conservador o erróneo. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Síntomas de Hipoxia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Primer síntoma = <strong>Euforia</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Simplificación excesiva. Los síntomas son individuales (visión túnel, hormigueo, fatiga). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Causa de Incapacitación:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> La causa más incapacitante para de pilotos, según AESA, es la <strong>gastroenteritis</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Aunque "infarto" aparece como opción, se debe marcar gastroenteritis. Probable traducción incompleta de informes de la FAA que señala la gastroenteritis como la causa más <strong>frecuente</strong>, pero la pregunta es ambígua (más incapacitante vs más frecuente).. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_3_meteorología"><a class="anchor" href="#_3_meteorología"></a>3. Meteorología <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_divergencias_oficiales"><a class="anchor" href="#_divergencias_oficiales"></a>Divergencias Oficiales <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Intensidad de Lluvia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> AESA define lluvia fuerte con umbrales muy bajos (¿6 litros?) que contradicen a la AEMET (15-60mm/h). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Consejo:</em> Responder según el criterio de AESA para aprobar, aunque meteorológicamente sea incorrecto. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Validez AIRMET:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> 4 horas. Correcto según OACI, pero verificar variaciones regionales. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_4_comunicaciones"><a class="anchor" href="#_4_comunicaciones"></a>4. Comunicaciones <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_obsolescencia"><a class="anchor" href="#_obsolescencia"></a>Obsolescencia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>SELCAL:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Concepto:</em> Sistema de llamada selectiva por HF. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Exclusivo de aviación comercial transoceánica. Nula relevancia para SPL. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Registros de voz (45 días):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Examen pide 45 días. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Normativa:</em> OACI suele marcar 30 días. Posible desactualización de la pregunta. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Señales con proyectiles:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Crítica:</em> Procedimiento de interceptación muy específico, raramente usado hoy día frente a radio/luces/maniobras. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_5_principios_de_vuelo"><a class="anchor" href="#_5_principios_de_vuelo"></a>5. Principios de vuelo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_terminología_confusa_traducciones"><a class="anchor" href="#_terminología_confusa_traducciones"></a>Terminología Confusa (Traducciones) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>"Freno de picada" / Spoilers:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Uso AESA:</em> Traducción literal de "Dive Brake". <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> En castellano aeronáutico se denominan <strong>Aerofrenos</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>"Trim Tab":</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Uso AESA:</em> Anglicismo no traducido. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> <strong>Compensador</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Eje Lateral vs Transversal:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Confusión:</em> A veces llaman "Lateral" al eje de cabeceo (Pitch). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Aclaración:</em> En física, eje lateral es Y (Pitch), longitudinal es X (Roll). La traducción literal de "Lateral Axis" puede inducir a error. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_6_procedimientos_operacionales"><a class="anchor" href="#_6_procedimientos_operacionales"></a>6. Procedimientos operacionales <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_irrealidad_operativa"><a class="anchor" href="#_irrealidad_operativa"></a>Irrealidad Operativa <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Remolque por Coche:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Situación:</em> Preguntas frecuentes con fórmulas complejas. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> Método prácticamente inexistente en España y gran parte de Europa hoy día. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Paracaídas (Apertura):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato AESA:</em> 4 segundos. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> Fabricantes modernos indican 2-3 segundos. AESA mantiene datos antiguos. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Monitorización en Aterrizaje:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Respuesta AESA:</em> Monitorizar la <strong>velocidad</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> En vuelo visual (VFR), la técnica correcta es mirar fuera (referencias, actitud, punto de contacto), chequeando la velocidad puntualmente, no fijando la vista en el instrumento. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Despegue (Reptar por pista):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advertencia"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong><em>Dato AESA:</em></strong> Mantener las ruedas en el suelo el máximo tiempo posible. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Crítica (PELIGRO):</em></strong> Exigencia contraria a la seguridad. Si se alcanza la velocidad de despegue (según AFM), el velero debe ir al aire. Mantenerlo "reptando" artificialmente, detrás del remolcador, con una alta velocidad, aumenta el riesgo de impacto con obstáculos y estrés en el tren. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p><strong>Alturas mínimas de emergencia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advertencia"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong><em>Dato exigido por el examen:</em></strong> Se establece una altura de 200 ft (unos 60-70 metros) como el mínimo para intentar un viraje de 180° y volver a pista en caso de emergencia. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Crítica de seguridad:</em></strong> El manual advierte que este dato es puramente para el examen. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Riesgo:</em></strong> En la vida real, esa altura depende totalmente de la eficiencia (planeo) de cada modelo de velero concreto y del viento. Intentar un viraje de este tipo a tan baja altura en ciertos aviones o condiciones de viento podría llevar a una pérdida y barrena con consecuencias fatales. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_7_performance_y_planificación"><a class="anchor" href="#_7_performance_y_planificación"></a>7. Performance y planificación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_conceptos_de_motor"><a class="anchor" href="#_conceptos_de_motor"></a>Conceptos de Motor <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Curvas de Potencia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Temario:</em> Preguntas sobre <em>V<sub>y</sub></em>, segundo régimen, potencia necesaria. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Conceptos de avión (PPL) aplicados erróneamente al temario de velero puro (que usa polares de velocidades, no curvas de potencia de motor). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_8_conocimiento_general_de_la_aeronave"><a class="anchor" href="#_8_conocimiento_general_de_la_aeronave"></a>8. Conocimiento general de la aeronave <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_trampas_técnicas"><a class="anchor" href="#_trampas_técnicas"></a>Trampas Técnicas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Trampa:</em> Distinguir entre cápsula <strong>elástica</strong> (anemómetro) y <strong>aneroide</strong> (altímetro). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Limpieza:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><em>Trampa:</em> Exigir "gamuza húmeda" y rechazar "gamuza mojada". Distinción semántica absurda. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_9_navegación"><a class="anchor" href="#_9_navegación"></a>9. Navegación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="sect4">
+<h5 id="_datos_enciclopédicos"><a class="anchor" href="#_datos_enciclopédicos"></a>Datos Enciclopédicos <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>GLONASS PZ-90:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Pregunta:</em> Sistema geodésico del GLONASS. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Dato irrelevante para la operación diaria (el GPS usa WGS84). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Validez de Cartas:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Contradicción:</em> El banco de preguntas alterna entre 28 días (ciclo AIRAC digital) y 6 meses (papel antiguo), generando confusión. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Errores de Brújula (Aceleración):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Crítica:</em> El error por aceleración (ANDS) es difícil de reproducir significativamente en un planeador sin motor en vuelo nivelado. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Trampas con Segundos:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Situación:</em> Problemas de cálculo con precisión de segundos (ej. 45º 4") irrelevantes para la navegación visual. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Inducen a error aritmético y confusión, aportando poco valor operativo real. Para colmo una de las posibles respuestas da el dato correcto si hubieran sido 45º 4' <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_derecho_aéreo_y_procedimientos_de_control_de_tráfico_aéreo"><a class="anchor" href="#_derecho_aéreo_y_procedimientos_de_control_de_tráfico_aéreo"></a>Capítulo 1. Derecho aéreo y procedimientos de control de tráfico aéreo</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_frecuentes_señaladas_explícitamente"><a class="anchor" href="#_preguntas_frecuentes_señaladas_explícitamente"></a>1.1. Preguntas "Frecuentes" (Señaladas explícitamente) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Estas son las preguntas que se identifican con frases como <em>"preguntita AESA"</em>, <em>"esto lo preguntan mucho"</em> o <em>"sale mucho"</em>.</p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-responsabilidad-civil-convenio-de-montrealvarsovia"><a class="anchor" href="#trap-responsabilidad-civil-convenio-de-montrealvarsovia"></a>1.2. Responsabilidad Civil (Convenio de Montreal/Varsovia) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>El límite de responsabilidad de la compañía por daños personales es de <strong>16.600 DEG</strong> (Derechos Especiales de Giro)</p>
+</li>
+<li>
+<p>Equipaje facturado: <strong>17 DEG</strong> por kilo</p>
+</li>
+<li>
+<p>Equipaje de mano: <strong>332 DEG</strong></p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero.</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-codigo-ssr-7500-secuestro"><a class="anchor" href="#trap-codigo-ssr-7500-secuestro"></a>1.3. Código SSR 7500 (Secuestro) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>7500:</strong> Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-anexos-oaci-y-partes-del-aip"><a class="anchor" href="#trap-anexos-oaci-y-partes-del-aip"></a>1.4. Anexos OACI y Partes del AIP <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habilidad de vuelo.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Números de Anexos OACI:</strong> Se incluía una regla mnemotécnica para memorizarlos ("1 6 7 11 13 14 17 18&#8230;&#8203;").</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anexo 1: Licencias.</p>
+</li>
+<li>
+<p>Anexo 2: Reglamento del aire / Interferencias ilícitas</p>
+</li>
+<li>
+<p>Anexo 13: Investigación de accidentes</p>
+</li>
+<li>
+<p>Anexo 17: Seguridad (Secuestros)</p>
+</li>
+<li>
+<p>Anexo 18: Mercancías peligrosas</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica.</em></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Partes del AIP:</strong> Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_licencias_y_requisitos_spl"><a class="anchor" href="#_licencias_y_requisitos_spl"></a>1.5. Licencias y Requisitos (SPL)</h3>
+<div class="paragraph">
+<p>Datos numéricos sobre la obtención y mantenimiento de la licencia.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Edad mínima:</strong> <strong>16 años</strong> para obtener la licencia 7, 8. (Para volar solo: 14 años 7).</p>
+</li>
+<li>
+<p><strong>Alcohol:</strong> Dejar pasar <strong>8 horas</strong> tras el consumo antes de volar</p>
+</li>
+<li>
+<p><strong>Pasajeros:</strong> Para llevar pasajeros se requieren <strong>10 horas</strong> de vuelo o <strong>30 lanzamientos</strong> tras obtener la licencia</p>
+</li>
+<li>
+<p><strong>Experiencia Reciente (últimos 24 meses):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>5 horas</strong> como piloto al mando, <strong>15 lanzamientos</strong> y <strong>2 vuelos</strong> de entrenamiento con instructor</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Vuelo Remunerado:</strong> Solo posible si eres mayor de 18 años y tienes <strong>75 horas</strong> de vuelo o <strong>200 lanzamientos</strong></p>
+</li>
+<li>
+<p><strong>Tiempo de espera:</strong> Para acumular horas de vuelos sucesivos, debe haber una espera de <strong>15 minutos</strong> entre ellos</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reglas_del_aire_y_operación"><a class="anchor" href="#_reglas_del_aire_y_operación"></a>1.6. Reglas del Aire y Operación</h3>
+<div class="paragraph">
+<p>Normativa operativa y mínimos de seguridad.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Certificados:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Certificado de Aeronavegabilidad: Validez <strong>vitalicia</strong></p>
+</li>
+<li>
+<p>ARC (Revisión de Aeronavegabilidad): Validez <strong>1 año</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Alturas Mínimas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Sobre poblaciones: <strong>300 m</strong> (1000 ft) sobre el obstáculo más alto en un radio de 600 m</p>
+</li>
+<li>
+<p>Vuelo general: <strong>150 m</strong> (500 ft) sobre tierra o agua</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Prioridad de paso:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Los planeadores deben ceder el paso a <strong>globos y dirigibles</strong></p>
+</li>
+<li>
+<p>En rumbos convergentes, tiene preferencia el que viene por la <strong>derecha</strong></p>
+</li>
+<li>
+<p>Adelantamientos: Se realizan por la <strong>derecha</strong></p>
+</li>
+<li>
+<p>Alcance: Una aeronave alcanza a otra si se aproxima con un ángulo menor a <strong>70 grados</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Vuelo VFR y Meteorología:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Separación de nubes (espacio aéreo no controlado por encima de 1000m): <strong>1.500 m</strong> horizontal y <strong>300 m</strong> vertical</p>
+</li>
+<li>
+<p>Variación de velocidad (TAS): En vuelo controlado, informar si varía un <strong>5%</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Señales Visuales:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>"V"</strong> en el suelo: Necesitamos ayuda</p>
+</li>
+<li>
+<p><strong>"X"</strong> en el suelo: Necesitamos ayuda médica</p>
+</li>
+<li>
+<p>Luz roja intermitente (aeródromo): Aeropuerto inseguro, no aterrice</p>
+</li>
+<li>
+<p>Luz blanca intermitente (en vuelo): Aterrice y vaya a plataforma</p>
+</li>
+<li>
+<p>Señal de interceptación: Si el caza vira <strong>90 grados</strong>, significa "prosiga"</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aeronaves_y_categorías"><a class="anchor" href="#_aeronaves_y_categorías"></a>1.7. Aeronaves y Categorías</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Placa de matrícula:</strong> Debe ser de material <strong>incombustible</strong></p>
+</li>
+<li>
+<p><strong>Categoría "Aeronave Ligera":</strong> Aquella de menos de <strong>7.000 Kg</strong> (Categoría de estela turbulenta)</p>
+</li>
+<li>
+<p><strong>Estela Turbulenta:</strong> Separación mínima de <strong>3 minutos</strong> entre ligera y pesada en despegue</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_memorización_de_normativa_irrelevancia_operativa"><a class="anchor" href="#_memorización_de_normativa_irrelevancia_operativa"></a>1.8. Memorización de Normativa (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> Irrelevancia Operativa)</h3>
+<div class="paragraph">
+<p>Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habilidad de vuelo.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>*<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> Números de Anexos OACI:* Se incluía una regla mnemotécnica para memorizarlos ("1 6 7 11 13 14 17 18&#8230;&#8203;").</em></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Anexo 1: Licencias.</p>
+</li>
+<li>
+<p>Anexo 2: Reglamento del aire / Interferencias ilícitas</p>
+</li>
+<li>
+<p>Anexo 13: Investigación de accidentes</p>
+</li>
+<li>
+<p>Anexo 17: Seguridad (Secuestros)</p>
+</li>
+<li>
+<p>Anexo 18: Mercancías peligrosas</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica.</em></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> Partes del AIP:</strong> Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_factores_humanos"><a class="anchor" href="#_factores_humanos"></a>Capítulo 2. Factores humanos</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_marcadas_irónicamente"><a class="anchor" href="#_preguntas_señaladas_marcadas_irónicamente"></a>2.1. Preguntas "Señaladas" (Marcadas irónicamente) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p><em>Se identifican explícitamente estos datos como materia de examen de AESA, a menudo criticando su utilidad práctica frente a la seguridad real.</em></p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-recuperacion-auditiva"><a class="anchor" href="#trap-recuperacion-auditiva"></a>2.2. Recuperación auditiva <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Se necesitan <strong>16 horas</strong> para recuperar la capacidad auditiva normal tras estar sometido <strong>2 horas</strong> a <strong>50 dB</strong>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Se indicaba: "preguntas de los test AESA&#8230;&#8203; Si no sabes esto no puedes volar con seguridad" (nótese la ironía).</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-nistagmo"><a class="anchor" href="#trap-nistagmo"></a>2.3. Nistagmo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos <strong>hacia delante</strong>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Comentario: "esta tontería lo preguntan en los exámenes de AESA".</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-consumo-de-aire-y-frecuencia-respiratoria"><a class="anchor" href="#trap-consumo-de-aire-y-frecuencia-respiratoria"></a>2.4. Consumo de aire y Frecuencia respiratoria <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>En reposo consumimos entre <strong>5 a 8 litros</strong> de aire por minuto.</p>
+</li>
+<li>
+<p>La frecuencia normal es de <strong>12 a 18 respiraciones</strong> por minuto.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Iñaqui lo marca como "típica pregunta tonta AESA".</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-saturacion-de-oxigeno-y-hipoxia"><a class="anchor" href="#trap-saturacion-de-oxigeno-y-hipoxia"></a>2.5. Saturación de Oxígeno y Hipoxia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Para AESA, una saturación del <strong>95%</strong> ya es un valor peligroso.</p>
+</li>
+<li>
+<p>Para aprobar el examen, el <strong>primer síntoma</strong> de la hipoxia es la <strong>euforia</strong>.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>En en manual de Fuentemilanos se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA".</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-incapacitacion"><a class="anchor" href="#trap-incapacitacion"></a>2.6. Causa de Incapacitación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>La mayor incapacitación para pilotos, según AESA, es la <strong>gastroenteritis</strong>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Nota: Aunque opciones como "infarto" parezcan más graves, la respuesta correcta para el examen es esta. Probablemente proviene de una traducción incompleta de informes de la FAA, que señalan la gastroenteritis como la causa más <strong>frecuente</strong> (ambigüedad en la pregunta)..</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_fisiología_de_vuelo_y_salud"><a class="anchor" href="#_fisiología_de_vuelo_y_salud"></a>2.7. Fisiología de Vuelo y Salud <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Datos numéricos y leyes físicas aplicadas al cuerpo humano que aparecen en el temario y la "Chuleta" final.</p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-leyes-de-los-gases"><a class="anchor" href="#trap-leyes-de-los-gases"></a>2.8. Leyes de los Gases</h3>
+<div class="paragraph">
+<p>Se recomendaba mirarlas porque "a veces lo preguntan":</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Ley de Boyle-Mariotte:</strong> El volumen de un gas es inversamente proporcional a la presión (explica la expansión de gases en oídos/tripas al subir)</p>
+</li>
+<li>
+<p><strong>Ley de Dalton:</strong> La presión total es la suma de las presiones parciales</p>
+</li>
+<li>
+<p><strong>Ley de Henry:</strong> Explica la enfermedad descompresiva (burbujas de nitrógeno en sangre)</p>
+</li>
+<li>
+<p><strong>Ley de Fick:</strong> Difusión de gases en los alvéolos</p>
+</li>
+<li>
+<p><strong>Ley de Graham:</strong> Velocidad de difusión de los gases</p>
+</li>
+<li>
+<p><strong>Oído y Barotraumas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Una perforación timpánica leve reduce la audición en <strong>10-15 dB</strong></p>
+</li>
+<li>
+<p>La rotura del tímpano puede ocurrir con una diferencia de presión de <strong>100 mm Hg</strong> o más</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Visión:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La <strong>retina</strong> es la "película sensible"; los <strong>conos</strong> ven el color y detalle (visión central); los <strong>bastones</strong> ven en la noche y el movimiento</p>
+</li>
+<li>
+<p>Punto ciego: Aumenta rápidamente a partir de los <strong>1000 m</strong> (según el test incluido)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Alcohol:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La normativa EASA prohíbe volar <strong>8 horas</strong> después de beber</p>
+</li>
+<li>
+<p>Límite en sangre: No sobrepasar <strong>0.2 g/l</strong> (o 0.2 mg/ml)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_psicología_y_modelos_de_error"><a class="anchor" href="#_psicología_y_modelos_de_error"></a>2.9. Psicología y Modelos de Error</h3>
+<div class="paragraph">
+<p>Conceptos teóricos sobre el comportamiento y el error humano.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Modelo SHELL:</strong> Explica la interacción del ser humano. La <strong>"L"</strong> (Liveware) está en el centro y representa al <strong>"yo"</strong> (el piloto)</p>
+</li>
+<li>
+<p><strong>Modelo del Queso Suizo (James Reason):</strong> Los accidentes no son por un error aislado, sino por una suma de fallos latentes y activos</p>
+</li>
+<li>
+<p><strong>Memoria:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Sensorial:</strong> Dura 200-300 milisegundos</p>
+</li>
+<li>
+<p><strong>Corto plazo:</strong> Dura 20-30 segundos, capacidad de 6-7 ítems</p>
+</li>
+<li>
+<p><strong>Largo plazo:</strong> Cambios estructurales en el cerebro</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Estrés (Ley de Yerkes-Dodson):</strong> El rendimiento máximo se consigue con un nivel <strong>moderado</strong> de estrés (curva en forma de U invertida)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_certificados_médicos_y_validez"><a class="anchor" href="#_certificados_médicos_y_validez"></a>2.10. Certificados Médicos y Validez</h3>
+<div class="paragraph">
+<p>Plazos administrativos para la licencia SPL (Planeador) y Clase</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Validez del Certificado Clase 2:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Menores de 40 años: <strong>60 meses</strong> (5 años)</p>
+</li>
+<li>
+<p>Entre 40 y 50 años: <strong>24 meses</strong> (2 años)</p>
+</li>
+<li>
+<p>Mayores de 50 años: <strong>12 meses</strong> (1 año)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Agudeza Visual (Clase 2):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>6/12 (0,5)</strong> en cada ojo por separado.</p>
+</li>
+<li>
+<p><strong>6/9 (0,7)</strong> con ambos ojos</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_seguridad_real_vs_examen"><a class="anchor" href="#_seguridad_real_vs_examen"></a>2.11. Seguridad Real vs. Examen <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>El texto hace una distinción crucial que es importante para tu formación, aunque no salga en el test.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Nota"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Guía de buenas prácticas</strong></p>
+</div>
+<div class="paragraph">
+<p><em>Se incluía una sección de consejos de seguridad (como "tener siempre un plan B" o "la disciplina es una cualidad") y advertía explícitamente:</em></p>
+</div>
+<div class="paragraph">
+<p><em>"<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> ESTO NO TE VA A SALIR EN LOS EXAMENES DE AESA, PERO DE TODOS LOS APUNTES DE F.H. ES LO MAS IMPORTANTE"</em></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_meteorología"><a class="anchor" href="#_meteorología"></a>Capítulo 3. Meteorología</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_y_burocracia_opinión"><a class="anchor" href="#_preguntas_señaladas_y_burocracia_opinión"></a>3.1. Preguntas "Señaladas" y Burocracia (Opinión) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Estas son las preguntas donde se hacía una pausa para advertir que "esto sale mucho" o hace comentarios irónicos sobre la pregunta.</p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-validez-del-airmet"><a class="anchor" href="#trap-validez-del-airmet"></a>3.2. Validez del AIRMET <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>El periodo de validez no será superior a <strong>4 horas</strong>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Comentario: "(esta tontería sale mucho en los exámenes AESOS)"</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-intensidad-de-la-lluvia"><a class="anchor" href="#trap-intensidad-de-la-lluvia"></a>3.3. Intensidad de la lluvia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte". Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Se aclaraba que AEMET clasifica fuerte entre 15 y 30 mm/h y torrencial más de 60 mm/h</em></p>
+</li>
+<li>
+<p><strong>Oxígeno Suplementario (EASA):</strong> Es indispensable el uso de oxígeno para todos los ocupantes por encima de <strong>10.000 ft (3.000 m)</strong>.</p>
+</li>
+<li>
+<p><em>Se citaba la norma AMC 1 SAO OP 150</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_atmósfera_estándar_isa_y_altimetría"><a class="anchor" href="#_atmósfera_estándar_isa_y_altimetría"></a>3.4. Atmósfera Estándar (ISA) y Altimetría</h3>
+<div class="paragraph">
+<p>Valores numéricos fijos que hay que memorizar.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Valores ISA a nivel del mar:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Temperatura: <strong>15ºC</strong>.</p>
+</li>
+<li>
+<p>Presión: <strong>1013,25 hPa</strong> (o mb).</p>
+</li>
+<li>
+<p>Gradiente vertical de temperatura: Pierde <strong>2ºC cada 1.000 ft</strong> (o 6,5ºC cada 1.000 m)</p>
+</li>
+<li>
+<p>Gradiente vertical de presión: <strong>1 mb cada 9 metros</strong> (o 1 mb cada 30 ft) en capas bajas</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Errores de Altimetría:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Si vuelas de altas presiones a bajas presiones (sin corregir el QNH), el altímetro te dice que vas más alto de lo que realmente vas (<strong>Peligro: vas más bajo</strong>).</p>
+</li>
+<li>
+<p>Si vuelas de zona cálida a zona fría, el altímetro indica mayor altitud que la real (<strong>Peligro: vas más bajo</strong>).</p>
+</li>
+<li>
+<p><em>Regla:</em> La situación peligrosa se da con <strong>Bajas Presiones y Bajas Temperaturas</strong></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_viento_y_dinámica_atmosférica"><a class="anchor" href="#_viento_y_dinámica_atmosférica"></a>3.5. Viento y Dinámica Atmosférica</h3>
+<div class="paragraph">
+<p>Leyes físicas y definiciones.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Ley de Buys Ballot:</strong> Si en el Hemisferio Norte te pones de espaldas al viento, la <strong>Baja Presión</strong> queda a tu <strong>izquierda</strong></p>
+</li>
+<li>
+<p><strong>Fuerza de Coriolis:</strong> En el Hemisferio Norte desvía el viento hacia la <strong>derecha</strong>. Es máxima en los polos y nula en el ecuador</p>
+</li>
+<li>
+<p><strong>Viento Geostrófico:</strong> Es el viento que sopla paralelo a las isobaras por encima de la capa de rozamiento (aprox. 1000m)</p>
+</li>
+<li>
+<p><strong>Brisas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Anabáticos:</strong> Vientos de valle que suben por las laderas durante el día (del llano a la montaña)</p>
+</li>
+<li>
+<p><strong>Catabáticos:</strong> Vientos que bajan de la montaña al llano por la noche</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_termodinámica_y_nubes"><a class="anchor" href="#_termodinámica_y_nubes"></a>3.6. Termodinámica y Nubes</h3>
+<div class="paragraph">
+<p>Cálculos y gradientes térmicos.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Gradientes Adiabáticos:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Seco:</strong> El aire no saturado se enfría <strong>1ºC cada 100m</strong> al subir</p>
+</li>
+<li>
+<p><strong>Saturado:</strong> El aire saturado (nube) se enfría aprox. <strong>0,5ºC cada 100m</strong> (debido a la liberación de calor latente)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Estabilidad:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Estabilidad absoluta:</strong> Cuando el gradiente real de la atmósfera es menor que el adiabático saturado (se enfría poco con la altura)</p>
+</li>
+<li>
+<p><strong>Inestabilidad absoluta:</strong> Cuando el gradiente real es mayor que el adiabático seco (se enfría mucho con la altura, &gt;1ºC/100m)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Cálculo de la base de Cúmulos (Fórmula):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Altura base = <strong>125 x (Temperatura - Punto de Rocío)</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Tipos de Niebla:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Radiación:</strong> Por enfriamiento del suelo en noches claras y sin viento (típica de tierra)</p>
+</li>
+<li>
+<p><strong>Advección:</strong> Aire húmedo y cálido se mueve sobre superficie fría (típica del mar/costa)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_frentes_y_sistemas_de_presión"><a class="anchor" href="#_frentes_y_sistemas_de_presión"></a>3.7. Frentes y Sistemas de Presión</h3>
+<div class="paragraph">
+<p>Simbología y características.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Isobaras:</strong> Líneas que unen puntos de igual presión. Cuanto más juntas, <strong>más viento</strong></p>
+</li>
+<li>
+<p><strong>Simbología de Frentes:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Frente Frío:</strong> Línea azul con triángulos</p>
+</li>
+<li>
+<p><strong>Frente Cálido:</strong> Línea roja con semicírculos</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Características del paso de frentes:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Frente Frío:</strong> Asociado a nubes cumuliformes (Cb), chubascos, bajada de temperatura y mejora posterior de visibilidad</p>
+</li>
+<li>
+<p><strong>Frente Cálido:</strong> Nubes estratiformes, lluvias débiles continuas, mala visibilidad</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_informes_meteorológicos_metartafsigmet"><a class="anchor" href="#_informes_meteorológicos_metartafsigmet"></a>3.8. Informes Meteorológicos (METAR/TAF/SIGMET)</h3>
+<div class="paragraph">
+<p>Interpretación de códigos.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>CAVOK:</strong> Visibilidad &gt; 10 km, sin nubes por debajo de 5000 ft, sin fenómenos significativos (Cb, precipitaciones)</p>
+</li>
+<li>
+<p><strong>Cambios (TREND):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>TEMPO:</strong> Fluctuaciones temporales que duran menos de una hora</p>
+</li>
+<li>
+<p><strong>BECMG:</strong> Cambio permanente esperado</p>
+</li>
+<li>
+<p><strong>NOSIG:</strong> Sin cambios significativos previstos</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Códigos de nubes:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>FEW:</strong> 1-2 octas.</p>
+</li>
+<li>
+<p><strong>SCT:</strong> 3-4 octas.</p>
+</li>
+<li>
+<p><strong>BKN:</strong> 5-7 octas (considerado techo de nubes).</p>
+</li>
+<li>
+<p><strong>OVC:</strong> 8 octas (cubierto)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_peligros_en_vuelo"><a class="anchor" href="#_peligros_en_vuelo"></a>3.9. Peligros en Vuelo</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Engelamiento:</strong> El hielo aumenta el peso y la resistencia, y <strong>disminuye la sustentación</strong> y el empuje. La velocidad de pérdida <strong>aumenta</strong></p>
+</li>
+<li>
+<p><strong>Tormentas:</strong> Se recomienda mantener una distancia de seguridad de al menos <strong>20 millas</strong> de una tormenta severa</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_comunicaciones"><a class="anchor" href="#_comunicaciones"></a>Capítulo 4. Comunicaciones</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_y_temas_irrelevantes_para_vuelo_a_vela"><a class="anchor" href="#_preguntas_señaladas_y_temas_irrelevantes_para_vuelo_a_vela"></a>4.1. Preguntas "Señaladas" y Temas Irrelevantes para Vuelo a Vela <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas que aparecen frecuentemente en los exámenes a pesar de su nula aplicación práctica en un velero.</p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-selcal-sistema-de-llamada-selectiva"><a class="anchor" href="#trap-selcal-sistema-de-llamada-selectiva"></a>4.2. SELCAL (Sistema de Llamada Selectiva) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Es un sistema para comunicaciones de <strong>larga distancia (HF)</strong> usado en vuelos transoceánicos.</p>
+</li>
+<li>
+<p>Consiste en una combinación de <strong>4 tonos</strong> de audio cuya transmisión requiere aprox. <strong>2 segundos</strong>.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Comentario: "Esta tontería sale mucho en los exámenes de AESA&#8230;&#8203; te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-registros-de-comunicaciones-grabaciones"><a class="anchor" href="#trap-registros-de-comunicaciones-grabaciones"></a>4.3. Registros de comunicaciones (Grabaciones) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es <strong>45 días</strong>.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-alcance-de-radio-y-senales-con-proyectiles"><a class="anchor" href="#trap-alcance-de-radio-y-senales-con-proyectiles"></a>4.4. Alcance de radio y Señales con proyectiles <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Fórmula de alcance de radio:</strong> Rango (NM) = <strong>1,25 x √ Altura (ft)</strong>.</p>
+</li>
+<li>
+<p><strong>Señales con proyectiles (Pirotecnia):</strong> Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_procedimientos_de_radio_y_fraseología"><a class="anchor" href="#_procedimientos_de_radio_y_fraseología"></a>4.5. Procedimientos de Radio y Fraseología</h3>
+<div class="paragraph">
+<p>Reglas operativas estrictas que suelen ser objeto de preguntas tipo test.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Pruebas de Radio:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>No deben durar más de <strong>10 segundos</strong> y consisten en un conteo de números (uno, dos, tres&#8230;&#8203;)</p>
+</li>
+<li>
+<p>Se debe esperar al menos <strong>10 segundos</strong> antes de hacer una segunda llamada si no contestan</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Colación (Readback):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es obligatorio colacionar (repetir): Autorizaciones, instrucciones de rumbo/velocidad/nivel, <strong>Pista en uso</strong>, <strong>QNH</strong>, Código de Transpondedor y cambios de frecuencia</p>
+</li>
+<li>
+<p>La colación sirve para confirmar que la recepción ha sido correcta</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Transmisión de Números y Horas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Los números se transmiten dígito a dígito (ej. 175 = uno, siete, cinco)</p>
+</li>
+<li>
+<p>Los decimales se indican con la palabra <strong>"COMA"</strong></p>
+</li>
+<li>
+<p>El fin del día se designa como <strong>24:00</strong> y el principio como <strong>00:00</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Distintivos de llamada:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Tras la primera comunicación (ej. EC-DPE), se puede abreviar usando el primer y los dos últimos caracteres (ej. <strong>E-PE</strong>)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_emergencia_y_urgencia"><a class="anchor" href="#_emergencia_y_urgencia"></a>4.6. Emergencia y Urgencia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Protocolos críticos de seguridad.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Emergencia (Socorro):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Señal: <strong>MAYDAY</strong> (repetido 3 veces). Indica peligro grave e inminente</p>
+</li>
+<li>
+<p>Prioridad absoluta sobre todas las demás comunicaciones</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Urgencia:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Señal: <strong>PAN PAN</strong> (repetido 3 veces). Condición que afecta a la seguridad pero no requiere ayuda inmediata</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Frecuencias y Códigos:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Frecuencia de emergencia VHF: <strong>121.500 MHz</strong></p>
+</li>
+<li>
+<p><strong>Transpondedor 7600:</strong> Fallo de comunicaciones</p>
+</li>
+<li>
+<p><strong>Transpondedor 7500:</strong> Interferencia ilícita (secuestro). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Se ironizaba: "Si te raptan el planeador"</em></p>
+</li>
+<li>
+<p><strong>Transpondedor 7700:</strong> Emergencia general</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_fallo_de_radio"><a class="anchor" href="#_fallo_de_radio"></a>4.7. Fallo de Radio</h3>
+<div class="paragraph">
+<p>Procedimientos a seguir si la radio deja de funcionar.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Transmitiendo a ciegas:</strong> Si falla el receptor, se debe transmitir informando de la posición y hora prevista, precedido de la frase "Transmitiendo a ciegas"</p>
+</li>
+<li>
+<p><em>*Señales luminosas (Torre a Avión):* Aunque se mencionaba las pirotécnicas como pregunta frecuente, recuerda que en caso de fallo de radio en aeródromo controlado, la torre usará luces para dar instrucciones</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_técnica_y_definiciones_anexo_test"><a class="anchor" href="#_técnica_y_definiciones_anexo_test"></a>4.8. Técnica y Definiciones (Anexo Test)</h3>
+<div class="paragraph">
+<p>Datos técnicos extraídos del banco de preguntas incluido al final del documento.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Velocidad de transmisión:</strong> No más de <strong>100 palabras por minuto</strong></p>
+</li>
+<li>
+<p><strong>Banda VHF:</strong> Rango de <strong>30 a 300 MHz</strong> (aunque aviación usa 118-136 MHz)</p>
+</li>
+<li>
+<p><strong>Separación de canales:</strong> En Europa es de <strong>8.33 kHz</strong> (antes 25 kHz)</p>
+</li>
+<li>
+<p><strong>Significados de fraseología:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>"Terminado":</strong> La conversación ha finalizado y no se espera respuesta</p>
+</li>
+<li>
+<p><strong>"Cambio":</strong> He terminado y espero su respuesta</p>
+</li>
+<li>
+<p><strong>"Negativo":</strong> Significa "No", "permiso no concedido" o "es incorrecto"</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_principios_de_vuelo"><a class="anchor" href="#_principios_de_vuelo"></a>Capítulo 5. Principios de vuelo</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_y_terminología_aesa"><a class="anchor" href="#_preguntas_señaladas_y_terminología_aesa"></a>5.1. Preguntas "Señaladas" y Terminología AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p><em>Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferente al habitual o plantea preguntas dudosas.</em></p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-terminologia-aesa-de-controladores-y-ejes"><a class="anchor" href="#trap-terminologia-aesa-de-controladores-y-ejes"></a>5.2. Terminología AESA de Controladores y Ejes <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Freno de picada (Aerofrenos):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> En los exámenes de AESA, a menudo traducen el término inglés <em>dive brake</em> como <strong>"freno de picada"</strong> o se refieren a ellos como <strong>"Spoilers"</strong>.</p>
+</li>
+<li>
+<p><strong>Trim Tab (Compensador):</strong> AESA suele utilizar el término en inglés <strong>"Trim Tab"</strong> para referirse al compensador.</p>
+</li>
+<li>
+<p><strong>Eje Lateral:</strong> Los manuales americanos (y a veces los exámenes traducidos) llaman <strong>"Eje Lateral"</strong> al eje transversal (cabeceo), lo cual puede confundir.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-posiciones-de-flaps"><a class="anchor" href="#trap-posiciones-de-flaps"></a>5.3. Posiciones de Flaps <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> Si preguntan cuántas posiciones de flap tiene un planeador, se sugería <strong>impugnar</strong> la pregunta, ya que depende del modelo. Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aerodinámica_básica_y_fórmulas"><a class="anchor" href="#_aerodinámica_básica_y_fórmulas"></a>5.4. Aerodinámica Básica y Fórmulas</h3>
+<div class="paragraph">
+<p>Conceptos teóricos sobre cómo se genera la sustentación y la resistencia.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Sustentación (L) y Velocidad:</strong> Depende del cuadrado de la velocidad ( <em>V²</em> ). A mayor velocidad, mucha más sustentación</p>
+</li>
+<li>
+<p><strong>Ángulo de Ataque (AoA):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es el ángulo entre la <strong>cuerda alar</strong> y el <strong>viento relativo</strong></p>
+</li>
+<li>
+<p>La sustentación aumenta con el AoA hasta llegar al <strong>ángulo de pérdida</strong> (Stall), donde disminuye bruscamente</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Resistencias (Drag):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Resistencia Inducida:</strong> Es consecuencia de generar sustentación (torbellinos de punta de ala). <strong>Disminuye</strong> al aumentar la velocidad</p>
+</li>
+<li>
+<p><strong>Resistencia Parásita:</strong> (Fricción y forma). <strong>Aumenta</strong> con la velocidad</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Mejor Planeo (L/D máx):</strong> Ocurre a la velocidad donde la suma de ambas resistencias es mínima (donde se cruzan las curvas)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_estabilidad_y_ejes"><a class="anchor" href="#_estabilidad_y_ejes"></a>5.5. Estabilidad y Ejes</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Estabilidad Estática vs. Dinámica:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Estática Positiva:</strong> Tendencia inicial a volver a su posición</p>
+</li>
+<li>
+<p><strong>Dinámica:</strong> Se refiere a si las oscilaciones se amortiguan con el tiempo (positiva) o se amplifican (negativa/divergente)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Flutter (Flameo):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Vibración aeroelástica peligrosa que puede romper la estructura.</p>
+</li>
+<li>
+<p>Ocurre cerca o por encima de la <strong>VNE</strong>.</p>
+</li>
+<li>
+<p>Solución inmediata: <strong>Disminuir la velocidad</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Barrena vs. Espiral (Diferencia Clave):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Barrena (Spin):</strong> El ala está en pérdida. La velocidad es <strong>baja y constante</strong>. Gs constantes</p>
+</li>
+<li>
+<p><strong>Espiral (Spiral Dive):</strong> El ala <strong>NO</strong> está en pérdida. La velocidad y las Gs <strong>aumentan rápidamente</strong>. Peligro de fallo estructural</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_factores_de_carga_gs_y_virajes"><a class="anchor" href="#_factores_de_carga_gs_y_virajes"></a>5.6. Factores de Carga (Gs) y Virajes</h3>
+<div class="paragraph">
+<p>Esta es una sección crítica con muchos datos numéricos de examen.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Factor de Carga en Viraje:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>En un viraje de <strong>60º</strong> de alabeo, el factor de carga es <strong>2G</strong> (el peso aparente se duplica)</p>
+</li>
+<li>
+<p>A 0º (vuelo recto) = 1G.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Velocidad de Pérdida con Gs:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La velocidad de pérdida <strong>aumenta</strong> al aumentar las Gs (virajes, tirones).</p>
+</li>
+<li>
+<p><em>Ejemplo:</em> Un velero que entra en pérdida a 80 km/h a 1G, entrará en pérdida a <strong>115 km/h</strong> si hacemos un viraje de 60º (2G)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Categorías de Diseño (Límites de Gs):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Categoría Normal:</strong> Soporta al menos <strong>3.8 G</strong>.</p>
+</li>
+<li>
+<p><strong>Categoría Utility (Semi-acrobática):</strong> Soporta al menos <strong>4.4 G</strong> (permite barrenas).</p>
+</li>
+<li>
+<p><strong>Categoría Acrobática:</strong> Soporta al menos <strong>6.0 G</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_velocidades_y_anemómetro_código_de_colores"><a class="anchor" href="#_velocidades_y_anemómetro_código_de_colores"></a>5.7. Velocidades y Anemómetro (Código de Colores)</h3>
+<div class="paragraph">
+<p>Definiciones que aparecen en el diagrama de maniobra (V-n diagram).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>VNE (Línea Roja):</strong> Velocidad de nunca exceder</p>
+</li>
+<li>
+<p><strong>Arco Amarillo:</strong> Margen de precaución. Solo se puede volar en aire en calma (sin turbulencia) y sin maniobras bruscas</p>
+</li>
+<li>
+<p><strong>Arco Verde:</strong> Rango normal de operación (desde <em>V<sub>S1</sub></em> hasta <em>V<sub>NO</sub></em> o <em>V<sub>A</sub></em>).</p>
+</li>
+<li>
+<p><strong>Va (Velocidad de Maniobra):</strong> Velocidad máxima a la que se pueden aplicar los mandos al máximo sin romper el avión (antes entraría en pérdida)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_recuperación_de_maniobras_procedimientos"><a class="anchor" href="#_recuperación_de_maniobras_procedimientos"></a>5.8. Recuperación de Maniobras (Procedimientos)</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Recuperación de Pérdida:</strong> Disminuir el ángulo de ataque (<strong>picar</strong>/centrar palanca)</p>
+</li>
+<li>
+<p><strong>Recuperación de Barrena:</strong></p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Pedal contrario al giro.</p>
+</li>
+<li>
+<p>Palanca al centro (o adelante).</p>
+</li>
+<li>
+<p>Recuperar suavemente tras parar el giro</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><strong>Recuperación de Espiral:</strong></p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><strong>Nivelar alas</strong> (lo más importante y primero).</p>
+</li>
+<li>
+<p>Tirar suavemente para recuperar el picado (cuidado con las Gs)</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_procedimientos_operacionales"><a class="anchor" href="#_procedimientos_operacionales"></a>Capítulo 6. Procedimientos operacionales</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_y_rarezas_aesa"><a class="anchor" href="#_preguntas_señaladas_y_rarezas_aesa"></a>6.1. Preguntas "Señaladas" y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</h3>
+<div class="paragraph">
+<p>El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y comentarios irónicos de Iñaqui sobre discrepancias entre la realidad y el examen.</p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-remolque-por-coche-y-apertura-de-paracaidas"><a class="anchor" href="#trap-remolque-por-coche-y-apertura-de-paracaidas"></a>6.2. Remolque por Coche y Apertura de Paracaídas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Remolque por Coche:</strong> Aunque se indicaba que "En España no conozco ningún sitio donde se realice", AESA pregunta mucho sobre la velocidad de remolque.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Apertura del Paracaídas:</strong> Para AESA el tiempo de apertura son <strong>4 segundos</strong>. <em>"Da igual lo que diga el fabricante"</em>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-monitorizacion-limpieza-y-despegue"><a class="anchor" href="#trap-monitorizacion-limpieza-y-despegue"></a>6.3. Monitorización, Limpieza y Despegue <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Monitorización:</strong> En el aterrizaje AESA dice que se monitoriza todo el rato <strong>la velocidad</strong>.</p>
+</li>
+<li>
+<p><strong>Limpieza:</strong> Frecuencia <strong>cada vuelo</strong> con cera neutra <strong>sin silicona</strong>.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Despegue:</strong> Técnica de mantener las ruedas en el suelo el <strong>máximo de tiempo posible</strong>. <em>"¡Juradme que jamás haréis esto!"</em>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-post-accidente-y-frecuencias"><a class="anchor" href="#trap-post-accidente-y-frecuencias"></a>6.4. Post-accidente y Frecuencias <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Accidente:</strong> ¿Qué hay que hacer? <strong>Mentalizarse antes del vuelo</strong>.</p>
+</li>
+<li>
+<p><strong>Frecuencias:</strong> Frecuencia VHF fuera de alcance en región NAT: <strong>131.8 MHz</strong>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_procedimientos_de_despegue_y_lanzamiento"><a class="anchor" href="#_procedimientos_de_despegue_y_lanzamiento"></a>6.5. Procedimientos de Despegue y Lanzamiento</h3>
+<div class="paragraph">
+<p>Normativa y velocidades operativas para remolque avión y torno.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Remolque Avión:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Señal de <strong>alabeo</strong> del avión remolcador: El velero debe soltarse obligatoriamente (señal de suelta imperativa).</p>
+</li>
+<li>
+<p>Posición correcta: A nivel con la remolcadora (posición 1 o "alta" según FAA).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Remolque Torno:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Velocidad de ascenso óptima (V.O.A): <strong>1,5 veces la velocidad de pérdida (Vs)</strong>.</p>
+</li>
+<li>
+<p>Lluvia: <strong>No se remolca a torno</strong> con lluvia (aumenta la velocidad de pérdida y reduce visibilidad).</p>
+</li>
+<li>
+<p>Fallo del cable: El operador del torno debe <strong>cortar el cable</strong> (guillotina) si el planeador no se suelta.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Estela Turbulenta:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Separación mínima tras aeronave media/pesada: <strong>3 minutos</strong>,</p>
+</li>
+<li>
+<p>Factores determinantes: Masa, envergadura, velocidad y configuración.</p>
+</li>
+<li>
+<p>Posición para evitarla: Volar <strong>sobre</strong> y a <strong>barlovento</strong> del avión pesado.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_circuitos_aproximación_y_aterrizaje"><a class="anchor" href="#_circuitos_aproximación_y_aterrizaje"></a>6.6. Circuitos, Aproximación y Aterrizaje <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Parámetros numéricos para el examen.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Alturas Clave:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>Altura mínima para volver a pista en emergencia (viraje de 180º): <strong>200 ft (60-70m)</strong>. _Nota: Se advertía que esto es para el examen; en la realidad depende del planeador.</em></p>
+</li>
+<li>
+<p>Buscar campo fuera de pista: Comenzar a <strong>500 m</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Viento y Aterrizaje:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Viento en cola:</strong> Baja el ángulo de descenso (planeas más).</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <em>*Viento en cara:* Aumenta el ángulo de descenso (planeas menos). _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo</em>,_</p>
+</li>
+<li>
+<p>Velocidad con viento en cara: Aumentar la velocidad de aproximación en <strong>mitad de la velocidad del viento</strong> (+1/2 Vw).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Pista Mojada:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La distancia de aterrizaje se incrementa un <strong>15%</strong>.</p>
+</li>
+<li>
+<p>Riesgo de <strong>Hidroplaneo viscoso</strong> (película fina de agua en pista suave).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Señales Visuales en Tierra:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>"V"</strong>: Necesitamos ayuda.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Virajes en Circuito:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Ángulo de inclinación de base a final: <strong>20-30 grados</strong>.</p>
+</li>
+<li>
+<p>Dirección estándar: Hacia la <strong>izquierda</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_vuelo_en_ladera_y_térmica"><a class="anchor" href="#_vuelo_en_ladera_y_térmica"></a>6.7. Vuelo en Ladera y Térmica</h3>
+<div class="paragraph">
+<p>Reglas de paso y técnicas específicas.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Preferencia en Ladera:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Tiene preferencia el que tiene la ladera a su <strong>derecha</strong>.</p>
+</li>
+<li>
+<p>Adelantamientos: Se realizan por <strong>fuera</strong> de la ladera (hacia el valle).</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Térmicas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Técnica de centrado: <strong>"Técnica 270"</strong> (virar 270º al notar el máximo ascenso).</p>
+</li>
+<li>
+<p>Zonas favorables para térmicas: Pedregales, pueblos y trigales.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_equipamiento_y_normativa_general"><a class="anchor" href="#_equipamiento_y_normativa_general"></a>6.8. Equipamiento y Normativa General</h3>
+<div class="paragraph">
+<p>Datos de memorización sobre seguridad y documentos.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Plan de Vuelo:</strong> Se presenta <strong>60 minutos</strong> antes del vuelo.</p>
+</li>
+<li>
+<p><strong>Cartas de Navegación:</strong> Validez de <strong>6 meses</strong> (o 28 días según algunas preguntas de AESA).</p>
+</li>
+<li>
+<p><strong>Extintores:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>En cabina: <strong>CO2 y Halón</strong>.</p>
+</li>
+<li>
+<p>Para ruedas/frenos: <strong>Polvo químico</strong> (acercarse por delante o detrás, nunca lateral),</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Grabadoras (Cajas Negras):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>FDR (Datos): Guardan <strong>25 horas</strong>. Necesaria para &gt; 5.700 Kg.</p>
+</li>
+<li>
+<p>CVR (Voz): Guardan los últimos <strong>30 minutos</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Salvamento Marítimo:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Chaleco salvavidas: Obligatorio a más de <strong>50 NM</strong> de la costa.</p>
+</li>
+<li>
+<p>Balsa salvavidas: Obligatoria a más de <strong>100 NM</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Luces de Navegación:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Verde: 110º.</p>
+</li>
+<li>
+<p>Blanca (cola): 140º.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Mercancías Peligrosas:</strong> Definidas en las "Instrucciones Técnicas" de la OACI.</p>
+</li>
+<li>
+<p><strong>Fases de Emergencia:</strong> INCERFA, ALERFA, DETRESFA.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_performance_y_planificación_de_vuelo"><a class="anchor" href="#_performance_y_planificación_de_vuelo"></a>Capítulo 7. Performance y planificación de vuelo</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_y_curiosidades_aesa"><a class="anchor" href="#_preguntas_señaladas_y_curiosidades_aesa"></a>7.1. Preguntas "Señaladas" y Curiosidades AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</h3>
+<div class="paragraph">
+<p><em>Se identifican explícitamente secciones que se incluyen solo porque salen en el examen, aunque correspondan más a aviones con motor o sean teóricas.</em></p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-curvas-de-potencia-aviones-con-motor"><a class="anchor" href="#trap-curvas-de-potencia-aviones-con-motor"></a>7.2. Curvas de Potencia (Aviones con motor) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> El documento incluye un apartado sobre curvas de potencia porque <strong>"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"</strong>.</p>
+</li>
+<li>
+<p><strong>Vy (Mejor régimen de ascenso):</strong> Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima.</p>
+</li>
+<li>
+<p><strong>Segundo Régimen:</strong> Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta <strong>más potencia</strong> (inestabilidad).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-formula-de-desplazamiento-del-cg"><a class="anchor" href="#trap-formula-de-desplazamiento-del-cg"></a>7.3. Fórmula de Desplazamiento del CG</h3>
+<div class="paragraph">
+<p>Preguntan cálculos matemáticos sobre cuánto se mueve el centro de gravedad al añadir peso.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Fórmula:</strong> <em>Desplazamiento = (Peso añadido × Distancia) / Peso Total</em></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_peso_y_centrado_mass_and_balance"><a class="anchor" href="#_peso_y_centrado_mass_and_balance"></a>7.4. Peso y Centrado (Mass and Balance)</h3>
+<div class="paragraph">
+<p>Conceptos críticos sobre la estabilidad y la carga.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Centro de Gravedad (CG) vs. Centro de Presiones (CP):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El CG debe estar siempre <strong>por delante</strong> del CP para que el planeador sea estable</p>
+</li>
+<li>
+<p>El timón de profundidad genera sustentación negativa (hacia abajo) para equilibrar el morro</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Efectos del CG Adelantado (Morro pesado):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El planeador es <strong>más estable</strong> pero menos eficiente.</p>
+</li>
+<li>
+<p>Aumenta la velocidad de pérdida.</p>
+</li>
+<li>
+<p>Cuesta más levantar el morro en el despegue y aterrizaje</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Efectos del CG Atrasado (Morro ligero):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El planeador es <strong>inestable</strong> (peligroso).</p>
+</li>
+<li>
+<p>Disminuye la capacidad de recuperar una pérdida o barrena</p>
+</li>
+<li>
+<p>Velocidad de pérdida menor</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Lastre y Pesos:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Si vuela un piloto solo, lo hará siempre en el <strong>puesto delantero</strong></p>
+</li>
+<li>
+<p>Si el piloto pesa menos del mínimo, debe añadir pesas de plomo (normalmente en el morro o asiento delantero)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_la_polar_de_velocidades"><a class="anchor" href="#_la_polar_de_velocidades"></a>7.5. La Polar de Velocidades</h3>
+<div class="paragraph">
+<p>Interpretación de gráficas y rendimiento.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Efecto del Lastre (Agua):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Aumentar la carga alar (peso) <strong>NO cambia el coeficiente de planeo máximo</strong> (planea lo mismo).</p>
+</li>
+<li>
+<p>Lo que cambia es la velocidad: con más peso, el máximo planeo se consigue a <strong>mayor velocidad</strong></p>
+</li>
+<li>
+<p>La velocidad de pérdida y de mínimo descenso aumentan</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Efecto del Viento:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Viento en cara:</strong> Se debe volar <strong>más rápido</strong> que la velocidad de mejor planeo (desplazar origen a la derecha)</p>
+</li>
+<li>
+<p><strong>Viento en cola:</strong> Se debe volar un poco <strong>más lento</strong> (desplazar origen a la izquierda)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Movimiento de Masas de Aire:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Si te hundes (descendencia):</strong> Corre (vuela más rápido)</p>
+</li>
+<li>
+<p><strong>Si subes (ascendencia):</strong> Ve despacio</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_teoría_mccready_y_vuelo_de_velocidad"><a class="anchor" href="#_teoría_mccready_y_vuelo_de_velocidad"></a>7.6. Teoría McCready y Vuelo de Velocidad</h3>
+<div class="paragraph">
+<p>Uso del anillo del variómetro para optimizar la velocidad de crucero.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Ajuste del Anillo:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para máximo planeo (llegar lo más lejos posible): Poner el anillo a <strong>0</strong></p>
+</li>
+<li>
+<p>Para máxima velocidad media (velocidad de crucero): Poner el anillo en el valor de la <strong>térmica esperada</strong> siguiente</p>
+</li>
+<li>
+<p>Viento en cola: Ajustar el anillo a 0 (o reducir velocidad)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_planificación_y_cálculos_de_alcance"><a class="anchor" href="#_planificación_y_cálculos_de_alcance"></a>7.7. Planificación y Cálculos de Alcance</h3>
+<div class="paragraph">
+<p>Reglas prácticas para el examen y vuelo local.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Regla de alcance (Cono de seguridad):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para cálculos seguros se usa un coeficiente de <strong>1:20</strong> sumando <strong>250 metros</strong> de seguridad para el circuito</p>
+</li>
+<li>
+<p><em>Ejemplo:</em> Para recorrer 18 km se necesitan 900m + 250m = 1150m de altura</p>
+</li>
+<li>
+<p><em>Truco de cálculo:</em> Dividir la distancia por 2, añadir dos ceros y sumar 250</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Plan de Vuelo (FPL):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Obligatorio para cruzar fronteras o usar aeródromos controlados</p>
+</li>
+<li>
+<p>Presentación: Al menos <strong>60 minutos</strong> antes del EOBT para vuelos controlados</p>
+</li>
+<li>
+<p>Llegada: Es obligatorio notificar la llegada inmediatamente tras aterrizar para cerrar el plan</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_virajes_y_térmicas"><a class="anchor" href="#_virajes_y_térmicas"></a>7.8. Virajes y Térmicas</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Alabeo óptimo:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Térmicas estrechas (bajas): Requieren mucho alabeo (45º-60º).</p>
+</li>
+<li>
+<p>Térmicas anchas (altas): Requieren menos alabeo (25º-35º)</p>
+</li>
+<li>
+<p>A mayor alabeo, mayor tasa de descenso</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_conocimiento_general_de_la_aeronave"><a class="anchor" href="#_conocimiento_general_de_la_aeronave"></a>Capítulo 8. Conocimiento general de la aeronave</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_y_rarezas_aesa_2"><a class="anchor" href="#_preguntas_señaladas_y_rarezas_aesa_2"></a>8.1. Preguntas "Señaladas" y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</h3>
+<div class="paragraph">
+<p>Estas son las preguntas específicas que Se advertía que salen con frecuencia y que suelen tener "truco" o una redacción particular en los exámenes oficiales.</p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-gancho-de-cg-capsula-de-anemometro-y-mandos"><a class="anchor" href="#trap-gancho-de-cg-capsula-de-anemometro-y-mandos"></a>8.2. Gancho de CG, Cápsula de Anemómetro y Mandos</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Gancho de CG:</strong> ¿Se puede usar para remolque avión? <strong>SÍ</strong>, si así lo indica el AFM.</p>
+</li>
+<li>
+<p><strong>Cápsula del Anemómetro:</strong> Tiene una cápsula <strong>elástica</strong> (no aneroide).</p>
+</li>
+<li>
+<p><strong>Mandos Primarios:</strong> Timón de profundidad, timón de dirección y alerones.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-baterias-paracaidas-y-limpieza"><a class="anchor" href="#trap-baterias-paracaidas-y-limpieza"></a>8.3. Baterías, Paracaídas y Limpieza</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Baterías (IFR):</strong> Deben estar al <strong>80%</strong> de capacidad y el soporte aguantar <strong>15 Gs</strong>.</p>
+</li>
+<li>
+<p><strong>Paracaídas:</strong> El automático funciona por <strong>cinta estática</strong> y abre en <strong>4 segundos</strong>.</p>
+</li>
+<li>
+<p><strong>Limpieza:</strong> Usar gamuza <strong>húmeda</strong> (no mojada).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-traducciones-macarronicas-aesa"><a class="anchor" href="#trap-traducciones-macarronicas-aesa"></a>8.4. Traducciones "Macarrónicas" AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Se advertía repetidamente que AESA traduce literalmente términos del manual de la FAA:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Freno de picada</strong> / <strong>Spoiler</strong> = Aerofrenos.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Trim Tab</strong> = Compensador.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Elevador</strong> = Timón de profundidad.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_estructura_y_limitaciones_gs"><a class="anchor" href="#_estructura_y_limitaciones_gs"></a>8.5. Estructura y Limitaciones (Gs)</h3>
+<div class="paragraph">
+<p>Datos numéricos sobre la resistencia estructural y categorías.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Factor de Carga (Virajes):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>En un viraje de <strong>60º</strong>, el factor de carga es <strong>2 G</strong> (el peso aparente se duplica)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Categorías de Aeronaves:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Categoría Normal:</strong> Soporta al menos <strong>3.8 G</strong> (No acrobacia, no barrenas)</p>
+</li>
+<li>
+<p><strong>Categoría Utility (Semi-acrobática):</strong> Soporta al menos <strong>4.4 G</strong> (Permite barrenas)</p>
+</li>
+<li>
+<p><strong>Categoría Acrobática:</strong> Soporta al menos <strong>6.0 G</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Materiales:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El color blanco en la fibra de vidrio es obligatorio para minimizar la temperatura, ya que el calor debilita la resina epoxi</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_peso_y_centrado"><a class="anchor" href="#_peso_y_centrado"></a>8.6. Peso y Centrado</h3>
+<div class="paragraph">
+<p>Conceptos sobre la estabilidad según la posición del Centro de Gravedad (CG).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>CG Adelantado (Morro pesado):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El avión es <strong>más estable</strong>.</p>
+</li>
+<li>
+<p>La velocidad de pérdida es <strong>más alta</strong>.</p>
+</li>
+<li>
+<p>Cuesta más levantar el morro en el despegue</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>CG Atrasado (Morro ligero):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El avión es <strong>inestable</strong> (Peligroso).</p>
+</li>
+<li>
+<p>Velocidad de pérdida menor.</p>
+</li>
+<li>
+<p>Dificultad para salir de una barrena</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Peso del Piloto:</strong> Si vuelas solo en un biplaza, debes hacerlo siempre en el <strong>asiento delantero</strong></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_instrumentación"><a class="anchor" href="#_instrumentación"></a>8.7. Instrumentación</h3>
+<div class="paragraph">
+<p>Principios de funcionamiento y errores.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Altímetro:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Funciona con una cápsula <strong>aneroide</strong> (vacío parcial)</p>
+</li>
+<li>
+<p><strong>Error de temperatura/presión:</strong> "From high to low, look out below". Si vas de altas presiones a bajas (o de calor a frío) sin corregir, el altímetro dice que vas más alto de lo que realmente vas (<strong>Peligro: vas más bajo</strong>)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Variómetro:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Energía Total (Compensado):</strong> Mide variaciones de energía total (potencial + cinética). Ignora los "tirones de palanca" (térmicas de palanca)</p>
+</li>
+<li>
+<p>Conexiones: El compensado se conecta a la toma de <strong>presión total</strong> (o venturi) y a la <strong>estática</strong> (o botella termo)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Giroscópicos:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Basados en <strong>rigidez</strong> y <strong>precesión</strong></p>
+</li>
+<li>
+<p><strong>Bastón (Indicador de viraje):</strong> Mide el régimen de giro. Un viraje estándar son 360º en <strong>2 minutos</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Brújula:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Errores por aceleración: Al acelerar en rumbos E/W da error.</p>
+</li>
+<li>
+<p>Errores por viraje (Norte/Sur): Al virar desde el Norte, la brújula se retrasa ("Norte No me paso"). Al virar desde el Sur, se adelanta ("Sur Si me paso")</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_motores_motoveleros_y_autolanzables"><a class="anchor" href="#_motores_motoveleros_y_autolanzables"></a>8.8. Motores (Motoveleros y Autolanzables)</h3>
+<div class="paragraph">
+<p>Aunque sea licencia de planeador, el temario incluye motores de combustión (para TMGs y turbos).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Ciclo de 4 tiempos (Otto):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Admisión. 2. Compresión. 3. Explosión/Expansión. 4. Escape</p>
+</li>
+<li>
+<p>Se produce una explosión cada <strong>2 vueltas</strong> de cigüeñal (en los de 2 tiempos es cada 1 vuelta)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Magnetos:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Son independientes de la batería y del alternador. Si falla la batería, el motor <strong>NO</strong> se para</p>
+</li>
+<li>
+<p>Para apagar una magneto, se pone a <strong>masa</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Carburador:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Mezcla ideal aire/combustible: <strong>15:1</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Hielo en carburador:</strong> El primer síntoma es una <strong>disminución de RPM</strong> (en hélice de paso fijo)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Uso de calefacción: No usar en despegue (quita potencia). Usar antes de reducir potencia para aterrizar</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Curva de Potencia:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Primer régimen:</strong> Zona frontal (velocidad alta).</p>
+</li>
+<li>
+<p><strong>Segundo régimen:</strong> Zona trasera (velocidad baja). Para volar más lento hace falta <strong>más potencia</strong> (inestabilidad)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lastre_de_agua"><a class="anchor" href="#_lastre_de_agua"></a>8.9. Lastre de Agua</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>No cambia el coeficiente de planeo máximo (L/D), solo aumenta la <strong>velocidad</strong> a la que se consigue</p>
+</li>
+<li>
+<p>Aumenta la velocidad de pérdida y la tasa de descenso mínima (subes peor en térmicas flojas)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_navegación"><a class="anchor" href="#_navegación"></a>Capítulo 9. Navegación</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_preguntas_señaladas_trampas_y_rarezas_aesa"><a class="anchor" href="#_preguntas_señaladas_trampas_y_rarezas_aesa"></a>9.1. Preguntas "Señaladas", Trampas y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</h3>
+<div class="paragraph">
+<p><em>Se destaca varios puntos donde el examen oficial pide datos muy específicos, obsoletos o confusos.</em></p>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-geodesia-cartas-y-plan-de-vuelo"><a class="anchor" href="#trap-geodesia-cartas-y-plan-de-vuelo"></a>9.2. Geodesia, Cartas y Plan de Vuelo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Sistemas Geodésicos:</strong> GLONASS usa el <strong>PZ-90</strong>.</p>
+</li>
+<li>
+<p><strong>Validez de Cartas:</strong> <strong>28 días</strong> (ciclo AIRAC) o <strong>6 meses</strong> (papel). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> "Si preguntan 6 meses, impúgnala".</p>
+</li>
+<li>
+<p><strong>Cambio de FIR:</strong> Se requiere plan de vuelo al cambiar de FIR (vuelo VFR en examen AESA).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-errores-de-brujula-y-cartografia"><a class="anchor" href="#trap-errores-de-brujula-y-cartografia"></a>9.3. Errores de Brújula y Cartografía <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Aceleración Brújula (E/W):</strong> Acelerar &#8594; Norte. Desacelerar &#8594; Sur.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Escala WAC:</strong> La escala es <strong>1:1.000.000</strong>. "Esto lo preguntan mucho".</p>
+</li>
+<li>
+<p><strong>Referencias:</strong> Se marcan <strong>sobre la ruta</strong> (según AESA).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2 trampa">
+<h3 id="trap-trampas-matematicas-aesa"><a class="anchor" href="#trap-trampas-matematicas-aesa"></a>9.4. Trampas Matemáticas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Trampa de Cálculos de Tiempo:</strong> En cálculos de conversión de tiempo, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cartografía_y_proyecciones"><a class="anchor" href="#_cartografía_y_proyecciones"></a>9.5. Cartografía y Proyecciones <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="paragraph">
+<p>Definiciones teóricas que "preguntan mucho".</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Escala Carta Aeronáutica Mundial (WAC):</strong> La escala es <strong>1:1.000.000</strong>. Se indicaba: <strong>"esto lo preguntan mucho"</strong></p>
+</li>
+<li>
+<p><strong>Proyección Lambert (Cónica Conforme):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es la usada en cartas aeronáuticas (OACI).</p>
+</li>
+<li>
+<p>La línea recta dibujada en la carta es una <strong>Ortodrómica</strong> (distancia más corta).</p>
+</li>
+<li>
+<p>La escala es prácticamente constante</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Proyección Mercator (Cilíndrica):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La línea recta es una <strong>Loxodrómica</strong> (rumbo constante).</p>
+</li>
+<li>
+<p>La escala varía con la latitud (se deforma mucho en los polos)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_magnetismo_y_cálculos_de_rumbo"><a class="anchor" href="#_magnetismo_y_cálculos_de_rumbo"></a>9.6. Magnetismo y Cálculos de Rumbo</h3>
+<div class="paragraph">
+<p>Fórmulas esenciales para resolver los problemas numéricos del test.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Fórmulas de Conversión:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Rumbo Magnético (MH)</strong> = Rumbo Geográfico (TC) – Declinación ( <em>δ</em> ).</p>
+</li>
+<li>
+<p><strong>Rumbo de Brújula (CH)</strong> = Rumbo Magnético (MH) – Desvío ( <em>Δ</em> ).</p>
+</li>
+<li>
+<p><em>Regla de signos:</em> Oeste (W) es negativo (-), Este (E) es positivo (+)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Errores de Viraje (Brújula):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Regla nemotécnica: <strong>NO ME PASO - SI ME PASO</strong>.</p>
+</li>
+<li>
+<p>Virajes al <strong>Norte</strong>: Sacar el viraje <strong>antes</strong> (NO me paso).</p>
+</li>
+<li>
+<p>Virajes al <strong>Sur</strong>: Sacar el viraje <strong>después</strong> (SI me paso)</p>
+</li>
+<li>
+<p><em>Cálculo del anticipo:</em> <em>1/2 Latitud + 1/3 Alabeo</em></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_coordenadas_y_tiempo"><a class="anchor" href="#_coordenadas_y_tiempo"></a>9.7. Coordenadas y Tiempo</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Latitud y Millas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>1 minuto</strong> de arco de latitud equivale a <strong>1 Milla Náutica (NM)</strong></p>
+</li>
+<li>
+<p>1 NM = <strong>1.852 metros</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Husos Horarios:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La tierra se divide en <strong>24 husos</strong> de 15º cada uno</p>
+</li>
+<li>
+<p>Hora UTC = GMT = Zulú.</p>
+</li>
+<li>
+<p>España (Península): En invierno <strong>UTC+1</strong>, en verano <strong>UTC+2</strong></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_plan_de_vuelo_fpl_y_normativa"><a class="anchor" href="#_plan_de_vuelo_fpl_y_normativa"></a>9.8. Plan de Vuelo (FPL) y Normativa</h3>
+<div class="paragraph">
+<p>Plazos y obligaciones administrativas.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Obligatoriedad:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para cruzar fronteras, volar en espacio controlado, vuelo nocturno o IFR</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Antelación de Presentación:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para vuelos con servicio de control: Al menos <strong>60 minutos</strong> antes del EOBT (hora estimada fuera de calzos)</p>
+</li>
+<li>
+<p><em>Nota:</em> Si solo es servicio de información desde aeródromo no controlado, se puede presentar antes de la salida sin plazo fijo de 60 min, pero la pregunta "típica" suele referirse a los 60 min._</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Cierre del Plan:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Se debe notificar la llegada <strong>tan pronto como sea posible</strong> tras aterrizar</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gps_global_positioning_system"><a class="anchor" href="#_gps_global_positioning_system"></a>9.9. GPS (Global Positioning System)</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Satélites necesarios:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para obtener una posición 3D (Latitud, Longitud y <strong>Altitud</strong>) se necesitan mínimo <strong>4 satélites</strong></p>
+</li>
+<li>
+<p>Con 3 satélites solo tienes posición 2D (sin altura).</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cálculos_de_viento_y_deriva"><a class="anchor" href="#_cálculos_de_viento_y_deriva"></a>9.10. Cálculos de Viento y Deriva</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Deriva (Drift):</strong> Es el ángulo entre el Rumbo (a donde apunta el morro) y la Ruta (a donde vas realmente sobre el suelo)</p>
+</li>
+<li>
+<p><strong>Fórmula rápida de deriva:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Deriva = (Viento Cruzado × 60) / TAS</em></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Triángulo de Velocidades:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Relaciona: Vector TAS (avión) + Vector Viento = Vector GS (velocidad sobre el suelo)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_syllabus_oficial_spl"><a class="anchor" href="#_syllabus_oficial_spl"></a>Apéndice A: Syllabus Oficial SPL</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Este anexo contiene el temario oficial (Syllabus) para la licencia de piloto de planeador (SPL), traducido al castellano.</p>
+</div>
+<div class="sect2">
+<h3 id="_1_derecho_aéreo_y_procedimientos_atc"><a class="anchor" href="#_1_derecho_aéreo_y_procedimientos_atc"></a>A.1. 1. DERECHO AÉREO Y PROCEDIMIENTOS ATC</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>1.1. Derecho internacional: convenios, acuerdos y organizaciones</p>
+</li>
+<li>
+<p>1.2. Aeronavegabilidad de la aeronave</p>
+</li>
+<li>
+<p>1.3. Nacionalidad y marcas de matrícula de las aeronaves</p>
+</li>
+<li>
+<p>1.4. Licencias de personal</p>
+</li>
+<li>
+<p>1.5. Reglamento del aire</p>
+</li>
+<li>
+<p>1.6. Procedimientos para la navegación aérea: operaciones de aeronaves</p>
+</li>
+<li>
+<p>1.7. Reglamento de tráfico aéreo: estructura del espacio aéreo</p>
+</li>
+<li>
+<p>1.8. Servicios de tránsito aéreo (ATS) y gestión del tránsito aéreo (ATM)</p>
+</li>
+<li>
+<p>1.9. Servicio de información aeronáutica (AIS)</p>
+</li>
+<li>
+<p>1.10. Aeródromos, lugares de despegue externos</p>
+</li>
+<li>
+<p>1.11. Búsqueda y salvamento</p>
+</li>
+<li>
+<p>1.12. Seguridad (Security)</p>
+</li>
+<li>
+<p>1.13. Notificación de accidentes</p>
+</li>
+<li>
+<p>1.14. Derecho nacional</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_2_factores_humanos_2"><a class="anchor" href="#_2_factores_humanos_2"></a>A.2. 2. FACTORES HUMANOS</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>2.1. Factores humanos: conceptos básicos</p>
+</li>
+<li>
+<p>2.2. Fisiología básica de aviación y mantenimiento de la salud</p>
+</li>
+<li>
+<p>2.3. Psicología básica de aviación</p>
+</li>
+<li>
+<p>2.4. Uso de oxígeno</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_3_meteorología_2"><a class="anchor" href="#_3_meteorología_2"></a>A.3. 3. METEOROLOGÍA</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>3.1. La atmósfera</p>
+</li>
+<li>
+<p>3.2. Viento</p>
+</li>
+<li>
+<p>3.3. Termodinámica</p>
+</li>
+<li>
+<p>3.4. Nubes y niebla</p>
+</li>
+<li>
+<p>3.5. Precipitación</p>
+</li>
+<li>
+<p>3.6. Masas de aire y frentes</p>
+</li>
+<li>
+<p>3.7. Sistemas de presión</p>
+</li>
+<li>
+<p>3.8. Climatología</p>
+</li>
+<li>
+<p>3.9. Peligros en vuelo</p>
+</li>
+<li>
+<p>3.10. Información meteorológica</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_4_comunicaciones_2"><a class="anchor" href="#_4_comunicaciones_2"></a>A.4. 4. COMUNICACIONES</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>4.1. Definiciones</p>
+</li>
+<li>
+<p>4.2. Comunicaciones VFR</p>
+<div class="ulist">
+<ul>
+<li>
+<p>4.2.1. Comunicaciones VFR en aeródromos no controlados</p>
+</li>
+<li>
+<p>4.2.2. Comunicaciones VFR en aeródromos controlados</p>
+</li>
+<li>
+<p>4.2.3. Comunicaciones VFR con ATC (en ruta)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>4.3. Procedimientos operativos generales</p>
+</li>
+<li>
+<p>4.4. Términos de información meteorológica relevante (VFR)</p>
+</li>
+<li>
+<p>4.5. Actuación requerida en caso de fallo de comunicaciones</p>
+</li>
+<li>
+<p>4.6. Procedimientos de socorro y urgencia</p>
+</li>
+<li>
+<p>4.7. Principios generales de propagación VHF y asignación de frecuencias</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_5_principios_de_vuelo_2"><a class="anchor" href="#_5_principios_de_vuelo_2"></a>A.5. 5. PRINCIPIOS DE VUELO</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>5.1. Aerodinámica (flujo de aire)</p>
+</li>
+<li>
+<p>5.2. Mecánica de vuelo</p>
+</li>
+<li>
+<p>5.3. Estabilidad</p>
+</li>
+<li>
+<p>5.4. Control</p>
+</li>
+<li>
+<p>5.5. Limitaciones (factor de carga y maniobras)</p>
+</li>
+<li>
+<p>5.6. Pérdida y barrena</p>
+</li>
+<li>
+<p>5.7. Picado en espiral</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_6_procedimientos_operacionales_2"><a class="anchor" href="#_6_procedimientos_operacionales_2"></a>A.6. 6. PROCEDIMIENTOS OPERACIONALES</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>6.1. Requisitos generales</p>
+</li>
+<li>
+<p>6.2. Métodos de lanzamiento</p>
+</li>
+<li>
+<p>6.3. Técnicas de vuelo a vela</p>
+</li>
+<li>
+<p>6.4. Circuitos y aterrizaje</p>
+</li>
+<li>
+<p>6.5. Aterrizaje fuera de campo (Outlanding)</p>
+</li>
+<li>
+<p>6.6. Procedimientos operacionales especiales y peligros</p>
+</li>
+<li>
+<p>6.7. Procedimientos de emergencia</p>
+</li>
+<li>
+<p>6.8. Operación de paracaídas de emergencia y aterrizaje</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_7_performance_y_planificación_de_vuelo"><a class="anchor" href="#_7_performance_y_planificación_de_vuelo"></a>A.7. 7. PERFORMANCE Y PLANIFICACIÓN DE VUELO</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>7.1. Masa y centrado</p>
+</li>
+<li>
+<p>7.2. Polar de velocidades de planeadores o velocidad de crucero</p>
+</li>
+<li>
+<p>7.3. Planificación de vuelo y establecimiento de tareas</p>
+</li>
+<li>
+<p>7.4. Plan de vuelo OACI (Plan de vuelo ATS)</p>
+</li>
+<li>
+<p>7.5. Monitorización del vuelo y re-planificación en vuelo</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_8_conocimiento_general_de_la_aeronave_2"><a class="anchor" href="#_8_conocimiento_general_de_la_aeronave_2"></a>A.8. 8. CONOCIMIENTO GENERAL DE LA AERONAVE</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>8.1. Estructura (Célula)</p>
+</li>
+<li>
+<p>8.2. Diseño de sistemas, cargas y esfuerzos</p>
+</li>
+<li>
+<p>8.3. Tren de aterrizaje, ruedas, neumáticos y frenos</p>
+</li>
+<li>
+<p>8.4. Masa y centrado (Equilibrado)</p>
+</li>
+<li>
+<p>8.5. Mandos de vuelo</p>
+</li>
+<li>
+<p>8.6. Instrumentos</p>
+</li>
+<li>
+<p>8.7. Montaje de la aeronave, conexión de superficies de control</p>
+</li>
+<li>
+<p>8.8. Manuales y documentos</p>
+</li>
+<li>
+<p>8.9. Aeronavegabilidad y mantenimiento</p>
+</li>
+<li>
+<p>8.10. Célula, motores y hélices</p>
+</li>
+<li>
+<p>8.11. Sistemas de lastre de agua</p>
+</li>
+<li>
+<p>8.12. Baterías (rendimiento y limitaciones operativas)</p>
+</li>
+<li>
+<p>8.13. Paracaídas de emergencia</p>
+</li>
+<li>
+<p>8.14. Ayuda de escape de emergencia</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_9_navegación_2"><a class="anchor" href="#_9_navegación_2"></a>A.9. 9. NAVEGACIÓN</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>9.1. Conceptos básicos de navegación</p>
+</li>
+<li>
+<p>9.2. Magnetismo y brújulas</p>
+</li>
+<li>
+<p>9.3. Cartas</p>
+</li>
+<li>
+<p>9.4. Navegación a estima</p>
+</li>
+<li>
+<p>9.5. Navegación en vuelo</p>
+</li>
+<li>
+<p>9.6. Uso de GNSS</p>
+</li>
+<li>
+<p>9.7. Uso de ATS</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_índice_de_trampas_aesa"><a class="anchor" href="#_índice_de_trampas_aesa"></a>Índice de Trampas AESA</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>En esta sección se recopilan todos los puntos críticos identificados en el temario que suelen ser objeto de preguntas confusas o arbitrarias en los exámenes oficiales.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#trap-responsabilidad-civil-convenio-de-montrealvarsovia">Responsabilidad Civil (Convenio de Montreal/Varsovia) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-codigo-ssr-7500-secuestro">Código SSR 7500 (Secuestro) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-anexos-oaci-y-partes-del-aip">Anexos OACI y Partes del AIP <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-recuperacion-auditiva">Recuperación auditiva <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-nistagmo">Nistagmo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-consumo-de-aire-y-frecuencia-respiratoria">Consumo de aire y Frecuencia respiratoria <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-saturacion-de-oxigeno-y-hipoxia">Saturación de Oxígeno y Hipoxia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-incapacitacion">Causa de Incapacitación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-leyes-de-los-gases">Leyes de los Gases</a></p>
+</li>
+<li>
+<p><a href="#trap-validez-del-airmet">Validez del AIRMET <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-intensidad-de-la-lluvia">Intensidad de la lluvia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-selcal-sistema-de-llamada-selectiva">SELCAL (Sistema de Llamada Selectiva) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-registros-de-comunicaciones-grabaciones">Registros de comunicaciones (Grabaciones) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-alcance-de-radio-y-senales-con-proyectiles">Alcance de radio y Señales con proyectiles <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-terminologia-aesa-de-controladores-y-ejes">Terminología AESA de Controladores y Ejes <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-posiciones-de-flaps">Posiciones de Flaps <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-remolque-por-coche-y-apertura-de-paracaidas">Remolque por Coche y Apertura de Paracaídas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-monitorizacion-limpieza-y-despegue">Monitorización, Limpieza y Despegue <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-post-accidente-y-frecuencias">Post-accidente y Frecuencias <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-curvas-de-potencia-aviones-con-motor">Curvas de Potencia (Aviones con motor) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-formula-de-desplazamiento-del-cg">Fórmula de Desplazamiento del CG</a></p>
+</li>
+<li>
+<p><a href="#trap-gancho-de-cg-capsula-de-anemometro-y-mandos">Gancho de CG, Cápsula de Anemómetro y Mandos</a></p>
+</li>
+<li>
+<p><a href="#trap-baterias-paracaidas-y-limpieza">Baterías, Paracaídas y Limpieza</a></p>
+</li>
+<li>
+<p><a href="#trap-traducciones-macarronicas-aesa">Traducciones "Macarrónicas" AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-geodesia-cartas-y-plan-de-vuelo">Geodesia, Cartas y Plan de Vuelo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-errores-de-brujula-y-cartografia">Errores de Brújula y Cartografía <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+<li>
+<p><a href="#trap-trampas-matematicas-aesa">Trampas Matemáticas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

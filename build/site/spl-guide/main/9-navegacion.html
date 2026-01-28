@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Navegación :: Guía de Estudio SPL</title>
+    <link rel="canonical" href="https://VuelaLibre-net.github.io/examenes-spl/spl-guide/main/9-navegacion.html">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="../../_/css/site.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* Enforce FA4 family to avoid conflicts with FA5 in default UI */
+.fa {
+    font-family: FontAwesome !important;
+}
+
+/* Restore [red]#...# style */
+span.red {
+  color: #d9534f !important;
+  font-weight: bold;
+}
+
+/* Style for [.trampa] blocks */
+.trampa {
+  background-color: #fff5f5;
+  border-left: 5px solid #d9534f;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.trampa .title {
+  color: #d9534f !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure font-awesome icons are red when inside red span */
+span.red .fa, span.red .fas, span.red .far {
+    color: #d9534f !important;
+}
+</style>
+
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Guía de Estudio SPL</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Inicio</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Descargas</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl/releases/latest" target="_blank" rel="noopener">Descargar PDF/EPUB</a>
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">Código Fuente</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">GitHub</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="spl-guide" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="book.html">Guía SPL</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="book.html">Portada</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="resumen-ejecutivo.html">Resumen Ejecutivo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-reglamentacion.html">1. Derecho Aéreo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-factores-humanos.html">2. Factores Humanos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-meteorologia.html">3. Meteorología</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-comunicaciones.html">4. Comunicaciones</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="5-principios-vuelo.html">5. Principios de Vuelo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="6-procedimientos-operacionales.html">6. Procedimientos Operacionales</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="7-performance-planificacion.html">7. Performance y Planificación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="8-conocimiento-general-aeronave.html">8. Conocimiento General de la Aeronave</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="9-navegacion.html">9. Navegación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="indice-trampas.html">Índice de Trampas</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="anexo-syllabus.html">Anexo: Syllabus</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Guía SPL</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="book.html">Guía SPL</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="book.html">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="book.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="book.html">Guía SPL</a></li>
+    <li><a href="9-navegacion.html">9. Navegación</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/camus/ws/VuelaLibre.net/examenes-spl/./modules/ROOT/pages/9-navegacion.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="En este capítulo" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Navegación</h1>
+<div class="sect1">
+<h2 id="_preguntas_señaladas_trampas_y_rarezas_aesa"><a class="anchor" href="#_preguntas_señaladas_trampas_y_rarezas_aesa"></a>Preguntas "Señaladas", Trampas y Rarezas AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><em>Se destaca varios puntos donde el examen oficial pide datos muy específicos, obsoletos o confusos.</em></p>
+</div>
+</div>
+</div>
+<div class="sect1 trampa">
+<h2 id="trap-geodesia-cartas-y-plan-de-vuelo"><a class="anchor" href="#trap-geodesia-cartas-y-plan-de-vuelo"></a>Geodesia, Cartas y Plan de Vuelo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Sistemas Geodésicos:</strong> GLONASS usa el <strong>PZ-90</strong>.</p>
+</li>
+<li>
+<p><strong>Validez de Cartas:</strong> <strong>28 días</strong> (ciclo AIRAC) o <strong>6 meses</strong> (papel). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> "Si preguntan 6 meses, impúgnala".</p>
+</li>
+<li>
+<p><strong>Cambio de FIR:</strong> Se requiere plan de vuelo al cambiar de FIR (vuelo VFR en examen AESA).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1 trampa">
+<h2 id="trap-errores-de-brujula-y-cartografia"><a class="anchor" href="#trap-errores-de-brujula-y-cartografia"></a>Errores de Brújula y Cartografía <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Aceleración Brújula (E/W):</strong> Acelerar &#8594; Norte. Desacelerar &#8594; Sur.</p>
+</li>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Escala WAC:</strong> La escala es <strong>1:1.000.000</strong>. "Esto lo preguntan mucho".</p>
+</li>
+<li>
+<p><strong>Referencias:</strong> Se marcan <strong>sobre la ruta</strong> (según AESA).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1 trampa">
+<h2 id="trap-trampas-matematicas-aesa"><a class="anchor" href="#trap-trampas-matematicas-aesa"></a>Trampas Matemáticas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Trampa de Cálculos de Tiempo:</strong> En cálculos de conversión de tiempo, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cartografía_y_proyecciones"><a class="anchor" href="#_cartografía_y_proyecciones"></a>Cartografía y Proyecciones <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Definiciones teóricas que "preguntan mucho".</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> <strong>Escala Carta Aeronáutica Mundial (WAC):</strong> La escala es <strong>1:1.000.000</strong>. Se indicaba: <strong>"esto lo preguntan mucho"</strong></p>
+</li>
+<li>
+<p><strong>Proyección Lambert (Cónica Conforme):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es la usada en cartas aeronáuticas (OACI).</p>
+</li>
+<li>
+<p>La línea recta dibujada en la carta es una <strong>Ortodrómica</strong> (distancia más corta).</p>
+</li>
+<li>
+<p>La escala es prácticamente constante</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Proyección Mercator (Cilíndrica):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La línea recta es una <strong>Loxodrómica</strong> (rumbo constante).</p>
+</li>
+<li>
+<p>La escala varía con la latitud (se deforma mucho en los polos)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_magnetismo_y_cálculos_de_rumbo"><a class="anchor" href="#_magnetismo_y_cálculos_de_rumbo"></a>Magnetismo y Cálculos de Rumbo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Fórmulas esenciales para resolver los problemas numéricos del test.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Fórmulas de Conversión:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Rumbo Magnético (MH)</strong> = Rumbo Geográfico (TC) – Declinación ( <em>δ</em> ).</p>
+</li>
+<li>
+<p><strong>Rumbo de Brújula (CH)</strong> = Rumbo Magnético (MH) – Desvío ( <em>Δ</em> ).</p>
+</li>
+<li>
+<p><em>Regla de signos:</em> Oeste (W) es negativo (-), Este (E) es positivo (+)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Errores de Viraje (Brújula):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Regla nemotécnica: <strong>NO ME PASO - SI ME PASO</strong>.</p>
+</li>
+<li>
+<p>Virajes al <strong>Norte</strong>: Sacar el viraje <strong>antes</strong> (NO me paso).</p>
+</li>
+<li>
+<p>Virajes al <strong>Sur</strong>: Sacar el viraje <strong>después</strong> (SI me paso)</p>
+</li>
+<li>
+<p><em>Cálculo del anticipo:</em> <em>1/2 Latitud + 1/3 Alabeo</em></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_coordenadas_y_tiempo"><a class="anchor" href="#_coordenadas_y_tiempo"></a>Coordenadas y Tiempo</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Latitud y Millas:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>1 minuto</strong> de arco de latitud equivale a <strong>1 Milla Náutica (NM)</strong></p>
+</li>
+<li>
+<p>1 NM = <strong>1.852 metros</strong>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Husos Horarios:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>La tierra se divide en <strong>24 husos</strong> de 15º cada uno</p>
+</li>
+<li>
+<p>Hora UTC = GMT = Zulú.</p>
+</li>
+<li>
+<p>España (Península): En invierno <strong>UTC+1</strong>, en verano <strong>UTC+2</strong></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_plan_de_vuelo_fpl_y_normativa"><a class="anchor" href="#_plan_de_vuelo_fpl_y_normativa"></a>Plan de Vuelo (FPL) y Normativa</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Plazos y obligaciones administrativas.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Obligatoriedad:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para cruzar fronteras, volar en espacio controlado, vuelo nocturno o IFR</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Antelación de Presentación:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para vuelos con servicio de control: Al menos <strong>60 minutos</strong> antes del EOBT (hora estimada fuera de calzos)</p>
+</li>
+<li>
+<p><em>Nota:</em> Si solo es servicio de información desde aeródromo no controlado, se puede presentar antes de la salida sin plazo fijo de 60 min, pero la pregunta "típica" suele referirse a los 60 min._</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Cierre del Plan:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Se debe notificar la llegada <strong>tan pronto como sea posible</strong> tras aterrizar</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_gps_global_positioning_system"><a class="anchor" href="#_gps_global_positioning_system"></a>GPS (Global Positioning System)</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Satélites necesarios:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para obtener una posición 3D (Latitud, Longitud y <strong>Altitud</strong>) se necesitan mínimo <strong>4 satélites</strong></p>
+</li>
+<li>
+<p>Con 3 satélites solo tienes posición 2D (sin altura).</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cálculos_de_viento_y_deriva"><a class="anchor" href="#_cálculos_de_viento_y_deriva"></a>Cálculos de Viento y Deriva</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Deriva (Drift):</strong> Es el ángulo entre el Rumbo (a donde apunta el morro) y la Ruta (a donde vas realmente sobre el suelo)</p>
+</li>
+<li>
+<p><strong>Fórmula rápida de deriva:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Deriva = (Viento Cruzado × 60) / TAS</em></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Triángulo de Velocidades:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Relaciona: Vector TAS (avión) + Vector Viento = Vector GS (velocidad sobre el suelo)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

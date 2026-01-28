@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Performance y planificación de vuelo :: Guía de Estudio SPL</title>
+    <link rel="canonical" href="https://VuelaLibre-net.github.io/examenes-spl/spl-guide/main/7-performance-planificacion.html">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="../../_/css/site.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* Enforce FA4 family to avoid conflicts with FA5 in default UI */
+.fa {
+    font-family: FontAwesome !important;
+}
+
+/* Restore [red]#...# style */
+span.red {
+  color: #d9534f !important;
+  font-weight: bold;
+}
+
+/* Style for [.trampa] blocks */
+.trampa {
+  background-color: #fff5f5;
+  border-left: 5px solid #d9534f;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.trampa .title {
+  color: #d9534f !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure font-awesome icons are red when inside red span */
+span.red .fa, span.red .fas, span.red .far {
+    color: #d9534f !important;
+}
+</style>
+
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Guía de Estudio SPL</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Inicio</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Descargas</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl/releases/latest" target="_blank" rel="noopener">Descargar PDF/EPUB</a>
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">Código Fuente</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">GitHub</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="spl-guide" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="book.html">Guía SPL</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="book.html">Portada</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="resumen-ejecutivo.html">Resumen Ejecutivo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-reglamentacion.html">1. Derecho Aéreo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-factores-humanos.html">2. Factores Humanos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-meteorologia.html">3. Meteorología</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-comunicaciones.html">4. Comunicaciones</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="5-principios-vuelo.html">5. Principios de Vuelo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="6-procedimientos-operacionales.html">6. Procedimientos Operacionales</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="7-performance-planificacion.html">7. Performance y Planificación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="8-conocimiento-general-aeronave.html">8. Conocimiento General de la Aeronave</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="9-navegacion.html">9. Navegación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="indice-trampas.html">Índice de Trampas</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="anexo-syllabus.html">Anexo: Syllabus</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Guía SPL</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="book.html">Guía SPL</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="book.html">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="book.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="book.html">Guía SPL</a></li>
+    <li><a href="7-performance-planificacion.html">7. Performance y Planificación</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/camus/ws/VuelaLibre.net/examenes-spl/./modules/ROOT/pages/7-performance-planificacion.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="En este capítulo" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Performance y planificación de vuelo</h1>
+<div class="sect1">
+<h2 id="_preguntas_señaladas_y_curiosidades_aesa"><a class="anchor" href="#_preguntas_señaladas_y_curiosidades_aesa"></a>Preguntas "Señaladas" y Curiosidades AESA (<span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span>)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><em>Se identifican explícitamente secciones que se incluyen solo porque salen en el examen, aunque correspondan más a aviones con motor o sean teóricas.</em></p>
+</div>
+</div>
+</div>
+<div class="sect1 trampa">
+<h2 id="trap-curvas-de-potencia-aviones-con-motor"><a class="anchor" href="#trap-curvas-de-potencia-aviones-con-motor"></a>Curvas de Potencia (Aviones con motor) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span> El documento incluye un apartado sobre curvas de potencia porque <strong>"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"</strong>.</p>
+</li>
+<li>
+<p><strong>Vy (Mejor régimen de ascenso):</strong> Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima.</p>
+</li>
+<li>
+<p><strong>Segundo Régimen:</strong> Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta <strong>más potencia</strong> (inestabilidad).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1 trampa">
+<h2 id="trap-formula-de-desplazamiento-del-cg"><a class="anchor" href="#trap-formula-de-desplazamiento-del-cg"></a>Fórmula de Desplazamiento del CG</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Preguntan cálculos matemáticos sobre cuánto se mueve el centro de gravedad al añadir peso.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Fórmula:</strong> <em>Desplazamiento = (Peso añadido × Distancia) / Peso Total</em></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_peso_y_centrado_mass_and_balance"><a class="anchor" href="#_peso_y_centrado_mass_and_balance"></a>Peso y Centrado (Mass and Balance)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Conceptos críticos sobre la estabilidad y la carga.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Centro de Gravedad (CG) vs. Centro de Presiones (CP):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El CG debe estar siempre <strong>por delante</strong> del CP para que el planeador sea estable</p>
+</li>
+<li>
+<p>El timón de profundidad genera sustentación negativa (hacia abajo) para equilibrar el morro</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Efectos del CG Adelantado (Morro pesado):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El planeador es <strong>más estable</strong> pero menos eficiente.</p>
+</li>
+<li>
+<p>Aumenta la velocidad de pérdida.</p>
+</li>
+<li>
+<p>Cuesta más levantar el morro en el despegue y aterrizaje</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Efectos del CG Atrasado (Morro ligero):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>El planeador es <strong>inestable</strong> (peligroso).</p>
+</li>
+<li>
+<p>Disminuye la capacidad de recuperar una pérdida o barrena</p>
+</li>
+<li>
+<p>Velocidad de pérdida menor</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Lastre y Pesos:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Si vuela un piloto solo, lo hará siempre en el <strong>puesto delantero</strong></p>
+</li>
+<li>
+<p>Si el piloto pesa menos del mínimo, debe añadir pesas de plomo (normalmente en el morro o asiento delantero)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_la_polar_de_velocidades"><a class="anchor" href="#_la_polar_de_velocidades"></a>La Polar de Velocidades</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Interpretación de gráficas y rendimiento.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Efecto del Lastre (Agua):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Aumentar la carga alar (peso) <strong>NO cambia el coeficiente de planeo máximo</strong> (planea lo mismo).</p>
+</li>
+<li>
+<p>Lo que cambia es la velocidad: con más peso, el máximo planeo se consigue a <strong>mayor velocidad</strong></p>
+</li>
+<li>
+<p>La velocidad de pérdida y de mínimo descenso aumentan</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Efecto del Viento:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Viento en cara:</strong> Se debe volar <strong>más rápido</strong> que la velocidad de mejor planeo (desplazar origen a la derecha)</p>
+</li>
+<li>
+<p><strong>Viento en cola:</strong> Se debe volar un poco <strong>más lento</strong> (desplazar origen a la izquierda)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Movimiento de Masas de Aire:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Si te hundes (descendencia):</strong> Corre (vuela más rápido)</p>
+</li>
+<li>
+<p><strong>Si subes (ascendencia):</strong> Ve despacio</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_teoría_mccready_y_vuelo_de_velocidad"><a class="anchor" href="#_teoría_mccready_y_vuelo_de_velocidad"></a>Teoría McCready y Vuelo de Velocidad</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Uso del anillo del variómetro para optimizar la velocidad de crucero.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Ajuste del Anillo:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para máximo planeo (llegar lo más lejos posible): Poner el anillo a <strong>0</strong></p>
+</li>
+<li>
+<p>Para máxima velocidad media (velocidad de crucero): Poner el anillo en el valor de la <strong>térmica esperada</strong> siguiente</p>
+</li>
+<li>
+<p>Viento en cola: Ajustar el anillo a 0 (o reducir velocidad)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_planificación_y_cálculos_de_alcance"><a class="anchor" href="#_planificación_y_cálculos_de_alcance"></a>Planificación y Cálculos de Alcance</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Reglas prácticas para el examen y vuelo local.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Regla de alcance (Cono de seguridad):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Para cálculos seguros se usa un coeficiente de <strong>1:20</strong> sumando <strong>250 metros</strong> de seguridad para el circuito</p>
+</li>
+<li>
+<p><em>Ejemplo:</em> Para recorrer 18 km se necesitan 900m + 250m = 1150m de altura</p>
+</li>
+<li>
+<p><em>Truco de cálculo:</em> Dividir la distancia por 2, añadir dos ceros y sumar 250</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Plan de Vuelo (FPL):</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Obligatorio para cruzar fronteras o usar aeródromos controlados</p>
+</li>
+<li>
+<p>Presentación: Al menos <strong>60 minutos</strong> antes del EOBT para vuelos controlados</p>
+</li>
+<li>
+<p>Llegada: Es obligatorio notificar la llegada inmediatamente tras aterrizar para cerrar el plan</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_virajes_y_térmicas"><a class="anchor" href="#_virajes_y_térmicas"></a>Virajes y Térmicas</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Alabeo óptimo:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Térmicas estrechas (bajas): Requieren mucho alabeo (45º-60º).</p>
+</li>
+<li>
+<p>Térmicas anchas (altas): Requieren menos alabeo (25º-35º)</p>
+</li>
+<li>
+<p>A mayor alabeo, mayor tasa de descenso</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

@@ -8,3 +8,8 @@ asciidoc:
   attributes:
     icons: font
     docinfo: shared
+    note-caption: Nota
+    tip-caption: Consejo
+    important-caption: Importante
+    caution-caption: Precaución
+    warning-caption: Advertencia

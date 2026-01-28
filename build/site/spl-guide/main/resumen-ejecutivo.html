@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: Guía de Estudio SPL</title>
+    <link rel="canonical" href="https://VuelaLibre-net.github.io/examenes-spl/spl-guide/main/resumen-ejecutivo.html">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="../../_/css/site.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* Enforce FA4 family to avoid conflicts with FA5 in default UI */
+.fa {
+    font-family: FontAwesome !important;
+}
+
+/* Restore [red]#...# style */
+span.red {
+  color: #d9534f !important;
+  font-weight: bold;
+}
+
+/* Style for [.trampa] blocks */
+.trampa {
+  background-color: #fff5f5;
+  border-left: 5px solid #d9534f;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.trampa .title {
+  color: #d9534f !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure font-awesome icons are red when inside red span */
+span.red .fa, span.red .fas, span.red .far {
+    color: #d9534f !important;
+}
+</style>
+
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Guía de Estudio SPL</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Inicio</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Descargas</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl/releases/latest" target="_blank" rel="noopener">Descargar PDF/EPUB</a>
+            <a class="navbar-item" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">Código Fuente</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">GitHub</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="spl-guide" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="book.html">Guía SPL</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="book.html">Portada</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="resumen-ejecutivo.html">Resumen Ejecutivo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-reglamentacion.html">1. Derecho Aéreo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-factores-humanos.html">2. Factores Humanos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-meteorologia.html">3. Meteorología</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-comunicaciones.html">4. Comunicaciones</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="5-principios-vuelo.html">5. Principios de Vuelo</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="6-procedimientos-operacionales.html">6. Procedimientos Operacionales</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="7-performance-planificacion.html">7. Performance y Planificación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="8-conocimiento-general-aeronave.html">8. Conocimiento General de la Aeronave</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="9-navegacion.html">9. Navegación</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="indice-trampas.html">Índice de Trampas</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="anexo-syllabus.html">Anexo: Syllabus</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Guía SPL</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="book.html">Guía SPL</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="book.html">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="book.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="book.html">Guía SPL</a></li>
+    <li><a href="resumen-ejecutivo.html">Resumen Ejecutivo</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/camus/ws/VuelaLibre.net/examenes-spl/./modules/ROOT/pages/resumen-ejecutivo.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="En este capítulo" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="sect1">
+<h2 id="_resumen_ejecutivo_errores_dudas_y_trampas_aesa"><a class="anchor" href="#_resumen_ejecutivo_errores_dudas_y_trampas_aesa"></a>Resumen ejecutivo: Errores, Dudas y Trampas AESA <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a vela identifican como conflictivos. Se incluyen preguntas consideradas "trampa", datos desactualizados, terminología confusa por malas traducciones, o procedimientos que divergen significativamente de la práctica real.</p>
+</div>
+<div class="sect2">
+<h3 id="_1_derecho_aéreo_y_procedimientos"><a class="anchor" href="#_1_derecho_aéreo_y_procedimientos"></a>1. Derecho aéreo y procedimientos <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_trampas_y_burocracia"><a class="anchor" href="#_trampas_y_burocracia"></a>Trampas y Burocracia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Responsabilidad Civil (Convenio de Montreal/Varsovia):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Preguntas sobre límites exactos en DEG (16.600 DEG daños personales, 17 DEG equipaje). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Normativa de transporte aéreo comercial. Exigir memorizar estas cifras a un piloto de planeador recreativo es puramente filtro académico. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Código Transpondedor 7500 (Secuestro):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Se incluye el código de interferencia ilícita. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Situación extremadamente improbable en un velero ("para cuando te secuestren el planeador"). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Memorización de Anexos OACI:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Exigencia de relacionar número de Anexo con su título. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Conocimiento enciclopédico de poco valor operativo. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_datos_a_verificar"><a class="anchor" href="#_datos_a_verificar"></a>Datos a Verificar <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Plan de Vuelo (FPL):</strong> Se cita la antelación de <strong>60 minutos</strong>. Verificar excepciones para VFR local. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><strong>Alcohol:</strong> Regla de <strong>8 horas</strong>. Estándar EASA, aunque algunas normativas nacionales o de club pueden ser más estrictas (12-24h). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_2_factores_humanos"><a class="anchor" href="#_2_factores_humanos"></a>2. Factores humanos <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_preguntas_dudosas"><a class="anchor" href="#_preguntas_dudosas"></a>Preguntas Dudosas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Recuperación auditiva:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> 16 horas tras 2h a 50 dB. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> 50 dB es un nivel muy bajo (conversación tranquila). La fatiga auditiva a ese nivel es fisiológicamente despreciable. Probable error en la pregunta original (referida a &gt;90dB) que se ha canonizado. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Saturación de Oxígeno:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> AESA considera <strong>95%</strong> "peligroso". <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> En medicina, 95% es normal. La hipoxia clínica suele definirse bajo 90-92%. El umbral de AESA es excesivamente conservador o erróneo. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Síntomas de Hipoxia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Primer síntoma = <strong>Euforia</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Simplificación excesiva. Los síntomas son individuales (visión túnel, hormigueo, fatiga). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Causa de Incapacitación:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> La causa más incapacitante para de pilotos, según AESA, es la <strong>gastroenteritis</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Aunque "infarto" aparece como opción, se debe marcar gastroenteritis. Probable traducción incompleta de informes de la FAA que señala la gastroenteritis como la causa más <strong>frecuente</strong>, pero la pregunta es ambígua (más incapacitante vs más frecuente).. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_3_meteorología"><a class="anchor" href="#_3_meteorología"></a>3. Meteorología <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_divergencias_oficiales"><a class="anchor" href="#_divergencias_oficiales"></a>Divergencias Oficiales <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Intensidad de Lluvia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> AESA define lluvia fuerte con umbrales muy bajos (¿6 litros?) que contradicen a la AEMET (15-60mm/h). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Consejo:</em> Responder según el criterio de AESA para aprobar, aunque meteorológicamente sea incorrecto. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Validez AIRMET:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> 4 horas. Correcto según OACI, pero verificar variaciones regionales. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_4_comunicaciones"><a class="anchor" href="#_4_comunicaciones"></a>4. Comunicaciones <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_obsolescencia"><a class="anchor" href="#_obsolescencia"></a>Obsolescencia <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>SELCAL:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Concepto:</em> Sistema de llamada selectiva por HF. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Exclusivo de aviación comercial transoceánica. Nula relevancia para SPL. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Registros de voz (45 días):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato:</em> Examen pide 45 días. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Normativa:</em> OACI suele marcar 30 días. Posible desactualización de la pregunta. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Señales con proyectiles:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Crítica:</em> Procedimiento de interceptación muy específico, raramente usado hoy día frente a radio/luces/maniobras. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_5_principios_de_vuelo"><a class="anchor" href="#_5_principios_de_vuelo"></a>5. Principios de vuelo <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_terminología_confusa_traducciones"><a class="anchor" href="#_terminología_confusa_traducciones"></a>Terminología Confusa (Traducciones) <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>"Freno de picada" / Spoilers:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Uso AESA:</em> Traducción literal de "Dive Brake". <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> En castellano aeronáutico se denominan <strong>Aerofrenos</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>"Trim Tab":</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Uso AESA:</em> Anglicismo no traducido. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> <strong>Compensador</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Eje Lateral vs Transversal:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Confusión:</em> A veces llaman "Lateral" al eje de cabeceo (Pitch). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Aclaración:</em> En física, eje lateral es Y (Pitch), longitudinal es X (Roll). La traducción literal de "Lateral Axis" puede inducir a error. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_6_procedimientos_operacionales"><a class="anchor" href="#_6_procedimientos_operacionales"></a>6. Procedimientos operacionales <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_irrealidad_operativa"><a class="anchor" href="#_irrealidad_operativa"></a>Irrealidad Operativa <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Remolque por Coche:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Situación:</em> Preguntas frecuentes con fórmulas complejas. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> Método prácticamente inexistente en España y gran parte de Europa hoy día. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Paracaídas (Apertura):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Dato AESA:</em> 4 segundos. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Realidad:</em> Fabricantes modernos indican 2-3 segundos. AESA mantiene datos antiguos. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Monitorización en Aterrizaje:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Respuesta AESA:</em> Monitorizar la <strong>velocidad</strong>. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> En vuelo visual (VFR), la técnica correcta es mirar fuera (referencias, actitud, punto de contacto), chequeando la velocidad puntualmente, no fijando la vista en el instrumento. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Despegue (Reptar por pista):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advertencia"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong><em>Dato AESA:</em></strong> Mantener las ruedas en el suelo el máximo tiempo posible. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Crítica (PELIGRO):</em></strong> Exigencia contraria a la seguridad. Si se alcanza la velocidad de despegue (según AFM), el velero debe ir al aire. Mantenerlo "reptando" artificialmente, detrás del remolcador, con una alta velocidad, aumenta el riesgo de impacto con obstáculos y estrés en el tren. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p><strong>Alturas mínimas de emergencia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advertencia"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong><em>Dato exigido por el examen:</em></strong> Se establece una altura de 200 ft (unos 60-70 metros) como el mínimo para intentar un viraje de 180° y volver a pista en caso de emergencia. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Crítica de seguridad:</em></strong> El manual advierte que este dato es puramente para el examen. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Riesgo:</em></strong> En la vida real, esa altura depende totalmente de la eficiencia (planeo) de cada modelo de velero concreto y del viento. Intentar un viraje de este tipo a tan baja altura en ciertos aviones o condiciones de viento podría llevar a una pérdida y barrena con consecuencias fatales. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_7_performance_y_planificación"><a class="anchor" href="#_7_performance_y_planificación"></a>7. Performance y planificación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_conceptos_de_motor"><a class="anchor" href="#_conceptos_de_motor"></a>Conceptos de Motor <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Curvas de Potencia:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Temario:</em> Preguntas sobre <em>V<sub>y</sub></em>, segundo régimen, potencia necesaria. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Conceptos de avión (PPL) aplicados erróneamente al temario de velero puro (que usa polares de velocidades, no curvas de potencia de motor). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_8_conocimiento_general_de_la_aeronave"><a class="anchor" href="#_8_conocimiento_general_de_la_aeronave"></a>8. Conocimiento general de la aeronave <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_trampas_técnicas"><a class="anchor" href="#_trampas_técnicas"></a>Trampas Técnicas <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Trampa:</em> Distinguir entre cápsula <strong>elástica</strong> (anemómetro) y <strong>aneroide</strong> (altímetro). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Limpieza:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><em>Trampa:</em> Exigir "gamuza húmeda" y rechazar "gamuza mojada". Distinción semántica absurda. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_9_navegación"><a class="anchor" href="#_9_navegación"></a>9. Navegación <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h3>
+<div class="sect3">
+<h4 id="_datos_enciclopédicos"><a class="anchor" href="#_datos_enciclopédicos"></a>Datos Enciclopédicos <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></h4>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>GLONASS PZ-90:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Pregunta:</em> Sistema geodésico del GLONASS. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Dato irrelevante para la operación diaria (el GPS usa WGS84). <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Validez de Cartas:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Contradicción:</em> El banco de preguntas alterna entre 28 días (ciclo AIRAC digital) y 6 meses (papel antiguo), generando confusión. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Errores de Brújula (Aceleración):</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Crítica:</em> El error por aceleración (ANDS) es difícil de reproducir significativamente en un planeador sin motor en vuelo nivelado. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Trampas con Segundos:</strong> <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Situación:</em> Problemas de cálculo con precisión de segundos (ej. 45º 4") irrelevantes para la navegación visual. <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+<li>
+<p><em>Crítica:</em> Inducen a error aritmético y confusión, aportando poco valor operativo real. Para colmo una de las posibles respuestas da el dato correcto si hubieran sido 45º 4' <span class="red"><span class="icon"><i class="fa fa-stop-circle"></i></span></span></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
