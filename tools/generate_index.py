@@ -59,7 +59,7 @@ def generate_trap_index():
                     ).strip()
                     anchor = f"trap-{slugify(clean_title)}"
 
-                traps.append({"title": title, "anchor": anchor})
+                traps.append({"title": title, "anchor": anchor, "filename": filename})
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("= Índice de Trampas AESA\n\n")
@@ -71,8 +71,15 @@ def generate_trap_index():
             f.write("_(No se han marcado trampas todavía en el temario)_\n")
         else:
             for trap in traps:
-                # Use <<anchor,title>> syntax for reliable linking
+                # Conditional linking for Antora (HTML) vs PDF
+                f.write("ifdef::env-antora[]\n")
+                f.write(
+                    f"- xref:{trap['filename']}#{trap['anchor']}[{trap['title']}]\n"
+                )
+                f.write("endif::[]\n")
+                f.write("ifndef::env-antora[]\n")
                 f.write(f"- <<{trap['anchor']},{trap['title']}>>\n")
+                f.write("endif::[]\n")
 
 
 if __name__ == "__main__":

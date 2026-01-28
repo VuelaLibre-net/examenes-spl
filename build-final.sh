@@ -29,8 +29,8 @@ if [ -z "$VERSION" ]; then
 fi
 
 echo "📋 Creating versioned artifacts..."
-cp book/guia-spl.pdf "book/preguntas-aesa-spl.${DATE}.${VERSION}.pdf"
-cp book/guia-spl.epub "book/preguntas-aesa-spl.${DATE}.${VERSION}.epub"
+mv book/guia-spl.pdf "book/preguntas-aesa-spl.${DATE}.${VERSION}.pdf"
+mv book/guia-spl.epub "book/preguntas-aesa-spl.${DATE}.${VERSION}.epub"
 
 echo "✅ Build complete!"
 echo "📁 Web version: build/site/"
