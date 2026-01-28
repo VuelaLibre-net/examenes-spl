@@ -1,0 +1,86 @@
+= Meteorología
+
+
+== Preguntas "Señaladas" y Burocracia (Opinión) [red]#icon:stop-circle[]#
+
+Estas son las preguntas donde se hacía una pausa para advertir que "esto sale mucho" o hace comentarios irónicos sobre la pregunta.
+
+* *[red]#icon:stop-circle[]# Validez del AIRMET:* El periodo de validez no será superior a *4 horas*.
+* _Comentario: "(esta tontería sale mucho en los exámenes AESOS)"_
+* _*[red]#icon:stop-circle[]# Intensidad de la lluvia:* Se advertía sobre una pregunta confusa de AESA respecto a qué se considera "lluvia fuerte"._
+* _Comentario: "Según los exámenes de AESA lluvia fuerte ¿6 litros? (Impugna si te sale esta pregunta)". Se aclaraba que AEMET clasifica fuerte entre 15 y 30 mm/h y torrencial más de 60 mm/h_
+* *Oxígeno Suplementario (EASA):* Es indispensable el uso de oxígeno para todos los ocupantes por encima de *10.000 ft (3.000 m)*.
+* _Se citaba la norma AMC 1 SAO OP 150_
+
+== Atmósfera Estándar (ISA) y Altimetría
+
+Valores numéricos fijos que hay que memorizar.
+
+* *Valores ISA a nivel del mar:*
+** Temperatura: *15ºC*.
+** Presión: *1013,25 hPa* (o mb).
+** Gradiente vertical de temperatura: Pierde *2ºC cada 1.000 ft* (o 6,5ºC cada 1.000 m)
+** Gradiente vertical de presión: *1 mb cada 9 metros* (o 1 mb cada 30 ft) en capas bajas
+* *Errores de Altimetría:*
+** Si vuelas de altas presiones a bajas presiones (sin corregir el QNH), el altímetro te dice que vas más alto de lo que realmente vas (*Peligro: vas más bajo*).
+** Si vuelas de zona cálida a zona fría, el altímetro indica mayor altitud que la real (*Peligro: vas más bajo*).
+** _Regla:_ La situación peligrosa se da con *Bajas Presiones y Bajas Temperaturas*
+
+== Viento y Dinámica Atmosférica
+
+Leyes físicas y definiciones.
+
+* *Ley de Buys Ballot:* Si en el Hemisferio Norte te pones de espaldas al viento, la *Baja Presión* queda a tu *izquierda*
+* *Fuerza de Coriolis:* En el Hemisferio Norte desvía el viento hacia la *derecha*. Es máxima en los polos y nula en el ecuador
+* *Viento Geostrófico:* Es el viento que sopla paralelo a las isobaras por encima de la capa de rozamiento (aprox. 1000m)
+* *Brisas:*
+** *Anabáticos:* Vientos de valle que suben por las laderas durante el día (del llano a la montaña)
+** *Catabáticos:* Vientos que bajan de la montaña al llano por la noche
+
+== Termodinámica y Nubes
+
+Cálculos y gradientes térmicos.
+
+* *Gradientes Adiabáticos:*
+** *Seco:* El aire no saturado se enfría *1ºC cada 100m* al subir
+** *Saturado:* El aire saturado (nube) se enfría aprox. *0,5ºC cada 100m* (debido a la liberación de calor latente)
+* *Estabilidad:*
+** *Estabilidad absoluta:* Cuando el gradiente real de la atmósfera es menor que el adiabático saturado (se enfría poco con la altura)
+** *Inestabilidad absoluta:* Cuando el gradiente real es mayor que el adiabático seco (se enfría mucho con la altura, >1ºC/100m)
+* *Cálculo de la base de Cúmulos (Fórmula):*
+** Altura base = *125 x (Temperatura - Punto de Rocío)*
+* *Tipos de Niebla:*
+** *Radiación:* Por enfriamiento del suelo en noches claras y sin viento (típica de tierra)
+** *Advección:* Aire húmedo y cálido se mueve sobre superficie fría (típica del mar/costa)
+
+== Frentes y Sistemas de Presión
+
+Simbología y características.
+
+* *Isobaras:* Líneas que unen puntos de igual presión. Cuanto más juntas, *más viento*
+* *Simbología de Frentes:*
+** *Frente Frío:* Línea azul con triángulos
+** *Frente Cálido:* Línea roja con semicírculos
+* *Características del paso de frentes:*
+** *Frente Frío:* Asociado a nubes cumuliformes (Cb), chubascos, bajada de temperatura y mejora posterior de visibilidad
+** *Frente Cálido:* Nubes estratiformes, lluvias débiles continuas, mala visibilidad
+
+== Informes Meteorológicos (METAR/TAF/SIGMET)
+
+Interpretación de códigos.
+
+* *CAVOK:* Visibilidad > 10 km, sin nubes por debajo de 5000 ft, sin fenómenos significativos (Cb, precipitaciones)
+* *Cambios (TREND):*
+** *TEMPO:* Fluctuaciones temporales que duran menos de una hora
+** *BECMG:* Cambio permanente esperado
+** *NOSIG:* Sin cambios significativos previstos
+* *Códigos de nubes:*
+** *FEW:* 1-2 octas.
+** *SCT:* 3-4 octas.
+** *BKN:* 5-7 octas (considerado techo de nubes).
+** *OVC:* 8 octas (cubierto)
+
+== Peligros en Vuelo
+
+* *Engelamiento:* El hielo aumenta el peso y la resistencia, y *disminuye la sustentación* y el empuje. La velocidad de pérdida *aumenta*
+* *Tormentas:* Se recomienda mantener una distancia de seguridad de al menos *20 millas* de una tormenta severa

@@ -1,0 +1,77 @@
+= Factores humanos
+
+
+== Preguntas "Señaladas" (Marcadas irónicamente) [red]#icon:stop-circle[]#
+
+_Se identifican explícitamente estos datos como materia de examen de AESA, a menudo criticando su utilidad práctica frente a la seguridad real._
+
+* *[red]#icon:stop-circle[]# Recuperación auditiva:* Se necesitan *16 horas* para recuperar la capacidad auditiva normal tras estar sometido *2 horas* a *50 dB*
+* _Se indicaba: "preguntas de los test AESA... Si no sabes esto no puedes volar con seguridad" (nótese la ironía)._
+* *[red]#icon:stop-circle[]# Nistagmo:* El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se produce cuando miramos *hacia delante*
+* _Comentario: "esta tontería lo preguntan en los exámenes de AESA"._
+* *[red]#icon:stop-circle[]# Consumo de aire:* En reposo consumimos entre *5 a 8 litros* de aire por minuto
+* _Iñaqui lo marca como "típica pregunta tonta AESA"._
+* *[red]#icon:stop-circle[]# Frecuencia respiratoria:* La frecuencia normal es de *12 a 18 respiraciones* por minuto
+* _Se añadía: "otra pregunta tonta AESA"._
+* *Saturación de Oxígeno:*
+** Para AESA, una saturación del *95%* ya es un valor peligroso
+** _Se aclaraba que en medicina real los valores son distintos, pero "tienes que poner lo que dice AESA"._
+* *Síntomas de Hipoxia:*
+** Para aprobar el examen, el *primer síntoma* de la hipoxia es la *euforia*
+
+== Fisiología de Vuelo y Salud [red]#icon:stop-circle[]#
+
+Datos numéricos y leyes físicas aplicadas al cuerpo humano que aparecen en el temario y la "Chuleta" final.
+
+* _*[red]#icon:stop-circle[]# Leyes de los Gases:* Se recomendaba mirarlas porque "a veces lo preguntan"_
+* *Ley de Boyle-Mariotte:* El volumen de un gas es inversamente proporcional a la presión (explica la expansión de gases en oídos/tripas al subir)
+* *Ley de Dalton:* La presión total es la suma de las presiones parciales
+* *Ley de Henry:* Explica la enfermedad descompresiva (burbujas de nitrógeno en sangre)
+* *Ley de Fick:* Difusión de gases en los alvéolos
+* *Ley de Graham:* Velocidad de difusión de los gases
+* *Oído y Barotraumas:*
+** Una perforación timpánica leve reduce la audición en *10-15 dB*
+** La rotura del tímpano puede ocurrir con una diferencia de presión de *100 mm Hg* o más
+* *Visión:*
+** La *retina* es la "película sensible"; los *conos* ven el color y detalle (visión central); los *bastones* ven en la noche y el movimiento
+** Punto ciego: Aumenta rápidamente a partir de los *1000 m* (según el test incluido)
+* *Alcohol:*
+** La normativa EASA prohíbe volar *8 horas* después de beber
+** Límite en sangre: No sobrepasar *0.2 g/l* (o 0.2 mg/ml)
+
+== Psicología y Modelos de Error
+
+Conceptos teóricos sobre el comportamiento y el error humano.
+
+* *Modelo SHELL:* Explica la interacción del ser humano. La *"L"* (Liveware) está en el centro y representa al *"yo"* (el piloto)
+* *Modelo del Queso Suizo (James Reason):* Los accidentes no son por un error aislado, sino por una suma de fallos latentes y activos
+* *Memoria:*
+** *Sensorial:* Dura 200-300 milisegundos
+** *Corto plazo:* Dura 20-30 segundos, capacidad de 6-7 ítems
+** *Largo plazo:* Cambios estructurales en el cerebro
+* *Estrés (Ley de Yerkes-Dodson):* El rendimiento máximo se consigue con un nivel *moderado* de estrés (curva en forma de U invertida)
+
+== Certificados Médicos y Validez
+
+Plazos administrativos para la licencia SPL (Planeador) y Clase
+
+* *Validez del Certificado Clase 2:*
+** Menores de 40 años: *60 meses* (5 años)
+** Entre 40 y 50 años: *24 meses* (2 años)
+** Mayores de 50 años: *12 meses* (1 año)
+* *Agudeza Visual (Clase 2):*
+** *6/12 (0,5)* en cada ojo por separado.
+** *6/9 (0,7)* con ambos ojos
+
+== Seguridad Real vs. Examen
+
+El texto hace una distinción crucial que es importante para tu formación, aunque no salga en el test.
+
+[NOTE]
+====
+*Guía de buenas prácticas*
+
+_Se incluía una sección de consejos de seguridad (como "tener siempre un plan B" o "la disciplina es una cualidad") y advertía explícitamente:_
+
+_"ESTO NO TE VA A SALIR EN LOS EXAMENES DE AESA, PERO DE TODOS LOS APUNTES DE F.H. ES LO MAS IMPORTANTE"_
+====

@@ -1,0 +1,90 @@
+= Navegación
+
+
+== Preguntas "Señaladas", Trampas y Rarezas AESA ([red]#icon:stop-circle[]#)
+
+_Se destaca varios puntos donde el examen oficial pide datos muy específicos, obsoletos o confusos._
+
+* *[red]#icon:stop-circle[]# Sistemas Geodésicos (GPS vs GLONASS):*
+** Pregunta: ¿Qué sistema geodésico usa el GLONASS (Ruso)?
+** Respuesta: *PZ-90* (Parametry Zemli 1990).
+** _Nota:_ El GPS americano usa el WGS84. Se marcaba esto explícitamente: *"Esto tan raro lo preguntan en los exámenes de AESA"*_
+* *[red]#icon:stop-circle[]# Validez de las Cartas Aeronáuticas:*
+** _Se advertía de una contradicción. En los exámenes actuales ponen respuestas cortas como *28 días* (ciclo AIRAC)_
+** Sin embargo, en otra sección menciona que AESA a veces pregunta por cartas de papel con validez de *6 meses*. _Consejo: "Si te preguntan eso 6 meses, impúgnala"_
+* *[red]#icon:stop-circle[]# Errores de Aceleración de la Brújula:*
+** En rumbos *Este (E)* u *Oeste (W)*:
+** Si aceleras (o asciendes), la brújula se desvía al *Norte*.
+** Si desaceleras (o desciendes), la brújula se desvía al *Sur*.
+** _Comentario:_ "Esto solo te lo explico por qué sale mucho en los exámenes de AESA"_
+* *[red]#icon:stop-circle[]# Trampas con Segundos:*
+** En cálculos de conversión de tiempo (decimal a sexagesimal), AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales
+* *[red]#icon:stop-circle[]# Marcado de Referencias en la Carta:*
+** Pregunta: ¿Cómo se marcan los puntos de referencia en la carta?
+** Respuesta sugerida: *Sobre la ruta*.
+** _Comentario:_ "Pregunta rara AESA... Ni idea. Yo pondría sobre la ruta"_
+* *[red]#icon:stop-circle[]# Plan de Vuelo al cambiar de FIR:*
+** Aunque vueles VFR, en los exámenes de AESA se requiere plan de vuelo si *cambias de FIR*
+
+== Cartografía y Proyecciones
+
+Definiciones teóricas que "preguntan mucho".
+
+* _*Escala Carta Aeronáutica Mundial (WAC):* La escala es *1:1.000.000*. Se indicaba: *"esto lo preguntan mucho"*_
+* *Proyección Lambert (Cónica Conforme):*
+** Es la usada en cartas aeronáuticas (OACI).
+** La línea recta dibujada en la carta es una *Ortodrómica* (distancia más corta).
+** La escala es prácticamente constante
+* *Proyección Mercator (Cilíndrica):*
+** La línea recta es una *Loxodrómica* (rumbo constante).
+** La escala varía con la latitud (se deforma mucho en los polos)
+
+== Magnetismo y Cálculos de Rumbo
+
+Fórmulas esenciales para resolver los problemas numéricos del test.
+
+* *Fórmulas de Conversión:*
+** *Rumbo Magnético (MH)* = Rumbo Geográfico (TC) – Declinación ( _δ_ ).
+** *Rumbo de Brújula (CH)* = Rumbo Magnético (MH) – Desvío ( _Δ_ ).
+** _Regla de signos:_ Oeste (W) es negativo (-), Este (E) es positivo (+)
+* *Errores de Viraje (Brújula):*
+** Regla nemotécnica: *NO ME PASO - SI ME PASO*.
+** Virajes al *Norte*: Sacar el viraje *antes* (NO me paso).
+** Virajes al *Sur*: Sacar el viraje *después* (SI me paso)
+** _Cálculo del anticipo:_ _1/2 Latitud + 1/3 Alabeo_
+
+== Coordenadas y Tiempo
+
+* *Latitud y Millas:*
+** *1 minuto* de arco de latitud equivale a *1 Milla Náutica (NM)*
+** 1 NM = *1.852 metros*.
+* *Husos Horarios:*
+** La tierra se divide en *24 husos* de 15º cada uno
+** Hora UTC = GMT = Zulú.
+** España (Península): En invierno *UTC+1*, en verano *UTC+2*
+
+== Plan de Vuelo (FPL) y Normativa
+
+Plazos y obligaciones administrativas.
+
+* *Obligatoriedad:*
+** Para cruzar fronteras, volar en espacio controlado, vuelo nocturno o IFR
+* *Antelación de Presentación:*
+** Para vuelos con servicio de control: Al menos *60 minutos* antes del EOBT (hora estimada fuera de calzos)
+** _Nota:_ Si solo es servicio de información desde aeródromo no controlado, se puede presentar antes de la salida sin plazo fijo de 60 min, pero la pregunta "típica" suele referirse a los 60 min._
+* *Cierre del Plan:*
+** Se debe notificar la llegada *tan pronto como sea posible* tras aterrizar
+
+== GPS (Global Positioning System)
+
+* *Satélites necesarios:*
+** Para obtener una posición 3D (Latitud, Longitud y *Altitud*) se necesitan mínimo *4 satélites*
+** Con 3 satélites solo tienes posición 2D (sin altura).
+
+== Cálculos de Viento y Deriva
+
+* *Deriva (Drift):* Es el ángulo entre el Rumbo (a donde apunta el morro) y la Ruta (a donde vas realmente sobre el suelo)
+* *Fórmula rápida de deriva:*
+** _Deriva = (Viento Cruzado × 60) / TAS_
+* *Triángulo de Velocidades:*
+** Relaciona: Vector TAS (avión) + Vector Viento = Vector GS (velocidad sobre el suelo)

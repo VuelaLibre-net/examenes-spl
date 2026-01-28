@@ -1,0 +1,76 @@
+= Derecho aéreo y procedimientos de control de tráfico aéreo
+
+
+== Preguntas "Frecuentes" (Señaladas explícitamente) [red]#icon:stop-circle[]#
+
+Estas son las preguntas que se identifican con frases como _"preguntita AESA"_, _"esto lo preguntan mucho"_ o _"sale mucho"_.
+
+* *[red]#icon:stop-circle[]# Responsabilidad Civil (Convenio de Montreal/Varsovia):*
+** El límite de responsabilidad de la compañía por daños personales es de *16.600 DEG* (Derechos Especiales de Giro)
+** Equipaje facturado: *17 DEG* por kilo
+** Equipaje de mano: *332 DEG*
+** _Nota: Se marcaba esto como "preguntita AESA", aunque es normativa de transporte aéreo comercial poco aplicable a un piloto recreativo de velero._
+* *Prescripción de acciones:*
+** Las acciones derivadas de un accidente prescriben a los *2 años*
+* *Plan de Vuelo (FPL):*
+** Tiempo mínimo de presentación para vuelos controlados: *60 minutos* antes del EOBT (hora estimada fuera de calzos)
+* *Códigos de Transpondedor (SSR):*
+** *7700:* Emergencia general
+** *7600:* Fallo de comunicaciones
+** *[red]#icon:stop-circle[]# 7500:* Interferencia ilícita (Secuestro). Se ironizaba sobre su irrelevancia para un velero: _"(para cuando te secuestren el planeador y te pidan ir con el a Cuba)"_
+
+== Licencias y Requisitos (SPL)
+
+Datos numéricos sobre la obtención y mantenimiento de la licencia.
+
+* *Edad mínima:* *16 años* para obtener la licencia 7, 8. (Para volar solo: 14 años 7).
+* *Alcohol:* Dejar pasar *8 horas* tras el consumo antes de volar
+* *Pasajeros:* Para llevar pasajeros se requieren *10 horas* de vuelo o *30 lanzamientos* tras obtener la licencia
+* *Experiencia Reciente (últimos 24 meses):*
+** *5 horas* como piloto al mando, *15 lanzamientos* y *2 vuelos* de entrenamiento con instructor
+* *Vuelo Remunerado:* Solo posible si eres mayor de 18 años y tienes *75 horas* de vuelo o *200 lanzamientos*
+* *Tiempo de espera:* Para acumular horas de vuelos sucesivos, debe haber una espera de *15 minutos* entre ellos
+
+== Reglas del Aire y Operación
+
+Normativa operativa y mínimos de seguridad.
+
+* *Certificados:*
+** Certificado de Aeronavegabilidad: Validez *vitalicia*
+** ARC (Revisión de Aeronavegabilidad): Validez *1 año*
+* *Alturas Mínimas:*
+** Sobre poblaciones: *300 m* (1000 ft) sobre el obstáculo más alto en un radio de 600 m
+** Vuelo general: *150 m* (500 ft) sobre tierra o agua
+* *Prioridad de paso:*
+** Los planeadores deben ceder el paso a *globos y dirigibles*
+** En rumbos convergentes, tiene preferencia el que viene por la *derecha*
+** Adelantamientos: Se realizan por la *derecha*
+** Alcance: Una aeronave alcanza a otra si se aproxima con un ángulo menor a *70 grados*
+* *Vuelo VFR y Meteorología:*
+** Separación de nubes (espacio aéreo no controlado por encima de 1000m): *1.500 m* horizontal y *300 m* vertical
+** Variación de velocidad (TAS): En vuelo controlado, informar si varía un *5%*
+* *Señales Visuales:*
+** *"V"* en el suelo: Necesitamos ayuda
+** *"X"* en el suelo: Necesitamos ayuda médica
+** Luz roja intermitente (aeródromo): Aeropuerto inseguro, no aterrice
+** Luz blanca intermitente (en vuelo): Aterrice y vaya a plataforma
+** Señal de interceptación: Si el caza vira *90 grados*, significa "prosiga"
+
+== Aeronaves y Categorías
+
+* *Placa de matrícula:* Debe ser de material *incombustible*
+* *Categoría "Aeronave Ligera":* Aquella de menos de *7.000 Kg* (Categoría de estela turbulenta)
+* *Estela Turbulenta:* Separación mínima de *3 minutos* entre ligera y pesada en despegue
+
+== Memorización de Normativa ([red]#icon:stop-circle[]# Irrelevancia Operativa)
+
+Preguntas sobre burocracia y nomenclatura de documentos que no afectan la habilidad de vuelo.
+
+* _*[red]#icon:stop-circle[]# Números de Anexos OACI:* Se incluía una regla mnemotécnica para memorizarlos ("1 6 7 11 13 14 17 18...")._
+** Anexo 1: Licencias.
+** Anexo 2: Reglamento del aire / Interferencias ilícitas
+** Anexo 13: Investigación de accidentes
+** Anexo 17: Seguridad (Secuestros)
+** Anexo 18: Mercancías peligrosas
+** _Nota: Conocer el contenido es útil, pero memorizar qué número corresponde a qué norma es una pregunta puramente teórica._
+* *[red]#icon:stop-circle[]# Partes del AIP:* Memorizar que se divide en GEN (General), ENR (En Ruta) y AD (Aeródromos)

@@ -1,0 +1,78 @@
+= Performance y planificación de vuelo
+
+
+== Preguntas "Señaladas" y Curiosidades AESA ([red]#icon:stop-circle[]#)
+
+_Se identifican explícitamente secciones que se incluyen solo porque salen en el examen, aunque correspondan más a aviones con motor o sean teóricas._
+
+* *[red]#icon:stop-circle[]# Curvas de Potencia (Aviones con motor):*
+** El documento incluye un apartado entero sobre curvas de potencia porque *"lo preguntan en los exámenes de AESA a pesar de que en el Silabus del AMC no figura"*
+** *Vy (Mejor régimen de ascenso):* Es el punto donde la distancia vertical entre la curva de potencia disponible y la necesaria es máxima
+** *Segundo Régimen:* Volar en la parte trasera de la curva (velocidad baja). Para volar más lento hace falta *más potencia* (inestabilidad)
+** *Resistencia:* La resistencia parásita aumenta con la velocidad; la inducida disminuye con la velocidad
+* *[red]#icon:stop-circle[]# Fórmula de Desplazamiento del CG:*
+** Preguntan cálculos matemáticos sobre cuánto se mueve el centro de gravedad al añadir peso.
+** *Fórmula:* _Desplazamiento = (Peso añadido × Distancia) / Peso Total_
+
+== Peso y Centrado (Mass and Balance)
+
+Conceptos críticos sobre la estabilidad y la carga.
+
+* *Centro de Gravedad (CG) vs. Centro de Presiones (CP):*
+** El CG debe estar siempre *por delante* del CP para que el planeador sea estable
+** El timón de profundidad genera sustentación negativa (hacia abajo) para equilibrar el morro
+* *Efectos del CG Adelantado (Morro pesado):*
+** El planeador es *más estable* pero menos eficiente.
+** Aumenta la velocidad de pérdida.
+** Cuesta más levantar el morro en el despegue y aterrizaje
+* *Efectos del CG Atrasado (Morro ligero):*
+** El planeador es *inestable* (peligroso).
+** Disminuye la capacidad de recuperar una pérdida o barrena
+** Velocidad de pérdida menor
+* *Lastre y Pesos:*
+** Si vuela un piloto solo, lo hará siempre en el *puesto delantero*
+** Si el piloto pesa menos del mínimo, debe añadir pesas de plomo (normalmente en el morro o asiento delantero)
+
+== La Polar de Velocidades
+
+Interpretación de gráficas y rendimiento.
+
+* *Efecto del Lastre (Agua):*
+** Aumentar la carga alar (peso) *NO cambia el coeficiente de planeo máximo* (planea lo mismo).
+** Lo que cambia es la velocidad: con más peso, el máximo planeo se consigue a *mayor velocidad*
+** La velocidad de pérdida y de mínimo descenso aumentan
+* *Efecto del Viento:*
+** *Viento en cara:* Se debe volar *más rápido* que la velocidad de mejor planeo (desplazar origen a la derecha)
+** *Viento en cola:* Se debe volar un poco *más lento* (desplazar origen a la izquierda)
+* *Movimiento de Masas de Aire:*
+** *Si te hundes (descendencia):* Corre (vuela más rápido)
+** *Si subes (ascendencia):* Ve despacio
+
+== Teoría McCready y Vuelo de Velocidad
+
+Uso del anillo del variómetro para optimizar la velocidad de crucero.
+
+* *Ajuste del Anillo:*
+** Para máximo planeo (llegar lo más lejos posible): Poner el anillo a *0*
+** Para máxima velocidad media (velocidad de crucero): Poner el anillo en el valor de la *térmica esperada* siguiente
+** Viento en cola: Ajustar el anillo a 0 (o reducir velocidad)
+
+== Planificación y Cálculos de Alcance
+
+Reglas prácticas para el examen y vuelo local.
+
+* *Regla de alcance (Cono de seguridad):*
+** Para cálculos seguros se usa un coeficiente de *1:20* sumando *250 metros* de seguridad para el circuito
+** _Ejemplo:_ Para recorrer 18 km se necesitan 900m + 250m = 1150m de altura
+** _Truco de cálculo:_ Dividir la distancia por 2, añadir dos ceros y sumar 250
+* *Plan de Vuelo (FPL):*
+** Obligatorio para cruzar fronteras o usar aeródromos controlados
+** Presentación: Al menos *60 minutos* antes del EOBT para vuelos controlados
+** Llegada: Es obligatorio notificar la llegada inmediatamente tras aterrizar para cerrar el plan
+
+== Virajes y Térmicas
+
+* *Alabeo óptimo:*
+** Térmicas estrechas (bajas): Requieren mucho alabeo (45º-60º).
+** Térmicas anchas (altas): Requieren menos alabeo (25º-35º)
+** A mayor alabeo, mayor tasa de descenso

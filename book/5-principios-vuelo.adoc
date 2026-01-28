@@ -1,0 +1,74 @@
+= Principios de vuelo
+
+
+== Preguntas "Señaladas" y Terminología AESA [red]#icon:stop-circle[]#
+
+_Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferente al habitual o plantea preguntas dudosas._
+
+* *[red]#icon:stop-circle[]# "Freno de picada" (Aerofrenos):* En los exámenes de AESA, a menudo traducen el término inglés _dive brake_ como *"freno de picada"* o se refieren a ellos como *"Spoilers"*.
+* _Nota:_ Debes saber que se refieren a los aerofrenos convencionales_
+* _*[red]#icon:stop-circle[]# Posiciones de Flaps:* Si preguntan cuántas posiciones de flap tiene un planeador, Se sugería *impugnar* la pregunta, ya que depende del modelo._
+* _Se aclaraba:_ Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua_
+* *[red]#icon:stop-circle[]# "Trim Tab" (Compensador):* AESA suele utilizar el término en inglés *"Trim Tab"* para referirse al compensador. También pueden preguntar sobre su funcionamiento mecánico (muelles vs. superficie aerodinámica)
+* *[red]#icon:stop-circle[]# Eje "Lateral":* Atención con la nomenclatura de los ejes. Los manuales americanos (y a veces los exámenes traducidos) llaman *"Eje Lateral"* al eje transversal (cabeceo), lo cual puede confundir
+
+== Aerodinámica Básica y Fórmulas
+
+Conceptos teóricos sobre cómo se genera la sustentación y la resistencia.
+
+* *Sustentación (L) y Velocidad:* Depende del cuadrado de la velocidad ( _V²_ ). A mayor velocidad, mucha más sustentación
+* *Ángulo de Ataque (AoA):*
+** Es el ángulo entre la *cuerda alar* y el *viento relativo*
+** La sustentación aumenta con el AoA hasta llegar al *ángulo de pérdida* (Stall), donde disminuye bruscamente
+* *Resistencias (Drag):*
+** *Resistencia Inducida:* Es consecuencia de generar sustentación (torbellinos de punta de ala). *Disminuye* al aumentar la velocidad
+** *Resistencia Parásita:* (Fricción y forma). *Aumenta* con la velocidad
+* *Mejor Planeo (L/D máx):* Ocurre a la velocidad donde la suma de ambas resistencias es mínima (donde se cruzan las curvas)
+
+== Estabilidad y Ejes
+
+* *Estabilidad Estática vs. Dinámica:*
+** *Estática Positiva:* Tendencia inicial a volver a su posición
+** *Dinámica:* Se refiere a si las oscilaciones se amortiguan con el tiempo (positiva) o se amplifican (negativa/divergente)
+* *Flutter (Flameo):*
+** Vibración aeroelástica peligrosa que puede romper la estructura.
+** Ocurre cerca o por encima de la *VNE*.
+** Solución inmediata: *Disminuir la velocidad*
+* *Barrena vs. Espiral (Diferencia Clave):*
+** *Barrena (Spin):* El ala está en pérdida. La velocidad es *baja y constante*. Gs constantes
+** *Espiral (Spiral Dive):* El ala *NO* está en pérdida. La velocidad y las Gs *aumentan rápidamente*. Peligro de fallo estructural
+
+== Factores de Carga (Gs) y Virajes
+
+Esta es una sección crítica con muchos datos numéricos de examen.
+
+* *Factor de Carga en Viraje:*
+** En un viraje de *60º* de alabeo, el factor de carga es *2G* (el peso aparente se duplica)
+** A 0º (vuelo recto) = 1G.
+* *Velocidad de Pérdida con Gs:*
+** La velocidad de pérdida *aumenta* al aumentar las Gs (virajes, tirones).
+** _Ejemplo:_ Un velero que entra en pérdida a 80 km/h a 1G, entrará en pérdida a *115 km/h* si hacemos un viraje de 60º (2G)
+* *Categorías de Diseño (Límites de Gs):*
+** *Categoría Normal:* Soporta al menos *3.8 G*.
+** *Categoría Utility (Semi-acrobática):* Soporta al menos *4.4 G* (permite barrenas).
+** *Categoría Acrobática:* Soporta al menos *6.0 G*.
+
+== Velocidades y Anemómetro (Código de Colores)
+
+Definiciones que aparecen en el diagrama de maniobra (V-n diagram).
+
+* *VNE (Línea Roja):* Velocidad de nunca exceder
+* *Arco Amarillo:* Margen de precaución. Solo se puede volar en aire en calma (sin turbulencia) y sin maniobras bruscas
+* *Arco Verde:* Rango normal de operación (desde _V~S1~_ hasta _V~NO~_ o _V~A~_).
+* *Va (Velocidad de Maniobra):* Velocidad máxima a la que se pueden aplicar los mandos al máximo sin romper el avión (antes entraría en pérdida)
+
+== Recuperación de Maniobras (Procedimientos)
+
+. *Recuperación de Pérdida:* Disminuir el ángulo de ataque (*picar*/centrar palanca)
+. *Recuperación de Barrena:*
+.. Pedal contrario al giro.
+.. Palanca al centro (o adelante).
+.. Recuperar suavemente tras parar el giro
+. *Recuperación de Espiral:*
+.. *Nivelar alas* (lo más importante y primero).
+.. Tirar suavemente para recuperar el picado (cuidado con las Gs)

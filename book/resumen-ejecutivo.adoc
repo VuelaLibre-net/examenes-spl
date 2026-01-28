@@ -1,0 +1,126 @@
+== Resumen ejecutivo: Errores, Dudas y Trampas AESA
+
+Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a vela identifican como conflictivos. Se incluyen preguntas consideradas "trampa", datos desactualizados, terminología confusa por malas traducciones, o procedimientos que divergen significativamente de la práctica real.
+
+=== 1. Derecho aéreo y procedimientos [red]#icon:stop-circle[]#
+
+==== Trampas y Burocracia [red]#icon:stop-circle[]#
+* *Responsabilidad Civil (Convenio de Montreal/Varsovia):* [red]#icon:stop-circle[]#
+** _Dato:_ Preguntas sobre límites exactos en DEG (16.600 DEG daños personales, 17 DEG equipaje). [red]#icon:stop-circle[]#
+** _Crítica:_ Normativa de transporte aéreo comercial. Exigir memorizar estas cifras a un piloto de planeador recreativo es puramente filtro académico. [red]#icon:stop-circle[]#
+* *Código Transpondedor 7500 (Secuestro):* [red]#icon:stop-circle[]#
+** _Dato:_ Se incluye el código de interferencia ilícita. [red]#icon:stop-circle[]#
+** _Crítica:_ Situación extremadamente improbable en un velero ("para cuando te secuestren el planeador"). [red]#icon:stop-circle[]#
+* *Memorización de Anexos OACI:* [red]#icon:stop-circle[]#
+** _Dato:_ Exigencia de relacionar número de Anexo con su título. [red]#icon:stop-circle[]#
+** _Crítica:_ Conocimiento enciclopédico de poco valor operativo. [red]#icon:stop-circle[]#
+
+==== Datos a Verificar [red]#icon:stop-circle[]#
+* *Plan de Vuelo (FPL):* Se cita la antelación de *60 minutos*. Verificar excepciones para VFR local. [red]#icon:stop-circle[]#
+* *Alcohol:* Regla de *8 horas*. Estándar EASA, aunque algunas normativas nacionales o de club pueden ser más estrictas (12-24h). [red]#icon:stop-circle[]#
+
+=== 2. Factores humanos [red]#icon:stop-circle[]#
+
+==== Preguntas Dudosas [red]#icon:stop-circle[]#
+* *Recuperación auditiva:* [red]#icon:stop-circle[]#
+** _Dato:_ 16 horas tras 2h a 50 dB. [red]#icon:stop-circle[]#
+** _Crítica:_ 50 dB es un nivel muy bajo (conversación tranquila). La fatiga auditiva a ese nivel es fisiológicamente despreciable. Probable error en la pregunta original (referida a >90dB) que se ha canonizado. [red]#icon:stop-circle[]#
+* *Saturación de Oxígeno:* [red]#icon:stop-circle[]#
+** _Dato:_ AESA considera *95%* "peligroso". [red]#icon:stop-circle[]#
+** _Crítica:_ En medicina, 95% es normal. La hipoxia clínica suele definirse bajo 90-92%. El umbral de AESA es excesivamente conservador o erróneo. [red]#icon:stop-circle[]#
+* *Síntomas de Hipoxia:* [red]#icon:stop-circle[]#
+** _Dato:_ Primer síntoma = *Euforia*. [red]#icon:stop-circle[]#
+** _Crítica:_ Simplificación excesiva. Los síntomas son individuales (visión túnel, hormigueo, fatiga). [red]#icon:stop-circle[]#
+
+=== 3. Meteorología [red]#icon:stop-circle[]#
+
+==== Divergencias Oficiales [red]#icon:stop-circle[]#
+* *Intensidad de Lluvia:* [red]#icon:stop-circle[]#
+** _Dato:_ AESA define lluvia fuerte con umbrales muy bajos (¿6 litros?) que contradicen a la AEMET (15-60mm/h). [red]#icon:stop-circle[]#
+** _Consejo:_ Responder según el criterio de AESA para aprobar, aunque meteorológicamente sea incorrecto. [red]#icon:stop-circle[]#
+* *Validez AIRMET:* [red]#icon:stop-circle[]#
+** _Dato:_ 4 horas. Correcto según OACI, pero verificar variaciones regionales. [red]#icon:stop-circle[]#
+
+=== 4. Comunicaciones [red]#icon:stop-circle[]#
+
+==== Obsolescencia [red]#icon:stop-circle[]#
+* *SELCAL:* [red]#icon:stop-circle[]#
+** _Concepto:_ Sistema de llamada selectiva por HF. [red]#icon:stop-circle[]#
+** _Crítica:_ Exclusivo de aviación comercial transoceánica. Nula relevancia para SPL. [red]#icon:stop-circle[]#
+* *Registros de voz (45 días):* [red]#icon:stop-circle[]#
+** _Dato:_ Examen pide 45 días. [red]#icon:stop-circle[]#
+** _Normativa:_ OACI suele marcar 30 días. Posible desactualización de la pregunta. [red]#icon:stop-circle[]#
+* *Señales con proyectiles:* [red]#icon:stop-circle[]#
+** _Crítica:_ Procedimiento de interceptación muy específico, raramente usado hoy día frente a radio/luces/maniobras. [red]#icon:stop-circle[]#
+
+=== 5. Principios de vuelo [red]#icon:stop-circle[]#
+
+==== Terminología Confusa (Traducciones) [red]#icon:stop-circle[]#
+* *"Freno de picada" / Spoilers:* [red]#icon:stop-circle[]#
+** _Uso AESA:_ Traducción literal de "Dive Brake". [red]#icon:stop-circle[]#
+** _Realidad:_ En castellano aeronáutico se denominan *Aerofrenos*. [red]#icon:stop-circle[]#
+* *"Trim Tab":* [red]#icon:stop-circle[]#
+** _Uso AESA:_ Anglicismo no traducido. [red]#icon:stop-circle[]#
+** _Realidad:_ *Compensador*. [red]#icon:stop-circle[]#
+* *Eje Lateral vs Transversal:* [red]#icon:stop-circle[]#
+** _Confusión:_ A veces llaman "Lateral" al eje de cabeceo (Pitch). [red]#icon:stop-circle[]#
+** _Aclaración:_ En física, eje lateral es Y (Pitch), longitudinal es X (Roll). La traducción literal de "Lateral Axis" puede inducir a error. [red]#icon:stop-circle[]#
+
+=== 6. Procedimientos operacionales [red]#icon:stop-circle[]#
+
+==== Irrealidad Operativa [red]#icon:stop-circle[]#
+* *Remolque por Coche:* [red]#icon:stop-circle[]#
+** _Situación:_ Preguntas frecuentes con fórmulas complejas. [red]#icon:stop-circle[]#
+** _Realidad:_ Método prácticamente inexistente en España y gran parte de Europa hoy día. [red]#icon:stop-circle[]#
+* *Paracaídas (Apertura):* [red]#icon:stop-circle[]#
+** _Dato AESA:_ 4 segundos. [red]#icon:stop-circle[]#
+** _Realidad:_ Fabricantes modernos indican 2-3 segundos. AESA mantiene datos antiguos. [red]#icon:stop-circle[]#
+* *Monitorización en Aterrizaje:* [red]#icon:stop-circle[]#
+** _Respuesta AESA:_ Monitorizar la *velocidad*. [red]#icon:stop-circle[]#
+** _Crítica:_ En vuelo visual (VFR), la técnica correcta es mirar fuera (referencias, actitud, punto de contacto), chequeando la velocidad puntualmente, no fijando la vista en el instrumento. [red]#icon:stop-circle[]#
+* *Despegue (Reptar por pista):* [red]#icon:stop-circle[]#
++
+[WARNING]
+====
+**_Dato AESA:_** Mantener las ruedas en el suelo el máximo tiempo posible. [red]#icon:stop-circle[]#
+
+**_Crítica (PELIGRO):_** Exigencia contraria a la seguridad. Si se alcanza la velocidad de despegue (según AFM), el velero debe ir al aire. Mantenerlo "reptando" artificialmente, detrás del remolcador, con una alta velocidad, aumenta el riesgo de impacto con obstáculos y estrés en el tren. [red]#icon:stop-circle[]#
+====
+* *Alturas mínimas de emergencia:* [red]#icon:stop-circle[]#
++
+[WARNING]
+====
+**_Dato exigido por el examen:_** Se establece una altura de 200 ft (unos 60-70 metros) como el mínimo para intentar un viraje de 180° y volver a pista en caso de emergencia. [red]#icon:stop-circle[]#
+
+**_Crítica de seguridad:_** El manual advierte que este dato es puramente para el examen. [red]#icon:stop-circle[]#
+
+**_Riesgo:_** En la vida real, esa altura depende totalmente de la eficiencia (planeo) de cada modelo de velero concreto y del viento. Intentar un viraje de este tipo a tan baja altura en ciertos aviones o condiciones de viento podría llevar a una pérdida y barrena con consecuencias fatales. [red]#icon:stop-circle[]#
+====
+
+=== 7. Performance y planificación [red]#icon:stop-circle[]#
+
+==== Conceptos de Motor [red]#icon:stop-circle[]#
+* *Curvas de Potencia:* [red]#icon:stop-circle[]#
+** _Temario:_ Preguntas sobre _V~y~_, segundo régimen, potencia necesaria. [red]#icon:stop-circle[]#
+** _Crítica:_ Conceptos de avión (PPL) aplicados erróneamente al temario de velero puro (que usa polares de velocidades, no curvas de potencia de motor). [red]#icon:stop-circle[]#
+
+=== 8. Conocimiento general de la aeronave [red]#icon:stop-circle[]#
+
+==== Trampas Técnicas [red]#icon:stop-circle[]#
+** _Trampa:_ Distinguir entre cápsula *elástica* (anemómetro) y *aneroide* (altímetro). [red]#icon:stop-circle[]#
+* *Limpieza:* [red]#icon:stop-circle[]#
+** _Trampa:_ Exigir "gamuza húmeda" y rechazar "gamuza mojada". Distinción semántica absurda. [red]#icon:stop-circle[]#
+
+=== 9. Navegación [red]#icon:stop-circle[]#
+
+==== Datos Enciclopédicos [red]#icon:stop-circle[]#
+* *GLONASS PZ-90:* [red]#icon:stop-circle[]#
+** _Pregunta:_ Sistema geodésico del GLONASS. [red]#icon:stop-circle[]#
+** _Crítica:_ Dato irrelevante para la operación diaria (el GPS usa WGS84). [red]#icon:stop-circle[]#
+* *Validez de Cartas:* [red]#icon:stop-circle[]#
+** _Contradicción:_ El banco de preguntas alterna entre 28 días (ciclo AIRAC digital) y 6 meses (papel antiguo), generando confusión. [red]#icon:stop-circle[]#
+* *Errores de Brújula (Aceleración):* [red]#icon:stop-circle[]#
+** _Crítica:_ El error por aceleración (ANDS) es difícil de reproducir significativamente en un planeador sin motor en vuelo nivelado. [red]#icon:stop-circle[]#
+* *Trampas con Segundos:* [red]#icon:stop-circle[]#
+** _Situación:_ Problemas de cálculo con precisión de segundos (ej. 45º 4") irrelevantes para la navegación visual. [red]#icon:stop-circle[]#
+** _Crítica:_ Inducen a error aritmético y confusión, aportando poco valor operativo real. Para colmo una de las posibles respuestas da el dato correcto si hubieran sido 45º 4' [red]#icon:stop-circle[]#

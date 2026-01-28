@@ -1,0 +1,100 @@
+= Procedimientos operacionales
+
+
+== Preguntas "Señaladas" y Rarezas AESA ([red]#icon:stop-circle[]#)
+
+El documento contiene un "Anexo 3" dedicado exclusivamente a "preguntas raras" y comentarios irónicos de Iñaqui sobre discrepancias entre la realidad y el examen.
+
+* *[red]#icon:stop-circle[]# Remolque por Coche:*
+** _Aunque Se indicaba que "En España no conozco ningún sitio donde se realice", AESA pregunta mucho sobre la velocidad de remolque._
+** *Cálculo de velocidad:* Se debe restar todo a la velocidad máxima de remolque.
+** _Fórmula:_ Velocidad Coche = (VNE remolque) – (Viento superficie) – (Gradiente viento) – (Factor seguridad 5 mph) – (Incremento por ascenso).
+* *[red]#icon:stop-circle[]# Apertura del Paracaídas:*
+** Tiempo de apertura: *4 segundos*.
+** _Comentario:_ "Da igual lo que diga el fabricante" o la realidad (150-300ft), para AESA son 4 segundos._
+* *[red]#icon:stop-circle[]# Monitorización en Aterrizaje:*
+** Pregunta: ¿Qué se monitoriza todo el rato en el aterrizaje?
+** Respuesta AESA: *La velocidad*.
+** _Ironía:_ "(según aesa no mires fuera)"._
+* *[red]#icon:stop-circle[]# Limpieza del Velero:*
+** Frecuencia: *Cada vuelo*.
+** Método: Agua y una gamuza húmeda.
+** Producto: Cera neutra *sin silicona*.
+** _Comentario:_ "Tontería AESA"._
+* *[red]#icon:stop-circle[]# Despegue:*
+** Técnica preferible: Mantener las ruedas en el suelo el *máximo de tiempo posible*.
+** _Comentario:_ "Esta tontería solo para el examen de AESA. Los veleros vuelan bien, pero reptan muy mal. ¡Juradme que jamás haréis esto!"._
+* *[red]#icon:stop-circle[]# Procedimiento tras accidente:*
+** ¿Qué hay que hacer al tener un accidente en vuelo? Respuesta: *Mentalizarse antes del vuelo*.
+** _Comentario:_ "Tontería AESA"._
+* *[red]#icon:stop-circle[]# Frecuencias de radio:*
+** Frecuencia VHF fuera de alcance en región NAT (Atlántico Norte): *131.8 MHz*.
+** _Comentario:_ "Si saber esto te matas seguro"._
+
+== Procedimientos de Despegue y Lanzamiento
+
+Normativa y velocidades operativas para remolque avión y torno.
+
+* *Remolque Avión:*
+** Señal de *alabeo* del avión remolcador: El velero debe soltarse obligatoriamente (señal de suelta imperativa).
+** Posición correcta: A nivel con la remolcadora (posición 1 o "alta" según FAA).
+* *Remolque Torno:*
+** Velocidad de ascenso óptima (V.O.A): *1,5 veces la velocidad de pérdida (Vs)*.
+** Lluvia: *No se remolca a torno* con lluvia (aumenta la velocidad de pérdida y reduce visibilidad).
+** Fallo del cable: El operador del torno debe *cortar el cable* (guillotina) si el planeador no se suelta.
+* *Estela Turbulenta:*
+** Separación mínima tras aeronave media/pesada: *3 minutos*,
+** Factores determinantes: Masa, envergadura, velocidad y configuración.
+** Posición para evitarla: Volar *sobre* y a *barlovento* del avión pesado.
+
+== Circuitos, Aproximación y Aterrizaje
+
+Parámetros numéricos para el examen.
+
+* *Alturas Clave:*
+** _Altura mínima para volver a pista en emergencia (viraje de 180º): *200 ft (60-70m)*. _Nota: Se advertía que esto es para el examen; en la realidad depende del planeador._
+** Buscar campo fuera de pista: Comenzar a *500 m*.
+* *Viento y Aterrizaje:*
+** *Viento en cola:* Baja el ángulo de descenso (planeas más).
+** _*Viento en cara:* Aumenta el ángulo de descenso (planeas menos). _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo_,_
+** Velocidad con viento en cara: Aumentar la velocidad de aproximación en *mitad de la velocidad del viento* (+1/2 Vw).
+* *Pista Mojada:*
+** La distancia de aterrizaje se incrementa un *15%*.
+** Riesgo de *Hidroplaneo viscoso* (película fina de agua en pista suave).
+* *Señales Visuales en Tierra:*
+** *"V"*: Necesitamos ayuda.
+* *Virajes en Circuito:*
+** Ángulo de inclinación de base a final: *20-30 grados*.
+** Dirección estándar: Hacia la *izquierda*.
+
+== Vuelo en Ladera y Térmica
+
+Reglas de paso y técnicas específicas.
+
+* *Preferencia en Ladera:*
+** Tiene preferencia el que tiene la ladera a su *derecha*.
+** Adelantamientos: Se realizan por *fuera* de la ladera (hacia el valle).
+* *Térmicas:*
+** Técnica de centrado: *"Técnica 270"* (virar 270º al notar el máximo ascenso).
+** Zonas favorables para térmicas: Pedregales, pueblos y trigales.
+
+== Equipamiento y Normativa General
+
+Datos de memorización sobre seguridad y documentos.
+
+* *Plan de Vuelo:* Se presenta *60 minutos* antes del vuelo.
+* *Cartas de Navegación:* Validez de *6 meses* (o 28 días según algunas preguntas de AESA).
+* *Extintores:*
+** En cabina: *CO2 y Halón*.
+** Para ruedas/frenos: *Polvo químico* (acercarse por delante o detrás, nunca lateral),
+* *Grabadoras (Cajas Negras):*
+** FDR (Datos): Guardan *25 horas*. Necesaria para > 5.700 Kg.
+** CVR (Voz): Guardan los últimos *30 minutos*.
+* *Salvamento Marítimo:*
+** Chaleco salvavidas: Obligatorio a más de *50 NM* de la costa.
+** Balsa salvavidas: Obligatoria a más de *100 NM*.
+* *Luces de Navegación:*
+** Verde: 110º.
+** Blanca (cola): 140º.
+* *Mercancías Peligrosas:* Definidas en las "Instrucciones Técnicas" de la OACI.
+* *Fases de Emergencia:* INCERFA, ALERFA, DETRESFA.

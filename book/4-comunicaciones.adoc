@@ -1,0 +1,71 @@
+= Comunicaciones
+
+
+== Preguntas "Señaladas" y Temas Irrelevantes para Vuelo a Vela [red]#icon:stop-circle[]#
+
+Estas son las preguntas que se marcaba explícitamente como "tonterías" o temas que aparecen frecuentemente en los exámenes a pesar de su nula aplicación práctica en un velero.
+
+* *[red]#icon:stop-circle[]# SELCAL (Sistema de Llamada Selectiva):*
+** Es un sistema para comunicaciones de *larga distancia (HF)* usado en vuelos transoceánicos.
+** Consiste en una combinación de *4 tonos* de audio cuya transmisión requiere aprox. *2 segundos*.
+** _Comentario: "Esta tontería sale mucho en los exámenes de AESA... te será muy práctico cuando hagas vuelos transoceánicos con tu planeador"_
+* *[red]#icon:stop-circle[]# Registros de comunicaciones (Grabaciones):*
+** Si preguntan cuánto tiempo se guardan los registros, la respuesta para AESA es *45 días*.
+** _Comentario: Se advertía que hay contradicción con la normativa OACI (30 días), pero recomendaba contestar 45 días y, si no la dan por válida, impugnarla_
+* *[red]#icon:stop-circle[]# Fórmula de alcance de radio:*
+** Rango (NM) = *1,25 x √ Altura (ft)*.
+** _Comentario: "Apréndete la formulita que a veces lo preguntan"_
+* *[red]#icon:stop-circle[]# Señales con proyectiles (Pirotecnia):*
+** Proyectiles que explotan en luces rojas y verdes a intervalos de 10 segundos indican a una aeronave no autorizada que está en zona prohibida/peligrosa.
+** _Nota: Se indicaba que esto "sale a menudo en los exámenes de AESA"_
+
+== Procedimientos de Radio y Fraseología
+
+Reglas operativas estrictas que suelen ser objeto de preguntas tipo test.
+
+* *Pruebas de Radio:*
+** No deben durar más de *10 segundos* y consisten en un conteo de números (uno, dos, tres...)
+** Se debe esperar al menos *10 segundos* antes de hacer una segunda llamada si no contestan
+* *Colación (Readback):*
+** Es obligatorio colacionar (repetir): Autorizaciones, instrucciones de rumbo/velocidad/nivel, *Pista en uso*, *QNH*, Código de Transpondedor y cambios de frecuencia
+** La colación sirve para confirmar que la recepción ha sido correcta
+* *Transmisión de Números y Horas:*
+** Los números se transmiten dígito a dígito (ej. 175 = uno, siete, cinco)
+** Los decimales se indican con la palabra *"COMA"*
+** El fin del día se designa como *24:00* y el principio como *00:00*
+* *Distintivos de llamada:*
+** Tras la primera comunicación (ej. EC-DPE), se puede abreviar usando el primer y los dos últimos caracteres (ej. *E-PE*)
+
+== Emergencia y Urgencia
+
+Protocolos críticos de seguridad.
+
+* *Emergencia (Socorro):*
+** Señal: *MAYDAY* (repetido 3 veces). Indica peligro grave e inminente
+** Prioridad absoluta sobre todas las demás comunicaciones
+* *Urgencia:*
+** Señal: *PAN PAN* (repetido 3 veces). Condición que afecta a la seguridad pero no requiere ayuda inmediata
+* *Frecuencias y Códigos:*
+** Frecuencia de emergencia VHF: *121.500 MHz*
+** *Transpondedor 7600:* Fallo de comunicaciones
+** *Transpondedor 7500:* Interferencia ilícita (secuestro). _Se ironizaba: "Si te raptan el planeador"_
+** *Transpondedor 7700:* Emergencia general
+
+== Fallo de Radio
+
+Procedimientos a seguir si la radio deja de funcionar.
+
+* *Transmitiendo a ciegas:* Si falla el receptor, se debe transmitir informando de la posición y hora prevista, precedido de la frase "Transmitiendo a ciegas"
+* _*Señales luminosas (Torre a Avión):* Aunque se mencionaba las pirotécnicas como pregunta frecuente, recuerda que en caso de fallo de radio en aeródromo controlado, la torre usará luces para dar instrucciones_
+
+== Técnica y Definiciones (Anexo Test)
+
+Datos técnicos extraídos del banco de preguntas incluido al final del documento.
+
+* *Velocidad de transmisión:* No más de *100 palabras por minuto*
+* *Banda VHF:* Rango de *30 a 300 MHz* (aunque aviación usa 118-136 MHz)
+* *Separación de canales:* En Europa es de *8.33 kHz* (antes 25 kHz)
+* *Significados de fraseología:*
+** *"Terminado":* La conversación ha finalizado y no se espera respuesta
+** *"Cambio":* He terminado y espero su respuesta
+** *"Negativo":* Significa "No", "permiso no concedido" o "es incorrecto"

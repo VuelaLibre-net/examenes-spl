@@ -1,0 +1,47 @@
+= Guía de Estudio SPL: Preguntas, trampas y claves para aprobar los exámenes
+Basado en los apuntes de Iñaqui
+27 de Enero de 2026
+:doctype: book
+:pdf-theme: theme.yml
+:pdf-themesdir: {docdir}
+:lang: es
+:toc: left
+:toc-title: Índice
+:sectnums:
+:chapter-label: Capítulo
+:chapter-signifier: Capítulo
+:icons: font
+:stem: latexmath
+
+[preface]
+== Introducción
+
+Recopilación de los puntos clave, preguntas frecuentes, "trampas" y comentarios irónicos de Iñaqui sobre el examen oficial para la obtención de la Licencia de Piloto de Planeador (SPL). 
+
+El objetivo de este documento es ayudar al estudiante a identificar qué es realmente relevante para el examen de AESA, diferenciando entre conocimientos prácticos esenciales y seguros y burocracia o datos teóricos que "hay que saberse" para aprobar.
+
+Con frecuencia los instructores te dirán que, para aprobar el examen, respondas de determinada forma, incluso contraria a la seguridad. El bueno de Iñaqui nos hacía jurar que jamás íbamos a hacer eso en el vuelo real.
+
+Las secciones marcadas con *[red]#icon:stop-circle[]#* indican esas preguntas específicas que suelen salir en los exámenes, a menudo con redacciones confusas o exigiendo datos muy concretos, erróneos, arbitrarios o absolutamente irrelevantes para nuestro deporte.
+
+include::resumen-ejecutivo.adoc[leveloffset=+1]
+
+include::1-reglamentacion.adoc[leveloffset=+1]
+
+include::2-factores-humanos.adoc[leveloffset=+1]
+
+include::3-meteorologia.adoc[leveloffset=+1]
+
+include::4-comunicaciones.adoc[leveloffset=+1]
+
+include::5-principios-vuelo.adoc[leveloffset=+1]
+
+include::6-procedimientos-operacionales.adoc[leveloffset=+1]
+
+include::7-performance-planificacion.adoc[leveloffset=+1]
+
+include::8-conocimiento-general-aeronave.adoc[leveloffset=+1]
+
+include::9-navegacion.adoc[leveloffset=+1]
+
+include::anexo-syllabus.adoc[leveloffset=+1]

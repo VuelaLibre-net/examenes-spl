@@ -1,0 +1,110 @@
+[appendix]
+= Syllabus Oficial SPL
+
+Este anexo contiene el temario oficial (Syllabus) para la licencia de piloto de planeador (SPL), traducido al castellano.
+
+== 1. DERECHO AÉREO Y PROCEDIMIENTOS ATC
+
+* 1.1. Derecho internacional: convenios, acuerdos y organizaciones
+* 1.2. Aeronavegabilidad de la aeronave
+* 1.3. Nacionalidad y marcas de matrícula de las aeronaves
+* 1.4. Licencias de personal
+* 1.5. Reglamento del aire
+* 1.6. Procedimientos para la navegación aérea: operaciones de aeronaves
+* 1.7. Reglamento de tráfico aéreo: estructura del espacio aéreo
+* 1.8. Servicios de tránsito aéreo (ATS) y gestión del tránsito aéreo (ATM)
+* 1.9. Servicio de información aeronáutica (AIS)
+* 1.10. Aeródromos, lugares de despegue externos
+* 1.11. Búsqueda y salvamento
+* 1.12. Seguridad (Security)
+* 1.13. Notificación de accidentes
+* 1.14. Derecho nacional
+
+== 2. FACTORES HUMANOS
+
+* 2.1. Factores humanos: conceptos básicos
+* 2.2. Fisiología básica de aviación y mantenimiento de la salud
+* 2.3. Psicología básica de aviación
+* 2.4. Uso de oxígeno
+
+== 3. METEOROLOGÍA
+
+* 3.1. La atmósfera
+* 3.2. Viento
+* 3.3. Termodinámica
+* 3.4. Nubes y niebla
+* 3.5. Precipitación
+* 3.6. Masas de aire y frentes
+* 3.7. Sistemas de presión
+* 3.8. Climatología
+* 3.9. Peligros en vuelo
+* 3.10. Información meteorológica
+
+== 4. COMUNICACIONES
+
+* 4.1. Definiciones
+* 4.2. Comunicaciones VFR
+** 4.2.1. Comunicaciones VFR en aeródromos no controlados
+** 4.2.2. Comunicaciones VFR en aeródromos controlados
+** 4.2.3. Comunicaciones VFR con ATC (en ruta)
+* 4.3. Procedimientos operativos generales
+* 4.4. Términos de información meteorológica relevante (VFR)
+* 4.5. Actuación requerida en caso de fallo de comunicaciones
+* 4.6. Procedimientos de socorro y urgencia
+* 4.7. Principios generales de propagación VHF y asignación de frecuencias
+
+== 5. PRINCIPIOS DE VUELO
+
+* 5.1. Aerodinámica (flujo de aire)
+* 5.2. Mecánica de vuelo
+* 5.3. Estabilidad
+* 5.4. Control
+* 5.5. Limitaciones (factor de carga y maniobras)
+* 5.6. Pérdida y barrena
+* 5.7. Picado en espiral
+
+== 6. PROCEDIMIENTOS OPERACIONALES
+
+* 6.1. Requisitos generales
+* 6.2. Métodos de lanzamiento
+* 6.3. Técnicas de vuelo a vela
+* 6.4. Circuitos y aterrizaje
+* 6.5. Aterrizaje fuera de campo (Outlanding)
+* 6.6. Procedimientos operacionales especiales y peligros
+* 6.7. Procedimientos de emergencia
+* 6.8. Operación de paracaídas de emergencia y aterrizaje
+
+== 7. PERFORMANCE Y PLANIFICACIÓN DE VUELO
+
+* 7.1. Masa y centrado
+* 7.2. Polar de velocidades de planeadores o velocidad de crucero
+* 7.3. Planificación de vuelo y establecimiento de tareas
+* 7.4. Plan de vuelo OACI (Plan de vuelo ATS)
+* 7.5. Monitorización del vuelo y re-planificación en vuelo
+
+== 8. CONOCIMIENTO GENERAL DE LA AERONAVE
+
+* 8.1. Estructura (Célula)
+* 8.2. Diseño de sistemas, cargas y esfuerzos
+* 8.3. Tren de aterrizaje, ruedas, neumáticos y frenos
+* 8.4. Masa y centrado (Equilibrado)
+* 8.5. Mandos de vuelo
+* 8.6. Instrumentos
+* 8.7. Montaje de la aeronave, conexión de superficies de control
+* 8.8. Manuales y documentos
+* 8.9. Aeronavegabilidad y mantenimiento
+* 8.10. Célula, motores y hélices
+* 8.11. Sistemas de lastre de agua
+* 8.12. Baterías (rendimiento y limitaciones operativas)
+* 8.13. Paracaídas de emergencia
+* 8.14. Ayuda de escape de emergencia
+
+== 9. NAVEGACIÓN
+
+* 9.1. Conceptos básicos de navegación
+* 9.2. Magnetismo y brújulas
+* 9.3. Cartas
+* 9.4. Navegación a estima
+* 9.5. Navegación en vuelo
+* 9.6. Uso de GNSS
+* 9.7. Uso de ATS

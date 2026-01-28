@@ -1,0 +1,100 @@
+= Conocimiento general de la aeronave
+
+
+== Preguntas "Señaladas" y Rarezas AESA ([red]#icon:stop-circle[]#)
+
+Estas son las preguntas específicas que Se advertía que salen con frecuencia y que suelen tener "truco" o una redacción particular en los exámenes oficiales.
+
+* *[red]#icon:stop-circle[]# Gancho de Centro de Gravedad:*
+** Pregunta: ¿Se puede usar el gancho de centro de gravedad para remolque avión?
+** Respuesta: *SÍ*, si así lo indica el manual de vuelo (AFM)
+* *[red]#icon:stop-circle[]# Cápsula del Anemómetro:*
+** Pregunta: ¿Qué tipo de cápsula tiene el anemómetro?
+** Respuesta: Tiene una cápsula *elástica*.
+** _Trampa:_ No tiene una cápsula "aneroide" (esa es la del altímetro). Se marcaba esto como "pregunta típica de AESA"_
+* *[red]#icon:stop-circle[]# Mandos Primarios:*
+** Pregunta: ¿Cuáles son los mandos primarios?
+** Respuesta: *Timón de profundidad, timón de dirección y alerones*.
+** _Comentario:_ "Esta tontaa la preguntan mucho"_
+* *[red]#icon:stop-circle[]# Baterías (Requisito IFR):*
+** Para vuelo instrumental (nubes), AESA exige que la batería tenga al menos el *80%* de su capacidad
+** Sujeción: El soporte de la batería debe aguantar una deceleración de *15 Gs*
+* *[red]#icon:stop-circle[]# Paracaídas:*
+** *Automático:* Funciona mediante una *cinta estática*
+** *Tiempo de apertura:* Según AESA, tarda *4 segundos* (aunque los fabricantes digan 2-3 segundos)
+* *[red]#icon:stop-circle[]# Limpieza del Gel Coat:*
+** Se debe usar una gamuza *húmeda*.
+** _Ojo:_ Según los exámenes de AESA, "no vale una gamuza mojada"
+* *[red]#icon:stop-circle[]# Traducciones "Macarrónicas" (Inglés-Español):*
+** _Se advertía repetidamente que AESA traduce literalmente términos del manual de la FAA 9:_
+** *Freno de picada* = Aerofrenos (Dive brakes).
+** *Spoiler* = Aerofrenos.
+** *Trim Tab* = Compensador
+** *Elevador* = Timón de profundidad.
+
+== Estructura y Limitaciones (Gs)
+
+Datos numéricos sobre la resistencia estructural y categorías.
+
+* *Factor de Carga (Virajes):*
+** En un viraje de *60º*, el factor de carga es *2 G* (el peso aparente se duplica)
+* *Categorías de Aeronaves:*
+** *Categoría Normal:* Soporta al menos *3.8 G* (No acrobacia, no barrenas)
+** *Categoría Utility (Semi-acrobática):* Soporta al menos *4.4 G* (Permite barrenas)
+** *Categoría Acrobática:* Soporta al menos *6.0 G*
+* *Materiales:*
+** El color blanco en la fibra de vidrio es obligatorio para minimizar la temperatura, ya que el calor debilita la resina epoxi
+
+== Peso y Centrado
+
+Conceptos sobre la estabilidad según la posición del Centro de Gravedad (CG).
+
+* *CG Adelantado (Morro pesado):*
+** El avión es *más estable*.
+** La velocidad de pérdida es *más alta*.
+** Cuesta más levantar el morro en el despegue
+* *CG Atrasado (Morro ligero):*
+** El avión es *inestable* (Peligroso).
+** Velocidad de pérdida menor.
+** Dificultad para salir de una barrena
+* *Peso del Piloto:* Si vuelas solo en un biplaza, debes hacerlo siempre en el *asiento delantero*
+
+== Instrumentación
+
+Principios de funcionamiento y errores.
+
+* *Altímetro:*
+** Funciona con una cápsula *aneroide* (vacío parcial)
+** *Error de temperatura/presión:* "From high to low, look out below". Si vas de altas presiones a bajas (o de calor a frío) sin corregir, el altímetro dice que vas más alto de lo que realmente vas (*Peligro: vas más bajo*)
+* *Variómetro:*
+** *Energía Total (Compensado):* Mide variaciones de energía total (potencial + cinética). Ignora los "tirones de palanca" (térmicas de palanca)
+** Conexiones: El compensado se conecta a la toma de *presión total* (o venturi) y a la *estática* (o botella termo)
+* *Giroscópicos:*
+** Basados en *rigidez* y *precesión*
+** *Bastón (Indicador de viraje):* Mide el régimen de giro. Un viraje estándar son 360º en *2 minutos*
+* *Brújula:*
+** Errores por aceleración: Al acelerar en rumbos E/W da error.
+** Errores por viraje (Norte/Sur): Al virar desde el Norte, la brújula se retrasa ("Norte No me paso"). Al virar desde el Sur, se adelanta ("Sur Si me paso")
+
+== Motores (Motoveleros y Autolanzables)
+
+Aunque sea licencia de planeador, el temario incluye motores de combustión (para TMGs y turbos).
+
+* *Ciclo de 4 tiempos (Otto):*
+** Admisión. 2. Compresión. 3. Explosión/Expansión. 4. Escape
+** Se produce una explosión cada *2 vueltas* de cigüeñal (en los de 2 tiempos es cada 1 vuelta)
+* *Magnetos:*
+** Son independientes de la batería y del alternador. Si falla la batería, el motor *NO* se para
+** Para apagar una magneto, se pone a *masa*
+* *Carburador:*
+** Mezcla ideal aire/combustible: *15:1*
+* *Hielo en carburador:* El primer síntoma es una *disminución de RPM* (en hélice de paso fijo)
+** Uso de calefacción: No usar en despegue (quita potencia). Usar antes de reducir potencia para aterrizar
+* *Curva de Potencia:*
+** *Primer régimen:* Zona frontal (velocidad alta).
+** *Segundo régimen:* Zona trasera (velocidad baja). Para volar más lento hace falta *más potencia* (inestabilidad)
+
+== Lastre de Agua
+
+* No cambia el coeficiente de planeo máximo (L/D), solo aumenta la *velocidad* a la que se consigue
+* Aumenta la velocidad de pérdida y la tasa de descenso mínima (subes peor en térmicas flojas)
