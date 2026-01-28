@@ -1,6 +1,6 @@
-# 🛩️ VuelaLibre.net - Guía de Estudio SPL
+# 🛩️ VuelaLibre.net - Guía para 'aprobar' el examen SPL en España (no para aprender a volar planeadores)
 
-**Guía de Estudio Oficial para la Licencia de Piloto de Planeador (SPL)**
+**Guía de Estudio para 'aprobar' la Licencia de Piloto de Planeador (SPL)**
 
 [![Build Status](https://github.com/VuelaLibre-net/examenes-spl/workflows/Build/badge.svg)](https://github.com/VuelaLibre-net/examenes-spl/actions)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
