@@ -7,36 +7,11 @@
     <meta name="generator" content="Antora 3.1.14">
     <link rel="stylesheet" href="/examenes-spl/_/css/site.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/examenes-spl/_/css/site-extra.css">
 <style>
 /* Enforce FA4 family to avoid conflicts with FA5 in default UI */
 .fa {
     font-family: FontAwesome !important;
-}
-
-/* Restore [red]#...# style */
-span.red {
-  color: #d9534f !important;
-  font-weight: bold;
-}
-
-/* Style for [.trampa] blocks */
-.trampa {
-  background-color: #fff5f5;
-  border-left: 5px solid #d9534f;
-  padding: 1rem;
-  margin: 1.5rem 0;
-}
-
-.trampa .title {
-  color: #d9534f !important;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-bottom: 0.5rem;
-}
-
-/* Ensure font-awesome icons are red when inside red span */
-span.red .fa, span.red .fas, span.red .far {
-    color: #d9534f !important;
 }
 </style>
 
@@ -45,7 +20,10 @@ span.red .fa, span.red .fas, span.red .far {
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">Guía de Estudio SPL</a>
+      <a class="navbar-item" href="https://VuelaLibre-net.github.io/examenes-spl">
+        <span style="font-size: 1.5rem; margin-right: 0.5rem;">🛩️</span>
+        <strong>Guía de Estudio SPL</strong>
+      </a>
       <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
         <span></span>
         <span></span>
@@ -64,7 +42,10 @@ span.red .fa, span.red .fas, span.red .far {
         </div>
         <div class="navbar-item">
           <span class="control">
-            <a class="button is-primary" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">GitHub</a>
+            <a class="button is-primary" href="https://github.com/VuelaLibre-net/examenes-spl" target="_blank" rel="noopener">
+              <span class="icon"><i class="fa fa-github"></i></span>
+              <span>GitHub</span>
+            </a>
           </span>
         </div>
       </div>

@@ -1,0 +1,206 @@
+/* ========================================
+   Modern Styling for SPL Study Guide
+   ======================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Color Palette - Aviation Theme */
+  --color-primary: #0ea5e9;
+  --color-accent: #d9534f;
+  --color-text: #1e293b;
+  --color-text-muted: #64748b;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  
+  /* Typography */
+  --font-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --line-height: 1.75;
+  --font-size-base: 17px;
+}
+
+/* ========================================
+   Base Typography
+   ======================================== */
+
+body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  color: var(--color-text);
+}
+
+.doc h1, .doc h2, .doc h3, .doc h4, .doc h5, .doc h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.doc h1 { font-size: 2.25rem; margin-top: 2rem; }
+.doc h2 { font-size: 1.875rem; margin-top: 2.5rem; }
+.doc h3 { font-size: 1.5rem; margin-top: 2rem; }
+.doc h4 { font-size: 1.25rem; margin-top: 1.5rem; }
+
+.doc p {
+  margin-bottom: 1.25rem;
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+/* ========================================
+   Enhanced Trampa Blocks
+   ======================================== */
+
+.trampa {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+  border-left: 5px solid var(--color-accent);
+  border-radius: 8px;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 12px rgba(217, 83, 79, 0.12);
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.trampa:hover {
+  box-shadow: 0 4px 16px rgba(217, 83, 79, 0.18);
+}
+
+.trampa::before {
+  content: "⚠️";
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 2rem;
+  opacity: 0.25;
+}
+
+.trampa h2, .trampa h3, .trampa h4 {
+  color: var(--color-accent) !important;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* ========================================
+   Red Icons and Text
+   ======================================== */
+
+span.red {
+  color: var(--color-accent) !important;
+  font-weight: 600;
+}
+
+span.red .fa {
+  color: var(--color-accent) !important;
+  margin-left: 0.25rem;
+}
+
+/* ========================================
+   Navigation Improvements
+   ======================================== */
+
+.nav-link {
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+}
+
+.nav-link:hover {
+  background-color: var(--color-bg-alt);
+  transform: translateX(4px);
+}
+
+.nav-link.is-current-page {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+}
+
+/* ========================================
+   TOC Sidebar (Right)
+   ======================================== */
+
+.toc.sidebar {
+  border-left: 1px solid #e2e8f0;
+  padding-left: 1.5rem;
+}
+
+.toc a {
+  color: var(--color-text-muted);
+  transition: color 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.toc a:hover {
+  color: var(--color-primary);
+}
+
+.toc a.is-active {
+  color: var(--color-primary);
+  font-weight: 600;
+  border-left: 2px solid var(--color-primary);
+  padding-left: 0.5rem;
+}
+
+/* ========================================
+   Smooth Interactions
+   ======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+.button.is-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #0284c7 100%);
+  border: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button.is-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+}
+
+/* ========================================
+   Admonitions (Nota, Advertencia, etc.)
+   ======================================== */
+
+.admonitionblock {
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.admonitionblock.note {
+  border-left: 4px solid #3b82f6;
+}
+
+.admonitionblock.warning {
+  border-left: 4px solid #f59e0b;
+}
+
+.admonitionblock.important {
+  border-left: 4px solid #ef4444;
+}
+
+/* ========================================
+   Responsive Adjustments
+   ======================================== */
+
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 16px;
+  }
+  
+  .trampa::before {
+    font-size: 1.5rem;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+}
