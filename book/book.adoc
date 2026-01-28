@@ -1,6 +1,6 @@
 = Guía de Estudio SPL: Preguntas, trampas y claves para aprobar los exámenes
 Basado en los apuntes de Iñaqui
-v0.9.3, 28 de Enero de 2026
+v0.9.4, 28 de Enero de 2026
 :repository-url: https://github.com/VuelaLibre-net/examenes-spl
 :doctype: book
 :pdf-theme: theme.yml
@@ -19,6 +19,8 @@ v0.9.3, 28 de Enero de 2026
 == Introducción
 
 {repository-url}
+
+Este documento está extraído de la información contenida en los manuales de teoría del aeroclub de Fuentemilanos de Iñaqui Ulibarri.
 
 Recopilación de los puntos clave, preguntas frecuentes, "trampas" y comentarios irónicos de Iñaqui sobre el examen oficial para la obtención de la Licencia de Piloto de Planeador (SPL). 
 
