@@ -24,9 +24,9 @@ El contenido sigue el Syllabus oficial de EASA:
 8.  **Conocimiento General de la Aeronave**: Estructuras, sistemas e instrumentos.
 9.  **Navegación**: Magnetismo, cartas y uso de GNSS.
 
-## 🛠️ Generación del PDF
+## 🛠️ Generación del PDF y EPUB
 
-El libro se escribe en formato **AsciiDoc**. Para generar el PDF automáticamente cada vez que realices un cambio, puedes usar el script incluido:
+El libro se escribe en formato **AsciiDoc**. Para generar el PDF y EPUB automáticamente cada vez que realices un cambio, puedes usar el script incluido:
 
 ```bash
 ./watch_book.sh
@@ -37,6 +37,7 @@ El libro se escribe en formato **AsciiDoc**. Para generar el PDF automáticament
 Para compilar el libro, necesitas tener instalado:
 
 - **Asciidoctor PDF**: `gem install asciidoctor-pdf` si tienes ruby.
+- **Asciidoctor EPUB3**: `gem install asciidoctor-epub3`
 - **inotify-tools** (opcional, para el script de auto-watch): `sudo apt install inotify-tools` en linux.
 
 ## 📄 Archivos del Proyecto

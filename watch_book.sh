@@ -36,12 +36,15 @@ while true; do
     # Small debounce to let file writes finish
     sleep 0.5
     
-    # Run asciidoctor-pdf
-    if asciidoctor-pdf "$MAIN_FILE"; then
-        echo "✅ PDF generated successfully: ${MAIN_FILE%.adoc}.pdf"
+    # Run asciidoctor-pdf and asciidoctor-epub3
+    if asciidoctor-pdf "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.pdf" && \
+       export GEM_HOME=$(ruby -r rubygems -e 'print Gem.user_dir') && \
+       export PATH=$PATH:$GEM_HOME/bin && \
+       asciidoctor -r asciidoctor-epub3 -b epub3 "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.epub"; then
+        echo "✅ PDF and EPUB generated successfully"
         echo "Time: $(date '+%H:%M:%S')"
     else
-        echo "❌ PDF generation failed!"
+        echo "❌ Generation failed!"
     fi
     echo "-----------------------------------"
 done
