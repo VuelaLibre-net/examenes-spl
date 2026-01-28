@@ -2,6 +2,7 @@
 
 # Configuration
 MAIN_FILE="modules/ROOT/pages/book.adoc"
+PLAYBOOK="antora-playbook.yml"
 
 # Check if asciidoctor-pdf exists
 if ! command -v asciidoctor-pdf &> /dev/null; then
@@ -10,12 +11,20 @@ if ! command -v asciidoctor-pdf &> /dev/null; then
     exit 1
 fi
 
-echo "🚀 Starting build..."
+echo "🚀 Starting full build (Web, PDF, EPUB)..."
 
 # Ensure all traps have anchors and regenerate index
 echo "🔧 Running pre-build tools..."
 python3 tools/add_anchors.py
 python3 tools/generate_index.py
+
+# Run Antora for Web
+echo "🌐 Generating Web site (Antora)..."
+if npx antora "$PLAYBOOK"; then
+    echo "✅ Web site generated in build/site/"
+else
+    echo "❌ Web generation failed!"
+fi
 
 # Run asciidoctor-pdf and asciidoctor-epub3
 echo "📄 Generating PDF and EPUB..."
@@ -35,7 +44,7 @@ if asciidoctor-pdf "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.pdf" && \
     cp "${MAIN_FILE%.adoc}.pdf" "$BASENAME.pdf"
     cp "${MAIN_FILE%.adoc}.epub" "$BASENAME.epub"
     
-    # Also update the generic "latest" link/file for convenience (optional, but good practice)
+    # Also update the generic "latest" link/file for convenience
     cp "${MAIN_FILE%.adoc}.pdf" "book/preguntas-aesa-spl.pdf"
     cp "${MAIN_FILE%.adoc}.epub" "book/preguntas-aesa-spl.epub"
     
@@ -43,6 +52,6 @@ if asciidoctor-pdf "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.pdf" && \
     echo "   - $BASENAME.pdf"
     echo "   - $BASENAME.epub"
 else
-    echo "❌ Generation failed!"
+    echo "❌ Document generation failed!"
     exit 1
 fi

@@ -1,5 +1,9 @@
 # Guía de Estudio para el examen SPL (Piloto de Planeadores) en España
 
+![Release](https://img.shields.io/github/v/release/VuelaLibre-net/examenes-spl?label=version)
+![License](https://img.shields.io/badge/license-CC--BY--4.0-blue.svg)
+![GitHub Pages](https://img.shields.io/github/deployments/VuelaLibre-net/examenes-spl/github-pages?label=docs)
+
 Este repositorio contiene la **Guía de Estudio SPL**, con una recopilación estructurada de los puntos clave, preguntas frecuentes y "trampas" de examen para la obtención de la Licencia de Piloto de Planeador (SPL) en España.
 
 🌐 **[Ver Sitio Web Online](https://VuelaLibre-net.github.io/examenes-spl)**
@@ -22,30 +26,35 @@ El proyecto sigue la estructura estándar de **Antora**:
 
 ## 🛠️ Generación de Documentos
 
-### Sitio Web (HTML)
-El sitio web se genera usando [Antora](https://antora.org/).
+### Generación Completa (Web, PDF y EPUB)
 
-**Requisitos**: Node.js (v16+).
+Para generar todos los formatos a la vez, puedes usar el script de construcción:
 
 ```bash
-# Instalar dependencias
+# Instalar dependencias (primera vez)
 npm install
 
-# Generar sitio localmente
-npx antora antora-playbook.yml
+# Generar todo
+./build.sh
 ```
-El resultado estará disponible en `build/site/index.html`.
 
-### PDF y EPUB
-Para generar los documentos portables (PDF y EPUB), utilizamos Asciidoctor directamente.
+El sitio web estará en `build/site/` y los documentos portables en `book/`.
 
-**Requisitos**: Ruby, `asciidoctor-pdf`, `asciidoctor-epub3`.
+### Modo Desarrollo (Auto-regeneración)
+
+Si estás editando el contenido y quieres ver los cambios al instante:
 
 ```bash
-# Generar PDF y EPUB
-./build_book.sh
+./watch.sh
 ```
-Los archivos se generarán en la carpeta `book/` con el formato `preguntas-aesa-spl.{FECHA}.{VERSION}.pdf`.
+
+Este script vigilará cambios en los archivos fuente y reconstruirá todos los formatos automáticamente.
+
+### Requisitos
+
+- **Sitio Web**: Node.js (v16+).
+- **PDF y EPUB**: Ruby, `asciidoctor-pdf`, `asciidoctor-epub3`.
+- **Automatización**: `inotify-tools` (solo para `watch.sh` en Linux).
 
 ## 📄 Archivos Clave
 
