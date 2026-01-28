@@ -1,18 +1,18 @@
-# Guía de Estudio SPL (Piloto de Planeador)
+# Guía de Estudio para el examen SPL (Piloto de Planeadores) en España.
 
-Este repositorio contiene la **Guía de Estudio SPL**, una recopilación estructurada de los puntos clave, preguntas frecuentes y "trampas" de examen para la obtención de la Licencia de Piloto de Planeador (SPL).
+Este repositorio contiene la **Guía de Estudio SPL**, con una recopilación estructurada de los puntos clave, preguntas frecuentes y "trampas" de examen para la obtención de la Licencia de Piloto de Planeador (SPL) en España.
 
-La guía está basada en los apuntes de **Iñaqui**, enfocándose en diferenciar el conocimiento práctico y seguro de la pura burocracia teórica exigida por AESA.
+La guía está basada en los apuntes de nuestro estimado **Iñaqui**, enfocándose en diferenciar el conocimiento práctico y seguro de la pura burocracia teórica exigida por AESA.
 
 ## 🚀 Características principales
 
-- **Enfoque en el examen**: Identifica las preguntas que suelen aparecer en los exámenes oficiales de AESA.
-- **Iconografía de advertencia**: Las secciones marcadas con [red]#icon:stop-circle[]# indican "preguntitas AESA" (datos arbitrarios o irrelevantes para el vuelo real pero necesarios para aprobar).
-- **Formato profesional**: Generado en PDF de alta calidad mediante Asciidoctor.
+- **Enfoque en el examen**: Identifica las preguntas que pueden aparecer en los exámenes oficiales de AESA.
+- **Iconografía de advertencia**: Las secciones marcadas con círculos rojos indican _"preguntitas AESA"_ (datos arbitrarios o irrelevantes para el vuelo real pero, lamentablemente, necesarios para aprobar).
+- **Formato profesional**: Generado en PDF de calidad mediante Asciidoctor.
 
 ## 📂 Estructura del Libro
 
-El contenido sigue el Syllabus oficial:
+El contenido sigue el Syllabus oficial de EASA:
 
 1.  **Reglamentación**: Derecho aéreo y procedimientos ATC.
 2.  **Factores Humanos**: Fisiología y psicología aplicada al vuelo.
@@ -36,14 +36,14 @@ El libro se escribe en formato **AsciiDoc**. Para generar el PDF automáticament
 
 Para compilar el libro, necesitas tener instalado:
 
-- **Asciidoctor PDF**: `gem install asciidoctor-pdf`
-- **inotify-tools** (opcional, para el script de auto-watch): `sudo apt install inotify-tools`
+- **Asciidoctor PDF**: `gem install asciidoctor-pdf` si tienes ruby.
+- **inotify-tools** (opcional, para el script de auto-watch): `sudo apt install inotify-tools` en linux.
 
 ## 📄 Archivos del Proyecto
 
 - `book/book.adoc`: Archivo principal que organiza todos los capítulos.
 - `book/theme.yml`: Configuración visual del PDF.
-- `SYLLABUS.md`: Referencia al temario oficial.
+- `SYLLABUS.md`: Referencia al temario oficial EASA.
 - `watch_book.sh`: Script de automatización de compilación.
 
 ---
