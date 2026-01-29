@@ -45,7 +45,7 @@ El nistagmo espontáneo (movimiento rítmico de los ojos) es patológico si se p
 
 La mayor incapacitación para pilotos, según AESA, es la *gastroenteritis*.
 
-* {trampa-icon} _Nota: Aunque opciones como "infarto" parezcan más graves, la respuesta correcta para el examen es esta. Probablemente proviene de una traducción incompleta de informes de la FAA, que señalan la gastroenteritis como la causa más **frecuente** (ambigüedad en la pregunta).._
+* {trampa-icon} _Nota: Aunque opciones como "infarto" parezcan más graves, la respuesta correcta para el examen es esta. Probablemente proviene de una traducción incompleta de informes de la FAA, que señalan la gastroenteritis como la causa más **frecuente** (ambigüedad en la pregunta)._
 
 == Fisiología de Vuelo y Salud {trampa-icon}
 

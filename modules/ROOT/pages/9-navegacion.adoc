@@ -72,7 +72,7 @@ Plazos y obligaciones administrativas.
 ** Para cruzar fronteras, volar en espacio controlado, vuelo nocturno o IFR
 * *Antelación de Presentación:*
 ** Para vuelos con servicio de control: Al menos *60 minutos* antes del EOBT (hora estimada fuera de calzos)
-** _Nota:_ Si solo es servicio de información desde aeródromo no controlado, se puede presentar antes de la salida sin plazo fijo de 60 min, pero la pregunta "típica" suele referirse a los 60 min._
+** _Nota:_ Si solo es servicio de información desde aeródromo no controlado, se puede presentar antes de la salida sin plazo fijo de 60 min, pero la pregunta "típica" suele referirse a los 60 min.
 * *Cierre del Plan:*
 ** Se debe notificar la llegada *tan pronto como sea posible* tras aterrizar
 
