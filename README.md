@@ -32,6 +32,8 @@ Puedes descargar las últimas versiones de la guía en diferentes formatos desde
 
 👉 [**Ir a la página de Descargas (Releases)**](https://github.com/VuelaLibre-net/examenes-spl/releases)
 
+👉 [**Ver Versión Web (Navegación Online)**](https://VuelaLibre-net.github.io/examenes-spl)
+
 ---
 
 ## 📚 Contenido
