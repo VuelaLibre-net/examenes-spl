@@ -40,7 +40,7 @@ Antes de enviar tu cambio, verifica que el sitio web y los documentos se generan
 Requiere `antora`, `asciidoctor-pdf` y `asciidoctor-epub3`.
 
 ## Estilo de redacción
-- Mantén el tono de **Iñaqui**: práctico, enfocado a la seguridad, pero irónico con la burocracia innecesaria.
+- Mantén el tono de **Iñaqui**: práctico, enfocado a la seguridad, pero crítico con la burocracia innecesaria.
 - Diferencia claramente entre:
   - **Vuelo Real**: Lo que te mantiene seguro.
   - **Examen AESA**: Lo que tienes que marcar para aprobar.

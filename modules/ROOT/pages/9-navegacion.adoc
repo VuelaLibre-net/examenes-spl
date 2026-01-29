@@ -25,7 +25,7 @@ _Se destaca varios puntos donde el examen oficial pide datos muy específicos, o
 [.trampa]
 == Trampas Matemáticas AESA {trampa-icon}
 
-* {trampa-icon} *Trampa de Cálculos de Tiempo:* En cálculos de conversión de tiempo, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.
+* {trampa-icon} *Trampa de Cálculos de Tiempo:* En cálculos de conversión de rumbos, AESA pone "desvíos trampa de 5 segundos" para que falles si no calculas con precisión los decimales.
 
 == Cartografía y Proyecciones {trampa-icon}
 
