@@ -148,8 +148,9 @@ examenes-spl/
 
 ### Tipos de Contribuciones
 
-1. **📝 Contenido**: Corrección de errores, añadir explicaciones, mejorar redacción
-2. **🐛 Errores**: Reportar problemas con enlaces, formato o construcción
+1. **📝 Contenido**: Corrección de errores, añadir explicaciones, mejorar redacción.
+   - **Forma rápida**: Si no eres desarrollador, puedes simplemente **[abrir un Issue aquí](https://github.com/VuelaLibre-net/examenes-spl/issues/new)** con tu comentario o sugerencia.
+2. **🐛 Errores**: Reportar problemas con enlaces, formato o construcción.
 3. **💡 Mejoras**: Sugerir nuevas funcionalidades o mejoras de diseño
 4. **🌍 Traducciones**: Ayudar a traducir a otros idiomas
 
