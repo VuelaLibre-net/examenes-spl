@@ -29,10 +29,10 @@ El documento pretende aflorar los problemas reales que plantean estas preguntas 
 ## 🚀 Descarga Rápida
 
 ### Versión PDF (Recomendada para estudio offline)
-- [**Descargar Última Versión PDF**](https://github.com/VuelaLibre-net/examenes-spl/releases/latest/download/preguntas-aesa-spl.pdf)
+- [**Descargar Versión v1.0 PDF**](book/preguntas-aesa-spl.2026-01-29.v1.0.pdf)
 
 ### Versión EPUB (Para lectores electrónicos)
-- [**Descargar Última Versión EPUB**](https://github.com/VuelaLibre-net/examenes-spl/releases/latest/download/preguntas-aesa-spl.epub)
+- [**Descargar Versión v1.0 EPUB**](book/preguntas-aesa-spl.2026-01-29.v1.0.epub)
 
 ### Versión Web (Para navegación online)
 - [**Ver Versión Web**](https://VuelaLibre-net.github.io/examenes-spl)
