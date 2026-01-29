@@ -202,9 +202,9 @@ Debes:
 
 - **Iñaqui Ulibarri** - Por los apuntes originales que fundamentan esta guía
 - **Comunidad de pilotos** de planeador españoles por sus contribuciones
-- **AESA** por el temario oficial y estándares de seguridad
 - **Contribuidores Open Source** que hacen posible estas herramientas
 - **Proyecto Antora** por la plataforma de documentación moderna
+- **AESA** - Por guiarse por un inexistente "temario oficial" tan misterioso y esotérico que ha hecho necesaria la existencia de esta guía de supervivencia. Gracias por mantener viva la emoción de no saber nunca qué te van a preguntar y, peor aún, qué quieren que respondamos.
 
 ---
 
