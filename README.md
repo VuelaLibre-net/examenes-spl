@@ -200,6 +200,7 @@ Debes:
 
 ## 🏆 Agradecimientos
 
+- **Iñaqui Ulibarri** - Por los apuntes originales que fundamentan esta guía
 - **Comunidad de pilotos** de planeador españoles por sus contribuciones
 - **AESA** por el temario oficial y estándares de seguridad
 - **Contribuidores Open Source** que hacen posible estas herramientas
