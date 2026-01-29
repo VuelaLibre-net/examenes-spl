@@ -1,6 +1,6 @@
 = Guía para 'aprobar' el examen SPL en España (no para aprender a volar planeadores): Preguntas, trampas y claves para aprobar los exámenes
 Basado en los apuntes de Iñaqui
-v1.0, 29 de Enero de 2026
+v1.0.1, 29 de Enero de 2026
 :repository-url: https://github.com/VuelaLibre-net/examenes-spl
 :doctype: book
 :pdf-theme: theme.yml
@@ -33,7 +33,7 @@ Este documento está extraído de la información contenida en los manuales de t
 
 [NOTE]
 ====
-Este documento se distribuye bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. Se debe dar crédito al recordado **Iñaki Ulibarri** por el contenido original. Considera este documento como un tributo a su memoria y dedicación a la enseñanza del vuelo en planeador.
+Este documento se distribuye bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. Se debe dar crédito al recordado **Iñaqui Ulibarri** por el contenido original. Considera este documento como un tributo a su memoria y dedicación a la enseñanza del vuelo en planeador.
 = https://creativecommons.org/licenses/by/4.0/deed.es
 ====
 
