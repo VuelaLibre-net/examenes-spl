@@ -34,7 +34,7 @@ if asciidoctor-pdf "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.pdf" && \
    asciidoctor -r asciidoctor-epub3 -b epub3 "$MAIN_FILE" -o "${MAIN_FILE%.adoc}.epub"; then
     
     # Extract version and date
-    VERSION=$(grep -oP '^v\d+\.\d+\.\d+' "$MAIN_FILE" | head -1)
+    VERSION=$(grep -oP '^v\d+(\.\d+)+' "$MAIN_FILE" | head -1)
     DATE=$(date +%Y-%m-%d)
     
     # Define filenames
