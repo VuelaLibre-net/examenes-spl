@@ -3,7 +3,7 @@
 **Guía de Estudio para 'aprobar' la Licencia de Piloto de Planeador (SPL)**
 
 [![Build Status](https://github.com/VuelaLibre-net/examenes-spl/workflows/Build/badge.svg)](https://github.com/VuelaLibre-net/examenes-spl/actions)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Latest Release](https://img.shields.io/github/v/release/VuelaLibre-net/examenes-spl)](https://github.com/VuelaLibre-net/examenes-spl/releases/latest)
 
 <p align="center">
@@ -177,16 +177,16 @@ examenes-spl/
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+Este proyecto está licenciado bajo **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 Puedes:
 - ✅ Compartir y adaptar el material
-- ✅ Usarlo para fines educativos no comerciales
+- ✅ Usarlo para cualquier propósito, incluso comercialmente
 
 Debes:
-- ⚠️ Dar crédito apropiado
-- ⚠️ No usar para fines comerciales
-- ⚠️ Compartir bajo la misma licencia
+- ⚠️ Dar crédito apropiado a Iñaki Ulibarri
+- ⚠️ Proporcionar enlace a la licencia
+- ⚠️ Indicar si se realizaron cambios
 
 ---
 
