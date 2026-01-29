@@ -1,8 +1,21 @@
-*.pdf
-*.epub
-!book/preguntas-aesa-spl.pdf
-!book/preguntas-aesa-spl.epub
+# Ignore unversioned "latest" convenience copies
+book/preguntas-aesa-spl.pdf
+book/preguntas-aesa-spl.epub
+
+# But don't ignore versioned release files
+!book/preguntas-aesa-spl.*.*.pdf
+!book/preguntas-aesa-spl.*.*.epub
+
+# Ignore build directory
+build/
+
+# Ignore temporary files
 .tmp/
 
+# Ignore intermediate book files
 book/book.epub
 book/book.pdf
+
+# Ignore intermediate build artifacts in modules
+modules/ROOT/pages/book.epub
+modules/ROOT/pages/book.pdf
