@@ -149,12 +149,13 @@ examenes-spl/
 ### Tipos de Contribuciones
 
 1. **📝 Contenido**: Corrección de errores, añadir explicaciones, mejorar redacción.
-   - **Forma rápida**: Si no eres desarrollador, puedes simplemente **[abrir un Issue aquí](https://github.com/VuelaLibre-net/examenes-spl/issues/new)** con tu comentario o sugerencia.
+   - **Forma rápida**: Puedes simplemente **[abrir un Issue aquí](https://github.com/VuelaLibre-net/examenes-spl/issues/new)** con tu comentario o sugerencia.
 2. **🐛 Errores**: Reportar problemas con enlaces, formato o construcción.
 3. **💡 Mejoras**: Sugerir nuevas funcionalidades o mejoras de diseño
-4. **🌍 Traducciones**: Ayudar a traducir a otros idiomas
 
 ### Flujo de Trabajo
+
+Si te animas a enviar la corrección directamente, o a generar los ficheros por tu cuenta, puedes:
 
 1. **Hacer Fork** del repositorio
 2. **Crear Rama** para tu contribución (`feature/nueva-funcionalidad`)
@@ -180,7 +181,7 @@ Puedes:
 - ✅ Usarlo para cualquier propósito, incluso comercialmente
 
 Debes:
-- ⚠️ Dar crédito apropiado a Iñaqui Ulibarri
+- ⚠️ Dar crédito apropiado a Iñaqui Ulibarri y a su memoria.
 - ⚠️ Proporcionar enlace a la licencia
 - ⚠️ Indicar si se realizaron cambios
 
