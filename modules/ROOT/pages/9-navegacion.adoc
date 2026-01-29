@@ -18,7 +18,8 @@ _Se destaca varios puntos donde el examen oficial pide datos muy específicos, o
 == Errores de Brújula y Cartografía {trampa-icon}
 
 * *Aceleración Brújula (E/W):* Acelerar -> Norte. Desacelerar -> Sur.
-* {trampa-icon} *Escala WAC:* La escala es *1:1.000.000*. "Esto lo preguntan mucho".
+* {trampa-icon} *Escala WAC:* La escala es *1:1.000.000*.
+_Nota: "Esto lo preguntan mucho"._
 * *Referencias:* Se marcan *sobre la ruta* (según AESA).
 
 [#trap-trampas-matematicas-aesa]
@@ -45,14 +46,14 @@ Definiciones teóricas que "preguntan mucho".
 Fórmulas esenciales para resolver los problemas numéricos del test.
 
 * *Fórmulas de Conversión:*
-** *Rumbo Magnético (MH)* = Rumbo Geográfico (TC) – Declinación ( _δ_ ).
-** *Rumbo de Brújula (CH)* = Rumbo Magnético (MH) – Desvío ( _Δ_ ).
+** *Rumbo Magnético (MH)* = Rumbo Geográfico (TC) – Declinación (_δ_).
+** *Rumbo de Brújula (CH)* = Rumbo Magnético (MH) – Desvío (_Δ_).
 ** _Regla de signos:_ Oeste (W) es negativo (-), Este (E) es positivo (+)
 * *Errores de Viraje (Brújula):*
 ** Regla nemotécnica: *NO ME PASO - SI ME PASO*.
 ** Virajes al *Norte*: Sacar el viraje *antes* (NO me paso).
 ** Virajes al *Sur*: Sacar el viraje *después* (SI me paso)
-** _Cálculo del anticipo:_ _1/2 Latitud + 1/3 Alabeo_
+** _Cálculo del anticipo: 1/2 Latitud + 1/3 Alabeo_
 
 == Coordenadas y Tiempo
 

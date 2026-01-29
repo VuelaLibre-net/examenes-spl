@@ -81,13 +81,13 @@ Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a ve
 * *Monitorización en Aterrizaje:* {trampa-icon}
 ** _Respuesta AESA:_ Monitorizar la *velocidad*. {trampa-icon}
 ** _Crítica:_ En vuelo visual (VFR), la técnica correcta es mirar fuera (referencias, actitud, punto de contacto), chequeando la velocidad puntualmente, no fijando la vista en el instrumento. {trampa-icon}
-* *Despegue (Reptar por pista):* {trampa-icon}
+* *Despegue remolcado (Reptar por la pista detrás del remolcador):* {trampa-icon}
 +
 [WARNING]
 ====
-**_Dato AESA:_** Mantener las ruedas en el suelo el máximo tiempo posible. {trampa-icon}
+**_Dato AESA:_** Mantener las ruedas en el suelo el máximo tiempo posible hasta que despegue el remolcador. {trampa-icon}
 
-**_Crítica (PELIGRO):_** Exigencia contraria a la seguridad. Si se alcanza la velocidad de despegue (según AFM), el velero debe ir al aire. Mantenerlo "reptando" artificialmente, detrás del remolcador, con una alta velocidad, aumenta el riesgo de impacto con obstáculos y estrés en el tren. {trampa-icon}
+**_Crítica (PELIGRO):_** Exigencia contraria a la seguridad. Si se alcanza la velocidad de despegue (según AFM), el velero debe ir al aire y, normalmente, deberá hacerlo mucho antes que el remolcador. Mantenerlo "reptando" artificialmente, detrás del remolcador, con una alta velocidad, aumenta el riesgo de impacto con obstáculos y estrés en el tren. Los veleros vuelan muy bien, pero "reptan" muy mal {trampa-icon}
 ====
 * *Alturas mínimas de emergencia:* {trampa-icon}
 +
@@ -97,7 +97,7 @@ Recopilación de los puntos del temario que Iñaqui y la comunidad de vuelo a ve
 
 **_Crítica de seguridad:_** El manual advierte que este dato es puramente para el examen. {trampa-icon}
 
-**_Riesgo:_** En la vida real, esa altura depende totalmente de la eficiencia (planeo) de cada modelo de velero concreto y del viento. Intentar un viraje de este tipo a tan baja altura en ciertos aviones o condiciones de viento podría llevar a una pérdida y barrena con consecuencias fatales. {trampa-icon}
+**_Riesgo:_** En la vida real, esa altura depende totalmente de la eficiencia (planeo) de cada modelo de velero concreto, de la distancia a la pista y del viento. Intentar un viraje de este tipo a tan baja altura en ciertos aviones o condiciones de viento podría llevar a una pérdida y barrena con consecuencias fatales. {trampa-icon}
 ====
 
 === 7. Performance y planificación {trampa-icon}

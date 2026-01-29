@@ -80,8 +80,11 @@ Principios de funcionamiento y errores.
 Aunque sea licencia de planeador, el temario incluye motores de combustión (para TMGs y turbos).
 
 * *Ciclo de 4 tiempos (Otto):*
-** Admisión. 2. Compresión. 3. Explosión/Expansión. 4. Escape
-** Se produce una explosión cada *2 vueltas* de cigüeñal (en los de 2 tiempos es cada 1 vuelta)
+** 1. Admisión.
+** 2. Compresión.
+** 3. Explosión/Expansión.
+** 4. Escape.
+* Se produce una explosión cada *2 vueltas* de cigüeñal (en los de 2 tiempos es cada 1 vuelta).
 * *Magnetos:*
 ** Son independientes de la batería y del alternador. Si falla la batería, el motor *NO* se para
 ** Para apagar una magneto, se pone a *masa*

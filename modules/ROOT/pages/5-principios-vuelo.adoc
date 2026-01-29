@@ -23,7 +23,7 @@ _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferen
 
 Conceptos teóricos sobre cómo se genera la sustentación y la resistencia.
 
-* *Sustentación (L) y Velocidad:* Depende del cuadrado de la velocidad ( _V²_ ). A mayor velocidad, mucha más sustentación
+* *Sustentación (L) y Velocidad:* Depende del cuadrado de la velocidad (_V²_). A mayor velocidad, mucha más sustentación
 * *Ángulo de Ataque (AoA):*
 ** Es el ángulo entre la *cuerda alar* y el *viento relativo*
 ** La sustentación aumenta con el AoA hasta llegar al *ángulo de pérdida* (Stall), donde disminuye bruscamente

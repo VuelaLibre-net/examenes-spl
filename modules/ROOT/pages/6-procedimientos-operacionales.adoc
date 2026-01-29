@@ -48,11 +48,13 @@ Normativa y velocidades operativas para remolque avión y torno.
 Parámetros numéricos para el examen.
 
 * *Alturas Clave:*
-** {trampa-icon} _Altura mínima para volver a pista en emergencia (viraje de 180º): *200 ft (60-70m)*. _Nota: Se advertía que esto es para el examen; en la realidad depende del planeador._
+** {trampa-icon} Altura mínima para volver a pista en emergencia (viraje de 180º): *200 ft (60-70m)*.
+_Nota: Se advertía que esto es para el examen; en la realidad depende del planeador._
 ** Buscar campo fuera de pista: Comenzar a *500 m*.
 * *Viento y Aterrizaje:*
 ** *Viento en cola:* Baja el ángulo de descenso (planeas más).
-** {trampa-icon} _*Viento en cara:* Aumenta el ángulo de descenso (planeas menos). _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo._
+** {trampa-icon} *Viento en cara:* Aumenta el ángulo de descenso (planeas menos).
+_Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo._
 ** Velocidad con viento en cara: Aumentar la velocidad de aproximación en *mitad de la velocidad del viento* (+1/2 Vw).
 * *Pista Mojada:*
 ** La distancia de aterrizaje se incrementa un *15%*.
