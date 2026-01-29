@@ -2,7 +2,7 @@
 
 **Guía de Estudio para 'aprobar' la Licencia de Piloto de Planeador (SPL)**
 
-[![Publish Status](https://github.com/VuelaLibre-net/examenes-spl/actions/workflows/antora.yml/badge.svg)](https://github.com/VuelaLibre-net/examenes-spl/actions)
+[![Publish Status](https://github.com/VuelaLibre-net/examenes-spl/workflows/Publish%20to%20GitHub%20Pages/badge.svg)](https://github.com/VuelaLibre-net/examenes-spl/actions)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Latest Release](https://img.shields.io/github/v/release/VuelaLibre-net/examenes-spl)](https://github.com/VuelaLibre-net/examenes-spl/releases/latest)
 
