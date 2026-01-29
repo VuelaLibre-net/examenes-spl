@@ -1,10 +1,6 @@
-# Ignore unversioned "latest" convenience copies
-book/preguntas-aesa-spl.pdf
-book/preguntas-aesa-spl.epub
-
-# But don't ignore versioned release files
-!book/preguntas-aesa-spl.*.*.pdf
-!book/preguntas-aesa-spl.*.*.epub
+# Ignore all generated book artifacts
+book/*.pdf
+book/*.epub
 
 # Ignore build directory
 build/
