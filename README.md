@@ -12,13 +12,17 @@
 
 ## 📖 Acerca de esta Guía
 
-Esta guía de estudio es un recurso integral diseñado para ayudar a los pilotos de planeador a prepararse para el examen oficial de la SPL (Sailplane Pilot License) en España. El contenido está estructurado según el temario oficial de AESA e incluye:
+**ADVERTENCIA**: Esta guía NO es un manual teórico completo para aprender a volar planeadores. Su propósito es documentar y ayudar a navegar las **preguntas problemáticas y erróneas** que AESA incluye en los exámenes oficiales SPL, las cuales están lastrando y poniendo en peligro el desarrollo de nuevos pilotos de vuelo sin motor en España.
 
-- **Teoría completa** de todos los módulos exigidos
-- **Preguntas trampa** identificadas de exámenes oficiales
-- **Explicaciones detalladas** de conceptos complejos
-- **Referencias cruzadas** entre temas relacionados
-- **Formatos múltiples**: HTML web, PDF descargable, y EPUB
+El documento pretende aflorar los problemas reales que plantean estas preguntas en los exámenes, identificando:
+
+- **Preguntas trampa y erróneas** que AESA repite sistemáticamente
+- **Conceptos mal formulados** que debes memorizar "aunque sean incorrectos"
+- **Respuestas esperadas por AESA** vs. realidad aeronáutica correcta
+- **Puntos conflictivos** que causan el 90% de los suspensos
+- **Claves para aprobar** enfocándote en lo que realmente evalúan
+
+**⚠️ IMPORTANTE**: Esta guía es un "truco" para superar las deficiencias del sistema de examinación, NO sustituye el aprendizaje real de la teoría del vuelo en planeador.
 
 ---
 
