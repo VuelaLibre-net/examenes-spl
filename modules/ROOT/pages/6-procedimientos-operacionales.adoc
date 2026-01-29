@@ -39,7 +39,7 @@ Normativa y velocidades operativas para remolque avión y torno.
 ** Lluvia: *No se remolca a torno* con lluvia (aumenta la velocidad de pérdida y reduce visibilidad).
 ** Fallo del cable: El operador del torno debe *cortar el cable* (guillotina) si el planeador no se suelta.
 * *Estela Turbulenta:*
-** Separación mínima tras aeronave media/pesada: *3 minutos*,
+** Separación mínima tras aeronave media/pesada: *3 minutos*.
 ** Factores determinantes: Masa, envergadura, velocidad y configuración.
 ** Posición para evitarla: Volar *sobre* y a *barlovento* del avión pesado.
 
@@ -52,7 +52,7 @@ Parámetros numéricos para el examen.
 ** Buscar campo fuera de pista: Comenzar a *500 m*.
 * *Viento y Aterrizaje:*
 ** *Viento en cola:* Baja el ángulo de descenso (planeas más).
-** {trampa-icon} _*Viento en cara:* Aumenta el ángulo de descenso (planeas menos). _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo_,_
+** {trampa-icon} _*Viento en cara:* Aumenta el ángulo de descenso (planeas menos). _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo._
 ** Velocidad con viento en cara: Aumentar la velocidad de aproximación en *mitad de la velocidad del viento* (+1/2 Vw).
 * *Pista Mojada:*
 ** La distancia de aterrizaje se incrementa un *15%*.
@@ -82,7 +82,7 @@ Datos de memorización sobre seguridad y documentos.
 * *Cartas de Navegación:* Validez de *6 meses* (o 28 días según algunas preguntas de AESA).
 * *Extintores:*
 ** En cabina: *CO2 y Halón*.
-** Para ruedas/frenos: *Polvo químico* (acercarse por delante o detrás, nunca lateral),
+** Para ruedas/frenos: *Polvo químico* (acercarse por delante o detrás, nunca lateral).
 * *Grabadoras (Cajas Negras):*
 ** FDR (Datos): Guardan *25 horas*. Necesaria para > 5.700 Kg.
 ** CVR (Voz): Guardan los últimos *30 minutos*.
