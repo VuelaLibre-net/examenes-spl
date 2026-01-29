@@ -26,16 +26,11 @@ El documento pretende aflorar los problemas reales que plantean estas preguntas 
 
 ---
 
-## 🚀 Descarga Rápida
+## 🚀 Descarga de Artefactos (PDF / EPUB)
 
-### Versión PDF (Recomendada para estudio offline)
-- [**Descargar Versión v1.0.1 PDF**](https://github.com/VuelaLibre-net/examenes-spl/releases/download/v1.0.1/preguntas-aesa-spl.2026-01-29.v1.0.1.pdf)
+Puedes descargar las últimas versiones de la guía en diferentes formatos desde la sección de **Releases**:
 
-### Versión EPUB (Para lectores electrónicos)
-- [**Descargar Versión v1.0.1 EPUB**](https://github.com/VuelaLibre-net/examenes-spl/releases/download/v1.0.1/preguntas-aesa-spl.2026-01-29.v1.0.1.epub)
-
-### Versión Web (Para navegación online)
-- [**Ver Versión Web**](https://VuelaLibre-net.github.io/examenes-spl)
+👉 [**Ir a la página de Descargas (Releases)**](https://github.com/VuelaLibre-net/examenes-spl/releases)
 
 ---
 
