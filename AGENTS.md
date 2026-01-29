@@ -231,5 +231,55 @@ After any modification:
 
 ---
 
+## 🌿 Git Workflow & Branching Strategy
+
+### Branch Structure
+- **`main`**: Producción - solo recibe merges via Pull Requests
+- **`dev`**: Desarrollo - rama principal de trabajo
+
+### Workflow Rules (CRITICAL)
+
+#### ❌ NEVER push directly to `main`
+- All changes must go through Pull Requests from `dev` → `main`
+- Direct pushes to `main` are prohibited
+
+#### ✅ ALWAYS work on `dev` branch
+```bash
+# Start new work
+git checkout dev
+git pull origin dev
+
+# Create feature branch if needed
+git checkout -b feature/nueva-caracteristica
+```
+
+#### 🔄 Creating Pull Requests
+```bash
+# After committing changes to dev
+git push origin dev
+
+# Create PR via GitHub CLI (preferred)
+gh pr create --base main --head dev --title "Descripción clara" --body "Detalles del cambio"
+
+# Or visit: https://github.com/VuelaLibre-net/examenes-spl/pull/new/dev
+```
+
+### Release Process
+1. **Update version** in `modules/ROOT/pages/book.adoc` (line 3)
+2. **Run build**: `./build.sh`
+3. **Commit to dev**: `git commit -m "Release vX.Y.Z"`
+4. **Push dev**: `git push origin dev`
+5. **Create PR**: From `dev` to `main`
+6. **Review & merge**: Requiere aprobación antes de merge
+
+### Emergency Fixes
+Para hotfixes críticos:
+1. Crear rama desde `main`: `git checkout -b hotfix/critical-bug main`
+2. Aplicar fix y hacer commit
+3. Crear PR directo a `main` (excepción a la regla)
+4. Mergear a `main` y luego mergear `main` → `dev`
+
+---
+
 *Last updated: 2026-01-29*
-*AGENTS.md version: 2.0*
+*AGENTS.md version: 2.1*
