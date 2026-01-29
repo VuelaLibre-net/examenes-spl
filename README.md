@@ -2,8 +2,8 @@
 
 **Guía de Estudio para 'aprobar' la Licencia de Piloto de Planeador (SPL)**
 
-[![Build Status](https://github.com/VuelaLibre-net/examenes-spl/workflows/Build/badge.svg)](https://github.com/VuelaLibre-net/examenes-spl/actions)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Publish Status](https://github.com/VuelaLibre-net/examenes-spl/workflows/Publish%20to%20GitHub%20Pages/badge.svg)](https://github.com/VuelaLibre-net/examenes-spl/actions)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Latest Release](https://img.shields.io/github/v/release/VuelaLibre-net/examenes-spl)](https://github.com/VuelaLibre-net/examenes-spl/releases/latest)
 
 <p align="center">
@@ -12,13 +12,17 @@
 
 ## 📖 Acerca de esta Guía
 
-Esta guía de estudio es un recurso integral diseñado para ayudar a los pilotos de planeador a prepararse para el examen oficial de la SPL (Sailplane Pilot License) en España. El contenido está estructurado según el temario oficial de AESA e incluye:
+**ADVERTENCIA**: Esta guía NO es un manual teórico completo para aprender a volar planeadores. Su propósito es documentar y ayudar a navegar las **preguntas problemáticas y erróneas** que AESA incluye en los exámenes oficiales SPL, las cuales están lastrando y poniendo en peligro el desarrollo de nuevos pilotos de vuelo sin motor en España.
 
-- **Teoría completa** de todos los módulos exigidos
-- **Preguntas trampa** identificadas de exámenes oficiales
-- **Explicaciones detalladas** de conceptos complejos
-- **Referencias cruzadas** entre temas relacionados
-- **Formatos múltiples**: HTML web, PDF descargable, y EPUB
+El documento pretende aflorar los problemas reales que plantean estas preguntas en los exámenes, identificando:
+
+- **Preguntas trampa y erróneas** que AESA repite sistemáticamente
+- **Conceptos mal formulados** que debes memorizar "aunque sean incorrectos"
+- **Respuestas esperadas por AESA** vs. realidad aeronáutica correcta
+- **Puntos conflictivos** que causan el 90% de los suspensos
+- **Claves para aprobar** enfocándote en lo que realmente evalúan
+
+**⚠️ IMPORTANTE**: Esta guía es un "truco" para superar las deficiencias del sistema de examinación, NO sustituye el aprendizaje real de la teoría del vuelo en planeador.
 
 ---
 
@@ -173,16 +177,16 @@ examenes-spl/
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+Este proyecto está licenciado bajo **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 Puedes:
 - ✅ Compartir y adaptar el material
-- ✅ Usarlo para fines educativos no comerciales
+- ✅ Usarlo para cualquier propósito, incluso comercialmente
 
 Debes:
-- ⚠️ Dar crédito apropiado
-- ⚠️ No usar para fines comerciales
-- ⚠️ Compartir bajo la misma licencia
+- ⚠️ Dar crédito apropiado a Iñaki Ulibarri
+- ⚠️ Proporcionar enlace a la licencia
+- ⚠️ Indicar si se realizaron cambios
 
 ---
 
@@ -196,6 +200,7 @@ Debes:
 
 ## 🏆 Agradecimientos
 
+- **Iñaqui Ulibarri** - Por los apuntes originales que fundamentan esta guía
 - **Comunidad de pilotos** de planeador españoles por sus contribuciones
 - **AESA** por el temario oficial y estándares de seguridad
 - **Contribuidores Open Source** que hacen posible estas herramientas
