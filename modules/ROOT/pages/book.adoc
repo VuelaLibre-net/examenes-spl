@@ -34,7 +34,7 @@ Este documento está extraído de la información contenida en los manuales de t
 [NOTE]
 ====
 Este documento se distribuye bajo la licencia **Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. Se debe dar crédito al recordado **Iñaqui Ulibarri** por el contenido original. Considera este documento como un tributo a su memoria y dedicación a la enseñanza del vuelo en planeador.
-= https://creativecommons.org/licenses/by/4.0/deed.es
+https://creativecommons.org/licenses/by/4.0/deed.es
 ====
 
 [WARNING]
