@@ -66,6 +66,10 @@ _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de pla
 * *Virajes en Circuito:*
 ** Ángulo de inclinación de base a final: *20-30 grados*.
 ** Dirección estándar: Hacia la *izquierda*.
+* *Velero de Gran Envergadura y Gradiente de Viento:*
+** Al virar cerca del suelo con gradiente, el ala interior (más baja) tiene menor velocidad relativa que la exterior.
+** Esto provoca una *asimetría de sustentación* que tiende a aumentar el alabeo (el ala interior cae) y puede provocar una entrada en pérdida de dicha ala.
+** _Nota: La respuesta correcta no es "disminución brusca de la sustentación" (global), sino la relacionada con la asimetría o pérdida del ala interior._
 
 == Vuelo en Ladera y Térmica
 
