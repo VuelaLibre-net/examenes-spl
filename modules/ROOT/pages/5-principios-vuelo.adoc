@@ -70,9 +70,14 @@ Definiciones que aparecen en el diagrama de maniobra (V-n diagram).
 * *Arco Verde:* Rango normal de operación (desde _V~S1~_ hasta _V~NO~_ o _V~A~_).
 * *Va (Velocidad de Maniobra):* Velocidad máxima a la que se pueden aplicar los mandos al máximo sin romper el avión (antes entraría en pérdida)
 
+== Procedimientos en Caso de Fallo de Instrumentos
+
+* *Fallo del Anemómetro:* Mantener la *actitud de vuelo*, *abrir la ventanilla* para sentir el flujo de aire, y *picar un poco* para mantenerse muy por encima de la velocidad de pérdida (Vs).
+
 == Recuperación de Maniobras (Procedimientos)
 
 . *Recuperación de Pérdida:* Disminuir el ángulo de ataque (*picar*/centrar palanca)
+. *Recuperación de Velocidad en Viraje:* Para reducir velocidad en un viraje con *elevado alabeo y gran velocidad*, primero *disminuir el alabeo* y después *quitar velocidad*. _Nota: Si se quita velocidad primero, se entrará en pérdida por las Gs._
 . *Recuperación de Barrena:*
 .. Pedal contrario al giro.
 .. Palanca al centro (o adelante).

@@ -38,6 +38,7 @@ Normativa y velocidades operativas para remolque avión y torno.
 ** Velocidad de ascenso óptima (V.O.A): *1,5 veces la velocidad de pérdida (Vs)*.
 ** Lluvia: *No se remolca a torno* con lluvia (aumenta la velocidad de pérdida y reduce visibilidad).
 ** Fallo del cable: El operador del torno debe *cortar el cable* (guillotina) si el planeador no se suelta.
+** Técnica de Despegue con Rueda Adelantada:* Si la rueda del tren principal está por delante del CG, se debe *empujar la palanca hasta que levante la cola*, y después *tirar lentamente* para adaptar el ángulo de ascenso.
 * *Estela Turbulenta:*
 ** Separación mínima tras aeronave media/pesada: *3 minutos*.
 ** Factores determinantes: Masa, envergadura, velocidad y configuración.
@@ -60,11 +61,13 @@ _Nota: Se advertía que esto es para el examen; en la realidad depende del plane
 ** {trampa-icon} *Buscar campo fuera de pista:* AESA marca como correcta comenzar a buscar a *500 m*. _Nota: En la práctica se recomienda tenerlo ya seleccionado a esa altura._
 * *Toma Fuera de Campo:*
 ** *Altímetro:* En una toma fuera de pista el altímetro es *inútil o inservible*.
+** Altura de decisión: Se usa para realizar una *toma de precisión*.
 * *Viento y Aterrizaje:*
 ** *Viento en cola:* Baja el ángulo de descenso (planeas más).
 ** {trampa-icon} *Viento en cara:* Aumenta el ángulo de descenso (planeas menos).
 _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo._
 ** Velocidad con viento en cara: Aumentar la velocidad de aproximación en *mitad de la velocidad del viento* (+1/2 Vw).
+** Con rachas de viento: Añadir *mitad de la velocidad de la racha* (+1/2 Vracha).
 * *Pista Mojada:*
 ** La distancia de aterrizaje se incrementa un *15%*.
 ** Riesgo de *Hidroplaneo viscoso* (película fina de agua en pista suave).
@@ -109,3 +112,8 @@ Datos de memorización sobre seguridad y documentos.
 ** Blanca (cola): 140º.
 * *Mercancías Peligrosas:* Definidas en las "Instrucciones Técnicas" de la OACI.
 * *Fases de Emergencia:* INCERFA, ALERFA, DETRESFA.
+
+== Inspecciones Previas al Vuelo
+
+* *Inspección del Sistema de Suelta del Gancho:* Se debe realizar *al inicio de la jornada*. (Nota: También se recomienda antes de cada vuelo, pero AESA da como correcta "al inicio de la jornada").
+
