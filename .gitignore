@@ -15,3 +15,6 @@ book/book.pdf
 # Ignore intermediate build artifacts in modules
 modules/ROOT/pages/book.epub
 modules/ROOT/pages/book.pdf
+
+# data
+data/
