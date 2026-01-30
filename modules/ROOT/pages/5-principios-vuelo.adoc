@@ -1,6 +1,5 @@
 = Principios de vuelo
 
-
 == Preguntas "Señaladas" y Terminología AESA {trampa-icon}
 
 _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferente al habitual o plantea preguntas dudosas._
@@ -73,6 +72,7 @@ Definiciones que aparecen en el diagrama de maniobra (V-n diagram).
 == Procedimientos en Caso de Fallo de Instrumentos
 
 * *Fallo del Anemómetro:* Mantener la *actitud de vuelo*, *abrir la ventanilla* para sentir el flujo de aire, y *picar un poco* para mantenerse muy por encima de la velocidad de pérdida (Vs).
+_Nota posterior a Iñaqui: Antiguamente se recomendaba romper el cristal del anemómetro, pero creemos que AESA ya no lo considera correcta o ha quitado la pregunta. Cruza los dedos si te sale_
 
 == Recuperación de Maniobras (Procedimientos)
 

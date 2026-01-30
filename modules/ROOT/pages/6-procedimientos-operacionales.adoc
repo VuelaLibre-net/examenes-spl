@@ -113,17 +113,18 @@ Datos de memorización sobre seguridad y documentos.
 * *Mercancías Peligrosas:* Definidas en las "Instrucciones Técnicas" de la OACI.
 * *Fases de Emergencia:* INCERFA, ALERFA, DETRESFA.
 
-== Procedimientos en Caso de Fallo de Instrumentos (ref. issue #16)
+== Procedimientos en Caso de Fallo de Instrumentos
 
 * *Fallo del Anemómetro:* Mantener la *actitud de vuelo*, *abrir la ventanilla* para sentir el flujo de aire, y *picar un poco* para mantenerse muy por encima de la velocidad de pérdida (Vs).
+_Nota posterior a Iñaqui: Antiguamente se recomendaba romper el cristal del anemómetro, pero creemos que AESA ya no lo considera correcto. Cruza los dedos si te sale_
 
-== Recuperación de Maniobras (Procedimientos) (ref. issue #16)
+== Recuperación de Maniobras (Procedimientos)
 
 . *Recuperación de Pérdida:* Disminuir el ángulo de ataque (*picar*/centrar palanca)
 . *Recuperación de Velocidad en Viraje:* Para reducir velocidad en un viraje con *elevado alabeo y gran velocidad*, primero *disminuir el alabeo* y después *quitar velocidad*. _Nota: Si se quita velocidad primero, se entrará en pérdida por las Gs._
 . *Recuperación de Barrena:*
 .. Pedal contrario al giro.
-.. Palanca al centro (o adelante).
+.. Palanca al centro (o adelante si lo dice el manual del planeador).
 .. Recuperar suavemente tras parar el giro
 . *Recuperación de Espiral:*
 .. *Nivelar alas* (lo más importante y primero).
@@ -131,5 +132,4 @@ Datos de memorización sobre seguridad y documentos.
 
 == Inspecciones Previas al Vuelo
 
-* *Inspección del Sistema de Suelta del Gancho:* Se debe realizar *al inicio de la jornada*. (Nota: También se recomienda antes de cada vuelo, pero AESA da como correcta "al inicio de la jornada").
-
+* *Inspección del Sistema de Suelta del Gancho:* Se debe realizar *al inicio de la jornada*.
