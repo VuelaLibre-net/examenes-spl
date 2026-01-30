@@ -51,6 +51,8 @@ Parámetros numéricos para el examen.
 ** {trampa-icon} Altura mínima para volver a pista en emergencia (viraje de 180º): *200 ft (60-70m)*.
 _Nota: Se advertía que esto es para el examen; en la realidad depende del planeador._
 ** Buscar campo fuera de pista: Comenzar a *500 m*.
+* *Toma Fuera de Campo:*
+** *Altímetro:* En una toma fuera de pista el altímetro es *inútil o inservible*.
 * *Viento y Aterrizaje:*
 ** *Viento en cola:* Baja el ángulo de descenso (planeas más).
 ** {trampa-icon} *Viento en cara:* Aumenta el ángulo de descenso (planeas menos).
