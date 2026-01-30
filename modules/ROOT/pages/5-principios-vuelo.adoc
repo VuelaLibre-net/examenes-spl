@@ -18,6 +18,7 @@ _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferen
 == Posiciones de Flaps {trampa-icon}
 
 * {trampa-icon} Si preguntan cuántas posiciones de flap tiene un planeador, se sugería *impugnar* la pregunta, ya que depende del modelo. Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua.
+* {trampa-icon} *Uso de Flaps Positivos:* AESA da como correcta que sirven para *"Volar más despacio"*. Aunque se usen para despegar, su efecto primario es reducir la velocidad de pérdida.
 
 == Aerodinámica Básica y Fórmulas
 
