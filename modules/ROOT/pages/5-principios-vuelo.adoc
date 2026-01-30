@@ -1,6 +1,5 @@
 = Principios de vuelo
 
-
 == Preguntas "Señaladas" y Terminología AESA {trampa-icon}
 
 _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferente al habitual o plantea preguntas dudosas._
@@ -18,6 +17,7 @@ _Se destaca varios puntos donde el examen oficial utiliza un vocabulario diferen
 == Posiciones de Flaps {trampa-icon}
 
 * {trampa-icon} Si preguntan cuántas posiciones de flap tiene un planeador, se sugería *impugnar* la pregunta, ya que depende del modelo. Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua.
+* {trampa-icon} *Uso de Flaps Positivos:* AESA da como correcta que sirven para *"Volar más despacio"*. Aunque se usen para despegar, su efecto primario es reducir la velocidad de pérdida.
 
 == Aerodinámica Básica y Fórmulas
 
@@ -69,9 +69,15 @@ Definiciones que aparecen en el diagrama de maniobra (V-n diagram).
 * *Arco Verde:* Rango normal de operación (desde _V~S1~_ hasta _V~NO~_ o _V~A~_).
 * *Va (Velocidad de Maniobra):* Velocidad máxima a la que se pueden aplicar los mandos al máximo sin romper el avión (antes entraría en pérdida)
 
+== Procedimientos en Caso de Fallo de Instrumentos
+
+* *Fallo del Anemómetro:* Mantener la *actitud de vuelo*, *abrir la ventanilla* para sentir el flujo de aire, y *picar un poco* para mantenerse muy por encima de la velocidad de pérdida (Vs).
+_Nota posterior a Iñaqui: Antiguamente se recomendaba romper el cristal del anemómetro, pero creemos que AESA ya no lo considera correcta o ha quitado la pregunta. Cruza los dedos si te sale_
+
 == Recuperación de Maniobras (Procedimientos)
 
 . *Recuperación de Pérdida:* Disminuir el ángulo de ataque (*picar*/centrar palanca)
+. *Recuperación de Velocidad en Viraje:* Para reducir velocidad en un viraje con *elevado alabeo y gran velocidad*, primero *disminuir el alabeo* y después *quitar velocidad*. _Nota: Si se quita velocidad primero, se entrará en pérdida por las Gs._
 . *Recuperación de Barrena:*
 .. Pedal contrario al giro.
 .. Palanca al centro (o adelante).

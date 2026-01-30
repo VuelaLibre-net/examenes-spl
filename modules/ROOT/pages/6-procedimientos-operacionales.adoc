@@ -38,10 +38,18 @@ Normativa y velocidades operativas para remolque avión y torno.
 ** Velocidad de ascenso óptima (V.O.A): *1,5 veces la velocidad de pérdida (Vs)*.
 ** Lluvia: *No se remolca a torno* con lluvia (aumenta la velocidad de pérdida y reduce visibilidad).
 ** Fallo del cable: El operador del torno debe *cortar el cable* (guillotina) si el planeador no se suelta.
+** Técnica de Despegue con Rueda Adelantada:* Si la rueda del tren principal está por delante del CG, se debe *empujar la palanca hasta que levante la cola*, y después *tirar lentamente* para adaptar el ángulo de ascenso.
 * *Estela Turbulenta:*
 ** Separación mínima tras aeronave media/pesada: *3 minutos*.
 ** Factores determinantes: Masa, envergadura, velocidad y configuración.
 ** Posición para evitarla: Volar *sobre* y a *barlovento* del avión pesado.
+
+[#trap-posiciones-de-flaps-ops]
+[.trampa]
+== Posiciones de Flaps {trampa-icon}
+
+* {trampa-icon} Si preguntan cuántas posiciones de flap tiene un planeador, se sugería *impugnar* la pregunta, ya que depende del modelo. Básicamente hay 3 (neutra, positiva, negativa), pero la pregunta es ambigua.
+* *Uso de Flaps Positivos:* AESA da como correcta que sirven para *"Volar más despacio"*. Aunque se usen para despegar (según lo que indique el manual del velero), su efecto primario es reducir la velocidad de pérdida.
 
 == Circuitos, Aproximación y Aterrizaje {trampa-icon}
 
@@ -50,12 +58,16 @@ Parámetros numéricos para el examen.
 * *Alturas Clave:*
 ** {trampa-icon} Altura mínima para volver a pista en emergencia (viraje de 180º): *200 ft (60-70m)*.
 _Nota: Se advertía que esto es para el examen; en la realidad depende del planeador._
-** Buscar campo fuera de pista: Comenzar a *500 m*.
+** {trampa-icon} *Buscar campo fuera de pista:* AESA marca como correcta comenzar a buscar a *500 m*. _Nota: En la práctica se recomienda tenerlo ya seleccionado a esa altura._
+* *Toma Fuera de Campo:*
+** *Altímetro:* En una toma fuera de pista el altímetro es *inútil o inservible*.
+** Altura de decisión: Se usa para realizar una *toma de precisión*.
 * *Viento y Aterrizaje:*
 ** *Viento en cola:* Baja el ángulo de descenso (planeas más).
 ** {trampa-icon} *Viento en cara:* Aumenta el ángulo de descenso (planeas menos).
 _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de planeo._
 ** Velocidad con viento en cara: Aumentar la velocidad de aproximación en *mitad de la velocidad del viento* (+1/2 Vw).
+** Con rachas de viento: Añadir *mitad de la velocidad de la racha* (+1/2 Vracha).
 * *Pista Mojada:*
 ** La distancia de aterrizaje se incrementa un *15%*.
 ** Riesgo de *Hidroplaneo viscoso* (película fina de agua en pista suave).
@@ -64,6 +76,10 @@ _Nota: Se criticaba que AESA confunde ángulo de descenso con coeficiente de pla
 * *Virajes en Circuito:*
 ** Ángulo de inclinación de base a final: *20-30 grados*.
 ** Dirección estándar: Hacia la *izquierda*.
+* *Velero de Gran Envergadura y Gradiente de Viento:*
+** Al virar cerca del suelo con gradiente, el ala interior (más baja) tiene menor velocidad relativa que la exterior.
+** Esto provoca una *asimetría de sustentación* que tiende a aumentar el alabeo (el ala interior cae) y puede provocar una entrada en pérdida de dicha ala.
+** _Nota: La respuesta correcta NO ES "disminución brusca de la sustentación" (global), sino la relacionada con la asimetría o pérdida del ala interior._
 
 == Vuelo en Ladera y Térmica
 
@@ -96,3 +112,24 @@ Datos de memorización sobre seguridad y documentos.
 ** Blanca (cola): 140º.
 * *Mercancías Peligrosas:* Definidas en las "Instrucciones Técnicas" de la OACI.
 * *Fases de Emergencia:* INCERFA, ALERFA, DETRESFA.
+
+== Procedimientos en Caso de Fallo de Instrumentos
+
+* *Fallo del Anemómetro:* Mantener la *actitud de vuelo*, *abrir la ventanilla* para sentir el flujo de aire, y *picar un poco* para mantenerse muy por encima de la velocidad de pérdida (Vs).
+_Nota posterior a Iñaqui: Antiguamente se recomendaba romper el cristal del anemómetro, pero creemos que AESA ya no lo considera correcto. Cruza los dedos si te sale_
+
+== Recuperación de Maniobras (Procedimientos)
+
+. *Recuperación de Pérdida:* Disminuir el ángulo de ataque (*picar*/centrar palanca)
+. *Recuperación de Velocidad en Viraje:* Para reducir velocidad en un viraje con *elevado alabeo y gran velocidad*, primero *disminuir el alabeo* y después *quitar velocidad*. _Nota: Si se quita velocidad primero, se entrará en pérdida por las Gs._
+. *Recuperación de Barrena:*
+.. Pedal contrario al giro.
+.. Palanca al centro (o adelante si lo dice el manual del planeador).
+.. Recuperar suavemente tras parar el giro
+. *Recuperación de Espiral:*
+.. *Nivelar alas* (lo más importante y primero).
+.. Tirar suavemente para recuperar el picado (cuidado con las Gs)
+
+== Inspecciones Previas al Vuelo
+
+* *Inspección del Sistema de Suelta del Gancho:* Se debe realizar *al inicio de la jornada*.

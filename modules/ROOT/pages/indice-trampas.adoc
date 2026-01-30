@@ -117,6 +117,12 @@ ifndef::env-antora[]
 - <<trap-post-accidente-y-frecuencias,Post-accidente y Frecuencias {trampa-icon}>>
 endif::[]
 ifdef::env-antora[]
+- xref:6-procedimientos-operacionales.adoc#trap-posiciones-de-flaps-ops[Posiciones de Flaps {trampa-icon}]
+endif::[]
+ifndef::env-antora[]
+- <<trap-posiciones-de-flaps-ops,Posiciones de Flaps {trampa-icon}>>
+endif::[]
+ifdef::env-antora[]
 - xref:7-performance-planificacion.adoc#trap-curvas-de-potencia-aviones-con-motor[Curvas de Potencia (Aviones con motor) {trampa-icon}]
 endif::[]
 ifndef::env-antora[]
